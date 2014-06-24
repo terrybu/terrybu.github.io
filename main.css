@@ -1,0 +1,1510 @@
+@charset "utf-8";
+/* Simple fluid media
+   Note: Fluid media requires that you remove the media's height and width attributes from the HTML
+   http://www.alistapart.com/articles/fluid-images/ 
+*/
+
+@font-face
+{
+font-family: 'gotmilk';
+src: url('_fonts/cgphenixamerican.ttf') format('truetype');
+}
+
+/* Create a series of empty pseudo-elements... */
+html:before,html:after,body:before,body:after{
+    content:"";
+    background: rgba(0,0,0,.7);
+    position:fixed;
+    display:block;
+    z-index:5;
+}
+
+/* ...and position them! */
+html:before{
+    height:10px;
+    left:0;
+    right:0;
+    top:0;
+}
+html:after{
+    width:10px;
+    top:0;
+    right:0;
+    bottom:0;
+}
+body:before{
+    height:10px;
+    right:0;
+    bottom:0;
+    left:0;
+}
+body:after{
+    width:10px;
+    top:0;
+    bottom:0;
+    left:0;
+}
+
+img, object, embed, video {
+	max-width: 100%;
+}
+/* IE 6 does not support max-width so default to width 100% */
+.ie6 img {
+	width:100%;
+}
+
+.rotate img {
+    -moz-transition: all 0.6s ease-in-out;
+    -webkit-transition: all 0.6s ease-in-out;
+    -o-transition: all 0.6s ease-in-out;
+    -ms-transition: all 0.6s ease-in-out;
+    transition: all 0.6s ease-in-out;
+}
+.rotate img:hover {
+    -moz-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    transform: rotate(360deg);
+}
+
+/*
+	Dreamweaver Fluid Grid Properties
+	----------------------------------
+	dw-num-cols-mobile:		5;
+	dw-num-cols-tablet:		8;
+	dw-num-cols-desktop:	10;
+	dw-gutter-percentage:	25;
+	
+	Inspiration from "Responsive Web Design" by Ethan Marcotte 
+	http://www.alistapart.com/articles/responsive-web-design
+	
+	and Golden Grid System by Joni Korpi
+	http://goldengridsystem.com/
+*/
+
+
+
+
+
+
+/* 
+************************************************************************************************************************************************************************************
+MOBILE LAYOUT 
+480px and below. 
+************************************************************************************************************************************************************************************
+*/
+
+#sketchpadLink {
+	font-size: 2em;
+	text-align: center;
+}
+
+#javaProjects {
+	font-size: 1.5em;
+}
+
+/*
+css for jquery sketchpad
+*/
+.spcontainer { 
+    width: 100%; 
+	display: block;
+	clear: both;
+	margin: 0 auto;
+}
+
+#spheader { 
+	padding-top: 5%;
+	text-align: center; 
+}
+
+div.spcontainer { margin: 0; padding: 0; }
+button.spcontainer { background: #34495e; border: 1px solid #404040; border-radius: 3px; color: white; 
+    padding: 3px 10px; }
+
+.spnavbar { margin: 0 auto; width: 960px; text-align: center; }
+.spwrap { 
+    margin: 25px auto; 
+    width: 100%; 
+    margin-left: 20%;
+}
+.spsquare {float: left; border: 1px solid black; background: #308014; }
+
+/*
+css for slider-app javascript page
+*/
+
+header {
+	text-align: center;
+	font-size: 1.5em;
+	font-family: serif;
+	margin-top: -6em;
+	margin-bottom: -4em;
+	margin-left: -20%;
+}
+
+#wrapper {
+	width: 800px;
+	margin: 0 auto;
+	border: 1px black;
+	margin-top: 15em;
+	margin-bottom: -5em;
+	position: relative;
+	padding-bottom: 3em;
+}
+
+#loopStatus{
+	position: absolute;
+	color: white;
+	margin-top: 4em;
+	margin-left: 1em;
+}
+
+#slider {
+	width: 100%;
+	height: 420px;
+	overflow: hidden;
+	margin: 10% auto;
+}
+
+#slider img {
+	width: 600px;
+	height: 100%;
+	border: solid;
+	float: left;
+	display: none;
+}
+
+a.sliderLinks{
+	margin-top: -12%;
+	padding: 5px 10px;
+	background-color: #F0F0F0;
+	text-decoration: none;
+	font-size: 2em;
+	font-family: fantasy;
+}
+
+a.sliderLinks:hover {
+	color: green;
+}
+
+#left{
+	float: left;
+}
+
+#right{
+	float: right;
+	margin-right: 7em;
+}
+
+/* above is for javascript slider page */
+
+#androidapps{
+	display: block;
+	clear: both;
+	padding-top: 5%;
+	text-align: center;
+	font-weight:bold;
+	font-family: "MS Serif", "New York", serif;
+	font-size: 3em;
+}
+
+#androidapps img{
+	width: 75%;
+	height: auto;
+}
+
+
+#android{
+	margin-bottom: 2em;
+}
+
+#java{
+	margin-bottom: 2em;
+}
+
+#android img.placeholder {
+	display: none;
+}
+
+#android img.bottom {
+	display: none;
+}
+
+#youngLad{
+	position: relative;
+	font-family: gotmilk;
+	font-size: 2em;
+	display: block;
+	clear: both;
+	padding-top: 1em;
+	text-align: center;
+}
+			  
+#video {
+	position: relative;
+	overflow-style: auto;
+	overflow: hidden;
+	margin: 0 auto;
+}
+
+#mobile{
+	position: fixed;
+	bottom: 0;
+	right: 0;
+	margin-bottom: -1%;
+	margin-left: 0%;
+	z-index: 10;
+	color: rgba(255,255,255,1);
+}
+
+
+#tablet{
+	display: none;
+}
+
+#desktopv1{
+	display: none;
+}
+
+#desktopv2{
+	display: none;
+}
+
+#desktopv3{
+	display: none;
+}
+
+#desktopv4{
+	display: none;
+}
+
+#logoHello img.bottom {
+	display: none;	
+}
+
+#logoHello img.placeholder{
+	display: none;
+}
+
+#headerleft img.placeholder{
+	display: none;
+}
+
+#headerleft {
+	float: left;
+	width: 100%;
+	display: block;
+}
+
+#headerleft img{
+	margin: 0 auto; 
+    display: block;
+	border-width: 5px;
+	border-style: solid;
+	border-color: rgba(0,0,0,1);
+}
+
+#headerleft img.bottom {
+	display: none;	
+}
+
+
+#leftharsh {
+	display: none;
+}
+#leftarrow {
+	display: none;
+
+}
+#rightarrow {
+	display: none;
+
+}
+#rightharsh {
+	display: none;
+}
+
+#browser {
+	position: absolute;
+	font-size: 0.0em;
+}
+
+.gridContainer {
+	margin-left: auto;
+	margin-right: auto;
+	width: 87.36%;
+	padding-left: 1.82%;
+	padding-right: 1.82%;
+}
+
+
+
+#connect {
+	float: right;
+	margin-right: -5%;
+}
+
+#connect img {
+	margin-top: -2%;
+	}
+
+#sns {
+	font-family: gotmilk;
+	font-size: 250%;
+}
+
+#mainContent {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+
+#logoHello {
+	clear: both;
+	float: left;
+	width: 100%;
+	display: block;
+}
+
+#logoHello img {
+	margin: 0 auto;
+    display: block;
+}
+
+#hello {
+	text-align: center;
+	font-family: Verdana, Geneva, sans-serif;
+	text-size: 2em;
+	text-shadow: 1px 1px 10px rgba(0,0,0,0.4);
+	margin: 2em;
+	margin-top: -1%;
+}
+
+#nav {
+	text-align: center;	
+	display: block;
+}
+
+#clickohover {
+	clear: both;
+	padding-top: 5%;
+	padding-bottom: -4%;
+	font-family: gotmilk;
+	font-size: 125%;
+	text-align: center;
+}
+
+#clickohover :hover{
+	color: rgba(255,0,0,1);
+}
+
+#arrow {
+	margin-top: -2%;
+	position: absolute;
+	width: 1em;
+	height: 1em;
+	left: 50%;
+}
+
+#mainContent{
+	margin-top: 5%;
+}
+
+#CollapsiblePanel1 {
+	position: relative;
+	top: 0;
+	left: 0;
+}
+#CollapsiblePanel2 {
+	position: relative;
+	top: 0;
+	left: 0;
+}
+#CollapsiblePanel3 {
+	position: relative;
+	top: 50;
+	left: 0;
+}
+#CollapsiblePanel4 {
+	position: relative;
+	top: 0;
+	left: 0;
+}
+
+.CollapsiblePanel {
+	padding: 0em;
+	width: 388px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	margin: 0 auto;
+	display: block;
+}
+
+/*javascript.html*/
+#codeAcademy{
+	color: rgba(255,255,255,1);
+	text-align: center;
+	padding: 1em;
+	font-size: 2em;
+	margin-bottom: -4em;
+}
+#js1 {
+	position: relative;
+	width: 100% ;
+	background: rgba(0,0,0,1);
+	text-align: center;
+	margin-left: 10%;
+	-webkit-border-radius: 11px;
+-moz-border-radius: 11px;
+border-radius: 11px;
+}
+
+#gaptext {
+	display: block;
+	left: 45%;
+	position: relative;
+	margin-top: 1em;
+	font-weight: bold;
+	font-size: large;
+}
+
+#js2 {
+	display: block;
+	margin-top: -5px;
+	position: relative;
+	margin-left: 10%;
+	width: 60em;
+	height: 50em;
+	background: rgba(0,0,0,1);
+	border: rgba(0,0,0,1), solid, 2px;
+	-webkit-border-radius: 11px;
+-moz-border-radius: 11px;
+border-radius: 11px;
+}
+
+#sun {
+    position: absolute;
+    /* Positions the top-left corner of the image to be *
+    /* in the middle of the box */
+    top: 50%;
+    left: 50%;
+    
+  border-color: red;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 50%;
+	box-shadow: 0 0 222px red;
+
+    /* Play with these numbers to see what it does */
+    height: 200px;
+    width: 200px;
+    margin-top: -100px; 
+    margin-left: -100px;
+}
+
+#earth {
+    position: absolute;
+    top: 0%;
+    left: 25%;
+    /* Style your earth */
+     height: 50px;
+    width: 50px;
+    margin-left: -25px;
+    margin-top: -25px;
+}
+
+#earth-orbit {
+    /* For Section #2 */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+
+    width: 500px;
+    height: 500px;
+    margin-top: -250px;
+    margin-left: -250px;
+	
+    border-width: 1px;
+    border-style: dotted;
+    border-color: white;
+    border-radius: 80%;
+    
+     -webkit-animation: spin-right 10s linear infinite;
+     -moz-animation: spin-right 10s linear infinite;
+      -ms-animation: spin-right 10s linear infinite;
+       -o-animation: spin-right 10s linear infinite;
+          animation: spin-right 10s linear infinite;
+}
+
+@-webkit-keyframes spin-right {
+  100% {
+    -webkit-transform: rotate(360deg);
+       -moz-transform: rotate(360deg);
+        -ms-transform: rotate(360deg);
+         -o-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+@keyframes spin-right {
+  100% {
+    -webkit-transform: rotate(360deg);
+       -moz-transform: rotate(360deg);
+        -ms-transform: rotate(360deg);
+         -o-transform: rotate(360deg);
+            transform: rotate(360deg);
+			  }
+}
+
+#contactTerry{
+	font-family: "MS Serif", "New York", serif;
+	font-size: 4em;
+	font-style: normal;
+	font-weight: bolder;
+	overflow: hidden;
+	text-shadow: 2px 2px 2px rgba(214,214,214,1);
+}
+
+#mapCanvas {
+	border: 1px solid rgba(0,0,0,1);	
+	display: inline-block;
+}
+
+#reachMe{
+	display: inline-block;
+	padding-left: 1em;
+}
+
+  
+/* 
+************************************************************************************************************************************************************************************
+Tablet Layout: 481px to 768px. Inherits styles from: Mobile Layout. 
+************************************************************************************************************************************************************************************
+*/
+
+@media only screen and (min-width: 481px) {
+
+#reachMe{
+	position: relative;
+	font-size: 125%;
+	font-family: Verdana, Geneva, sans-serif;
+}
+
+#mobile{
+	display: none;
+}
+
+#tablet{
+	display: initial;
+	position: fixed;
+	bottom: 0;
+	right: 0;
+	margin-bottom: -0.3%;
+	margin-left: 0%;
+	color: rgba(255,255,255,1);
+	z-index: 10;
+}
+
+#browser {
+	position: absolute;
+	margin-left: 1em;
+	top: 0;
+	left: 0;
+	font-size: 1em;
+	font-style:italic;
+	width: 20%;
+	display: inline-block;
+}
+
+.gridContainer {
+	width: 90.675%;
+	padding-left: 1.1625%;
+	padding-right: 1.1625%;
+}
+#headerleft {
+	clear: none;
+	float: left;
+	margin-left: 2.5641%;
+	width: 100%;
+	display: block;
+}
+
+#android {
+  width: 10em;
+  margin-left: auto ;
+  margin-right: auto ;
+}
+
+#java{
+	  width: 10em;
+  margin-left: auto ;
+  margin-right: auto ;
+}
+
+#logoHello {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+
+#clickohover {
+	clear: both;
+	margin-left: 0;
+	display: block;
+	font-size: 200%;
+}
+
+#arrow {
+	width: 2em;
+	height: 2em;
+}
+
+#mainContent {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+
+ul.MenuBarHorizontal
+{
+	margin-left: 5%;
+	padding: 0;
+	list-style-type: none;
+	font-size: 110%;
+	cursor: default;
+	width: auto;
+}
+
+ul.MenuBarHorizontal li
+{
+	margin: 0 auto;
+	padding: 0;
+	list-style-type: none;
+	font-size: 100%;
+	position: relative;
+	text-align: left;
+	cursor: pointer;
+	width: 8em;
+}
+
+
+}
+
+/* 
+************************************************************************************************************************************************************************************
+Desktop Layout v1: 769px to a max of 1001px.  Inherits styles from: Mobile Layout and Tablet Layout. 
+************************************************************************************************************************************************************************************
+*/
+
+@media only screen and (min-width: 769px) {
+#video {
+	position: relative;
+	left: 20%;
+}
+
+#tablet{
+	display: none;
+}
+
+#desktopv1{
+	display: initial;
+	position: fixed;
+	bottom: 0;
+	right: 0;
+	margin-bottom: -0.2%;
+	margin-left: 0%;
+	color: rgba(255,255,255,1);
+	z-index: 10;
+}
+
+#connect {
+	margin-right: -7%;
+}
+
+#connect img {
+	margin-top: -10%;	
+}
+
+#sns {
+	font-family: gotmilk;
+	font-size: 350%;
+}
+
+.gridContainer {
+	width: 88.2%;
+	max-width: 1232px;
+	padding-left: 0.9%;
+	padding-right: 0.9%;
+	margin: auto;
+}
+
+#logoHello {
+	display: inline-block;
+	float: right;
+	width: 45%;
+}
+
+#headerleft {
+	display: inline-block;
+	width: 40%;
+	padding-bottom: -2%;
+	margin-left: 5%;
+}
+
+#android{
+	display: inline-block;
+	width: 30%;
+	margin-left: 3em;
+	margin-bottom: 4em;
+	margin-top: 5em;
+}
+
+#java{
+	display: inline-block;
+	width: 30%;
+	margin-left: 3em;
+	margin-bottom: 4em;
+	margin-top: 5em;
+}
+
+#nav {
+	display: inline-block;
+	float: right;
+	width: 55%;
+	margin-top: -1%;
+}
+
+#CollapsiblePanel1 {
+	position: relative;
+	margin-top: -5%;
+	}
+#CollapsiblePanel2 {
+	position: relative;
+	top: 0%;
+	left: 5%;	
+}
+#CollapsiblePanel3 {
+	position: relative;
+	top:  0%;
+	left: 0%;
+}
+#CollapsiblePanel4 {
+	position: relative;
+	top:  0%;
+	left: 5%;
+}
+
+ul.MenuBarHorizontal li
+{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	font-size: 100%;
+	position: relative;
+	text-align: left;
+	cursor: pointer;
+	width: 7em;
+	float: left;
+}
+
+#clickohover {
+	padding-top: 0.2em;
+	clear: both;
+	display: block;
+	font-size: 200%;
+}
+
+#arrow {
+	position: relative;
+}
+
+#mainContent {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+
+}
+
+/* 
+************************************************************************************************************************************************************************************
+Desktop V2: 1024px to a max of 1439px.  Inherits styles from: Mobile Layout and Tablet Layout. 
+************************************************************************************************************************************************************************************
+*/
+@media only screen and (min-width: 1024px) {
+#androidapps img{
+	width: 12em;
+	height: auto;
+}
+
+#android{
+	width: 50%;
+	margin-bottom: -5em;
+}
+
+#java{
+	margin-left: 10%;
+	margin-bottom: 1em;
+}
+
+#desktopv1{
+	display: none;
+}
+
+#desktopv2{
+	display: initial;
+	position: fixed;
+	bottom: 0;
+	right: 0;
+	margin-bottom: -0.2%;
+	margin-left: 0%;
+	color: rgba(255,255,255,1);
+	z-index: 10;
+}
+#contactTerry{
+	text-align: center;
+	margin-bottom: 0.5em;
+}
+
+#mapCanvas{
+	margin-left: 15%;
+	display: inline-block;
+}
+
+#reachMe{
+	position: relative;
+	width: 38%;
+	display: inline-block;
+}
+
+#youngLad{
+	text-align: center;
+	margin-left: 10%;
+}
+			  
+#video {
+	margin-left: 10%
+}
+
+/*javascript.html*/
+#js1 {
+	position: relative;
+	width: 80%;
+	background: rgba(0,0,0,1);
+	text-align: center;
+	margin-left: 10%;
+
+}
+
+#gaptext {
+	position: relative;
+	margin-top: 1em;
+	font-weight: bold;
+	font-size: large;
+}
+
+#js2 {
+	left: 20%;
+	margin-top: -5px;
+	position: relative;
+	width: 60em;
+	height: 50em;
+	background: rgba(0,0,0,1);
+	border: rgba(0,0,0,1), solid, 2px;
+}
+
+
+
+
+
+#logoHello {
+	display: inline-block;
+	float: right;
+	width: 45%;
+}
+
+
+#headerleft {
+	width: 40%;
+}
+
+#nav {
+	width: 55%;
+}
+
+ul.MenuBarHorizontal
+{
+	list-style-type: none;
+	font-size: 150%;
+	cursor: default;
+}
+
+#arrow {
+	position: relative;
+}
+
+#maincontent{
+	padding-top: -1em;
+	margin: -1em;
+}
+
+.CollapsiblePanel {
+	padding-top: -2%;
+	width: 388px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+}
+
+
+
+}
+/* 
+************************************************************************************************************************************************************************************
+Desktop v3: 1440px to a max of 1900px.  Inherits styles from: Mobile Layout and Tablet Layout
+************************************************************************************************************************************************************************************
+*/
+
+@media only screen and (min-width: 1440px) {
+#android{
+	position: absolute;
+	width: 30%;
+	margin-left: 3em;
+	margin-bottom: 4em;
+	margin-top: 5em;
+}
+
+
+#contactTerry{
+	text-align: center;
+	margin-bottom: 0.5em;
+}
+
+#mapCanvas{
+	margin-left: 25%;
+}
+
+#reachMe{
+	position: relative;
+	font-size: 125%;
+	font-family: Verdana, Geneva, sans-serif;
+}
+
+#desktopv2{
+	display: none;
+}
+
+#desktopv3{
+	display: initial;
+	position: fixed;
+	bottom: 0;
+	right: 0;
+	margin-bottom: -0.2%;
+	margin-left: 0%;
+	color: rgba(255,255,255,1);
+	z-index: 10;
+}
+
+#connect {
+	position: absolute;
+	right: 0;
+	margin-right: 0.6%;
+}
+
+#sns {
+	font-family: gotmilk;
+	font-size: 350%;
+}
+
+.gridContainer {
+	width: 88.2%;
+	max-width: 1232px;
+	padding-left: 0.9%;
+	padding-right: 0.9%;
+	margin: auto;
+}
+
+#logoHello {
+	width: 59%;
+	margin-top: 4em;
+}
+
+#hello {
+	font-size: 120%;
+	text-align: center;
+	width: 100%;
+	text-shadow: 1px 1px 10px rgba(0,0,0,0.4);
+}
+
+#headerleft {
+	width: 25%;
+	margin-left: 10%;
+	margin-top: 5%;
+}
+
+#headerleft img{
+	margin: 0 auto; 
+    display: block;
+	border-width: 5px;
+	border-style: solid;
+	border-color: rgba(0,0,0,1);
+}
+
+
+#nav {
+	width: 60%;
+	margin-left: 3em;
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: rgba(102,102,102,1);
+}
+
+
+ul.MenuBarHorizontal
+{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	font-size: 150%;
+	cursor: default;
+	width: auto;
+}
+
+#clickohover {
+	left: 43%;
+	top: 53%;
+	font-size: 250%;
+	position: absolute;
+}
+
+#arrow{
+	display: none;
+}
+
+.CollapsiblePanel {
+	padding: 0em;
+	width: 388px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	
+}
+#CollapsiblePanel1 {
+	position: absolute;
+	top: 66%;
+	left: 9.5%;
+	margin-top: 0%;
+}
+#CollapsiblePanel2 {
+	position: absolute;
+	top: 66%;
+	left: 30%;
+}
+#CollapsiblePanel3 {
+	position: absolute;
+	top: 66%;
+	left: 50.5%;
+}
+#CollapsiblePanel4 {
+	position: absolute;
+	top: 66%;
+	left: 71%;
+}
+
+#mainContent {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+
+
+#leftharsh {
+	display: inline;
+	position: absolute;
+	width: 23px;
+	height: 27px;
+	z-index: 8;
+	left: 20%;
+	top: 63%;
+}
+#leftarrow {
+	position: absolute;
+	display: inline;
+	width: 23px;
+	height: 27px;
+	z-index: 8;
+	left: 40%;
+	top: 63%;
+}
+#rightarrow {
+	display: inline;
+	position: absolute;
+	width: 23px;
+	height: 27px;
+	z-index: 8;
+	left: 60%;
+	top: 63%;
+}
+#rightharsh {
+	display: inline;
+	position: absolute;
+	width: 23px;
+	height: 27px;
+	z-index: 8;
+	left: 80%;
+	top: 63%;
+}	
+}
+
+/*
+************************************************************************************************************************************************************************************
+Desktop Type 4 - for optimal version 1920 screens
+************************************************************************************************************************************************************************************
+*/
+@media only screen and (min-width: 1920px) {
+
+
+#spheader { 
+	padding-top: 15%;
+	text-align: center; 
+}
+
+#sketchpadLink {
+	margin-top: 5%;
+	padding-bottom: -5%;
+}
+
+/*
+css for slider-app javascript page
+*/
+
+#wrapper {
+	margin-top: 10%;
+	margin-bottom: -11%;
+}
+
+
+#contactTerry{
+	margin-top: 3em;
+	margin-left: 3.6em;
+	text-align: center;
+	margin-bottom: -0.2em;
+}
+
+#mapCanvas{
+	margin-left: 25%;
+}
+
+#reachMe{
+	position: relative;
+	font-size: 125%;
+	font-family: Verdana, Geneva, sans-serif;
+}
+
+#youngLad{
+	margin-left: 9%;
+	margin-top: 45%;
+	padding: 0;
+	margin-bottom: -3%;
+}
+			  
+#video {
+	margin-top: 5em;
+	margin-left: 13%;
+}
+
+#desktopv3{
+	display: none;
+}
+
+#desktopv4{
+	display: initial;
+	position: fixed;
+	bottom: 0;
+	right: 0;
+	margin-bottom: -0.2%;
+	margin-left: 0%;
+	color: rgba(255,255,255,1);
+	z-index: 10;
+}
+
+@-webkit-keyframes cf3FadeInOut {
+0% {
+opacity:1;
+}
+45% {
+opacity: 0;
+}
+55% {
+opacity:0;
+}
+100% {
+opacity:1;
+}
+}
+#android img.top {
+-webkit-animation-name: cf3FadeInOut;
+-webkit-animation-timing-function: ease-in-out;
+-webkit-animation-iteration-count: infinite;
+-webkit-animation-duration: 4s;
+-webkit-animation-direction: alternate;
+}
+
+#android img.top{
+	position: absolute;
+}
+
+#android img.bottom {
+	display: initial; 
+	position: absolute;	
+}
+
+#headerleft img{
+	opacity: 1;
+	-webkit-transition: opacity 1s ease-in-out;
+	-moz-transition: opacity 1s ease-in-out;
+	-o-transition: opacity 1s ease-in-out;
+	transition: opacity 1s ease-in-out;
+}
+
+#headerleft img.top:hover {
+	  opacity:0;
+}
+
+#headerleft img.top{
+	position: absolute;
+}
+
+#headerleft img.bottom {
+	display: initial; 
+	position: absolute;	
+}
+
+
+#logoHello img{
+	margin-left: 12%;
+	opacity: 1;
+	-webkit-transition: opacity 1s ease-in-out;
+	-moz-transition: opacity 1s ease-in-out;
+	-o-transition: opacity 1s ease-in-out;
+	transition: opacity 1s ease-in-out;
+}
+
+#logoHello img.top:hover{
+	  opacity:0;
+}
+
+#logoHello img.top{
+	position: absolute;
+}
+
+#logoHello img.bottom {
+	display: initial; 
+	position: absolute;	
+}
+
+#logoHello img.placeholder{
+	display: initial;
+	visibility: hidden;
+}
+
+#nav{
+	padding-left: -1em;
+	margin: 0 auto;
+	margin-right: -5%;
+}
+
+#arrow{
+	display: none;
+}
+
+#clickohover {
+	left: 20.5em;
+	top: 13.5em;
+	font-size: 300%;
+	position: absolute;
+}
+
+#leftharsh {
+	display: inline;
+	position: absolute;
+	width: 23px;
+	height: 27px;
+	z-index: 8;
+	left: 20%;
+	top: 47.5em;
+}
+#leftarrow {
+	position: absolute;
+	display: inline;
+	width: 23px;
+	height: 27px;
+	z-index: 8;
+	left: 40%;
+	top: 47.5em;
+}
+#rightarrow {
+	display: inline;
+	position: absolute;
+	width: 23px;
+	height: 27px;
+	z-index: 8;
+	left: 60%;
+	top: 47.5em;
+}
+
+#rightharsh {
+	display: inline;
+	position: absolute;
+	width: 23px;
+	height: 27px;
+	z-index: 8;
+	left: 80%;
+	top: 47.5em;
+}	
+#CollapsiblePanel1 {
+	position: absolute;
+	top: 50em;
+	left: 9.5%;
+}
+#CollapsiblePanel2 {
+	position: absolute;
+	top: 50em;
+	left: 30%;
+}
+#CollapsiblePanel3 {
+	position: absolute;
+	top: 50em;
+	left: 50.5%;
+}
+#CollapsiblePanel4 {
+	position: absolute;
+	top: 50em;
+	left: 71%;
+}
+
+
+/*javascript.html*/
+#codeAcademy{
+	color: rgba(255,255,255,1);
+	text-align: center;
+	padding: 1em;
+	font-size: 2em;
+	margin-bottom: -4em;
+}
+
+#js1 {
+	position: relative;
+	width: 70% ;
+	background: rgba(0,0,0,1);
+	text-align: center;
+	margin-top: 10%;
+	margin-left: 15%;
+}
+
+#gaptext {
+	display: block;
+	position: relative;
+	font-weight: bold;
+	font-size: large;
+}
+
+#js2 {
+	display: block;
+	margin-top: -5px;
+	position: relative;
+	margin-left: 10%;
+	width: 800px;
+	height: 600px;
+	background: rgba(0,0,0,1);
+	border: rgba(0,0,0,1), solid, 2px;
+}
+
+#sun {
+    position: absolute;
+    /* Positions the top-left corner of the image to be *
+    /* in the middle of the box */
+    top: 50%;
+    left: 50%;
+    
+  border-color: red;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 50%;
+	box-shadow: 0 0 222px red;
+
+    /* Play with these numbers to see what it does */
+    height: 200px;
+    width: 200px;
+    margin-top: -100px; 
+    margin-left: -100px;
+}
+
+#earth {
+    position: absolute;
+    top: 0%;
+    left: 25%;
+    /* Style your earth */
+     height: 50px;
+    width: 50px;
+    margin-left: -25px;
+    margin-top: -25px;
+}
+
+#earth-orbit {
+    /* For Section #2 */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+
+    width: 500px;
+    height: 500px;
+    margin-top: -250px;
+    margin-left: -250px;
+	
+    border-width: 1px;
+    border-style: dotted;
+    border-color: white;
+    border-radius: 80%;
+    
+     -webkit-animation: spin-right 10s linear infinite;
+     -moz-animation: spin-right 10s linear infinite;
+      -ms-animation: spin-right 10s linear infinite;
+       -o-animation: spin-right 10s linear infinite;
+          animation: spin-right 10s linear infinite;
+}
+
+@-webkit-keyframes spin-right {
+  100% {
+    -webkit-transform: rotate(360deg);
+       -moz-transform: rotate(360deg);
+        -ms-transform: rotate(360deg);
+         -o-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+@keyframes spin-right {
+  100% {
+    -webkit-transform: rotate(360deg);
+       -moz-transform: rotate(360deg);
+        -ms-transform: rotate(360deg);
+         -o-transform: rotate(360deg);
+            transform: rotate(360deg);
+			  }
+}
+
+}

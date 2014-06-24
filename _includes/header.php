@@ -1,0 +1,4 @@
+<div id="connect" class=rotate>
+<span id="sns">got Social? </span>
+<a href="http://www.facebook.com/schooloftruth" target="_blank" onmouseover="document.getElementById('1up').play()"><img src="_images/icon_facebook.png" alt="terry fb"></a><a href="http://www.linkedin.com/in/terrybu" target="_blank"><img src="_images/icon_linked.png" alt="terry linkedin" onmouseover="document.getElementById('1up').play()"></a><a href="http://www.quora.com/Terry-Bu" target="_blank"><img src="_images/icon_quora.png" alt="terry quora" onmouseover="document.getElementById('1up').play()"></a><a href="https://twitter.com/burownrice/" target="_blank"><img src="_images/icon_twitter.png" alt="terry twitter" onmouseover="document.getElementById('1up').play()"></a>
+</div>
