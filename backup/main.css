@@ -45,13 +45,6 @@ body:after{
     left:0;
 }
 
-img, object, embed, video {
-	max-width: 100%;
-}
-/* IE 6 does not support max-width so default to width 100% */
-.ie6 img {
-	width:100%;
-}
 
 .rotate img {
     -moz-transition: all 0.6s ease-in-out;
@@ -67,26 +60,6 @@ img, object, embed, video {
     -ms-transform: rotate(360deg);
     transform: rotate(360deg);
 }
-
-/*
-	Dreamweaver Fluid Grid Properties
-	----------------------------------
-	dw-num-cols-mobile:		5;
-	dw-num-cols-tablet:		8;
-	dw-num-cols-desktop:	10;
-	dw-gutter-percentage:	25;
-	
-	Inspiration from "Responsive Web Design" by Ethan Marcotte 
-	http://www.alistapart.com/articles/responsive-web-design
-	
-	and Golden Grid System by Joni Korpi
-	http://goldengridsystem.com/
-*/
-
-
-
-
-
 
 /* 
 ************************************************************************************************************************************************************************************
