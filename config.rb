@@ -1,5 +1,4 @@
 # Require any additional compass plugins here.
-
 #Folder settings
 relative_assets = false      #because we're not working from the root
 css_dir = "_css"          #where the CSS will saved
