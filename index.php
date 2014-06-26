@@ -6,11 +6,9 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <!--LOAD BOOTSTRAP -->
-  <link href="_css/_bootstrap/bootstrap.min.css" rel="stylesheet" >
-  <link href="_css/_bootstrap/bootstrap-theme.min.css" rel="stylesheet">
+
   <!--LOAD YOUR STYLESHEETS -->
-  <link href="_css/main.css" rel="stylesheet" type="text/css">
-  <link href="_css/all_need.css" rel="stylesheet" type="text/css">
+  <link href="_css/application.css" rel="stylesheet" type="text/css">
   <title>Terry Bu - Portfolio Website | Home</title>
   <!--[if lt IE 9]>
   <script src="js/vendor/html5-3.6-respond-1.1.0.min.js"></script>
@@ -21,16 +19,10 @@
   <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
   <![endif]-->
   <div class="container">
-
-
-    <div id="browser">
-    <p>*Best viewed in 1920x1080 resolution with Chrome</p>
-    </div>
-    <?php include("_includes/connect.php"); ?>
-
-    <?php include("_includes/helloHeader.php"); ?>
-
-    <?php include("_includes/kyoto.php"); ?>
+    <div id="browser"><p>*Optimal in 1920x1080 resolution/Chrome</p></div>
+    <?php include("_includes/gotSocial.php"); ?>
+    <?php include("_includes/nameLogo&Welcome.php"); ?>
+    <?php include("_includes/kyotoImage.php"); ?>
 
     <?php include("_includes/nav.php"); ?>
 
@@ -87,11 +79,12 @@
     <p>Emerging resources available for self-education have allowed many people including myself to pursue new careers in technology. To give back to the people who made this possible, I want to help create free, high-quality self-education resources for people all over the world, following examples like Khan Academy. To ensure steady progress in future of society, I believe more knowledge should be free and accessible.</p>
     <p>I also hope to gain enough expertise in coding so that I can impact a variety of different areas like public health, science, local government, education and nonprofit through channels like Github and Code for America. </p>
     <br>
-    </div></div>
-    <?php include("_includes/viewSizeDisplay.php"); ?>
+    </div>
+    </div>
     </div> <!-- /bodyContent -->  
 
 </div> <!-- /container -->  
+<?php include("_includes/viewSizeDisplay.php"); ?>
 
 
 
@@ -104,9 +97,7 @@
 </audio>
 <audio id="1up" src="_sound/swim.wav"></audio>
 <div id="sounddiv"><bgsound id="sound"></div>
-
-
-      
+     
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.0.min.js"><\/script>')</script>
 <script src="js/vendor/bootstrap.min.js"></script>

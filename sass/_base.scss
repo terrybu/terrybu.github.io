@@ -1,0 +1,31 @@
+@import 'blackborder';
+
+@charset "utf-8";
+@font-face {
+    font-family: 'gotmilk';
+    src: url('../_fonts/cgphenixamerican.ttf') format('truetype');
+    }
+
+@font-face {
+  font-family: 'Glyphicons Halflings';
+  src: url('../_fonts/glyphicons-halflings-regular.eot');
+  src: url('../_fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('../_fonts/glyphicons-halflings-regular.woff') format('woff'), url('../_fonts/glyphicons-halflings-regular.ttf') format('truetype'), url('../_fonts/glyphicons-halflings-regular.svg#glyphicons-halflingsregular') format('svg');
+}
+
+/* ROTATING MY SOCIAL MEDIA ICONS EFFECT ON HOVER */
+.rotate img {
+    -moz-transition: all 0.6s ease-in-out;
+    -webkit-transition: all 0.6s ease-in-out;
+    -o-transition: all 0.6s ease-in-out;
+    -ms-transition: all 0.6s ease-in-out;
+    transition: all 0.6s ease-in-out;
+}
+.rotate img:hover {
+    -moz-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    transform: rotate(360deg);
+}
+
+/* this helps alignment of certain absolute positioned images that fuck things up */
