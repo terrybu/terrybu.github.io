@@ -99,7 +99,7 @@
 <div id="sounddiv"><bgsound id="sound"></div>
      
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-<script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.0.min.js"><\/script>')</script>
-<script src="js/vendor/bootstrap.min.js"></script>
+<script>window.jQuery || document.write('<script src="_javascript/vendor/jquery-1.11.0.min.js"><\/script>')</script>
+<script src="_javascript/vendor/bootstrap.min.js"></script>
 </body>
 </html>
