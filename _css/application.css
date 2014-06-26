@@ -8420,63 +8420,51 @@ button.close {
 }
 
 /* Navigation */
+/* remove ugly horizontal default border from .nav-tabs class */
+/* line 51, ../sass/application.scss */
+.nav-tabs {
+  border: 0;
+}
+
 /* Bootstrap default colors override 
-/* tab color */
-/* line 52, ../sass/application.scss */
-.nav-tabs > li > a {
-  /*background-color: orange; 
-  border-color: #777777;
-  color:#fff; */
-}
 
-/* active tab color */
-/* line 59, ../sass/application.scss */
-.nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
-  border: 1px solid #888888;
-}
-
-/* hover tab color */
-/* line 64, ../sass/application.scss */
-.nav-tabs > li > a:hover {
-  border-color: #000000;
-  background-color: #111111;
-}
-
-/* line 69, ../sass/application.scss */
+/* this makes sure PORTFOLIO Stays lighted in orange when submenus are down */
+/* line 58, ../sass/application.scss */
 ul.nav li.dropdown:hover > a.dropdown-toggle {
   background-color: orange;
 }
 
-/* line 73, ../sass/application.scss */
+/* line 62, ../sass/application.scss */
 ul.nav li.dropdown:hover > ul.dropdown-menu {
   display: block;
 }
 
-/* line 80, ../sass/application.scss */
+/* line 67, ../sass/application.scss */
 #nav a {
   font-size: 1.2em;
   font-family: serif;
   text-shadow: 0.5px 0.5px 0.5px rgba(255, 0, 0, 0.5);
   color: black;
 }
-/* line 85, ../sass/application.scss */
+/* line 72, ../sass/application.scss */
 #nav a:visited {
   color: darkred;
   text-shadow: none;
 }
-/* line 89, ../sass/application.scss */
+/* line 76, ../sass/application.scss */
 #nav a:hover {
+  border: 1px solid black;
   color: white;
   text-shadow: none;
   background: #FE642E;
 }
-/* line 95, ../sass/application.scss */
+/* line 83, ../sass/application.scss */
 #nav ul li ul li a {
   list-style: none;
   text-shadow: none;
 }
 
-/* line 102, ../sass/application.scss */
+/* line 90, ../sass/application.scss */
 .container {
   width: 100%;
   border: 1px solid black;
@@ -8488,7 +8476,7 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
 /*********************/
 /* Large desktops and laptops */
 @media only screen and (min-width: 1200px) {
-  /* line 117, ../sass/application.scss */
+  /* line 105, ../sass/application.scss */
   #desktop {
     display: initial;
     position: fixed;
@@ -8500,19 +8488,19 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
     font-size: 1em;
   }
 
-  /* line 120, ../sass/application.scss */
+  /* line 108, ../sass/application.scss */
   #tablet {
     display: none;
   }
 
-  /* line 121, ../sass/application.scss */
+  /* line 109, ../sass/application.scss */
   #mobile {
     display: none;
   }
 }
 /* Tablets and Medium Desktops */
 @media only screen and (min-width: 481px) and (max-width: 1199px) {
-  /* line 126, ../sass/application.scss */
+  /* line 114, ../sass/application.scss */
   #tablet {
     display: initial;
     position: fixed;
@@ -8524,29 +8512,29 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
     font-size: 1em;
   }
 
-  /* line 129, ../sass/application.scss */
+  /* line 117, ../sass/application.scss */
   #desktop {
     display: none;
   }
 
-  /* line 130, ../sass/application.scss */
+  /* line 118, ../sass/application.scss */
   #mobile {
     display: none;
   }
 }
 /* Landscape phones and smaller */
 @media only screen and (max-width: 480px) {
-  /* line 137, ../sass/application.scss */
+  /* line 125, ../sass/application.scss */
   #tablet {
     display: none;
   }
 
-  /* line 138, ../sass/application.scss */
+  /* line 126, ../sass/application.scss */
   #desktop {
     display: none;
   }
 
-  /* line 139, ../sass/application.scss */
+  /* line 127, ../sass/application.scss */
   #mobile {
     display: initial;
     position: fixed;
@@ -8558,24 +8546,24 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
     font-size: 1em;
   }
 
-  /* line 143, ../sass/application.scss */
+  /* line 131, ../sass/application.scss */
   #gotSocial {
     font-size: 0.8em;
   }
-  /* line 145, ../sass/application.scss */
+  /* line 133, ../sass/application.scss */
   #gotSocial span {
     display: block;
     margin-bottom: 0.25em;
   }
 
-  /* line 149, ../sass/application.scss */
+  /* line 137, ../sass/application.scss */
   #logoHello {
     padding-top: 5px;
   }
 }
 /* /END SIZE DISPLAY DIFFERENCES */
 /* Any CSS RULES you want applied at the END with PRIORITY #1 */
-/* line 163, ../sass/application.scss */
+/* line 151, ../sass/application.scss */
 .placeholder {
   visibility: hidden;
   position: relative;

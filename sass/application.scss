@@ -47,25 +47,14 @@
 
 /* Navigation */
 
+/* remove ugly horizontal default border from .nav-tabs class */
+.nav-tabs {
+    border: 0;
+}
+
 /* Bootstrap default colors override 
-/* tab color */
-.nav-tabs>li>a {
-  /*background-color: orange; 
-  border-color: #777777;
-  color:#fff; */
-}
 
-/* active tab color */
-.nav-tabs>li.active>a, .nav-tabs>li.active>a:hover, .nav-tabs>li.active>a:focus {
-  border: 1px solid #888888;
-}
-
-/* hover tab color */
-.nav-tabs>li>a:hover {
-  border-color: #000000;
-  background-color: #111111;
-}
-
+/* this makes sure PORTFOLIO Stays lighted in orange when submenus are down */
 ul.nav li.dropdown:hover > a.dropdown-toggle {
     background-color: orange;
 }
@@ -73,8 +62,6 @@ ul.nav li.dropdown:hover > a.dropdown-toggle {
 ul.nav li.dropdown:hover > ul.dropdown-menu {
     display: block;    
 }
-
-
 
 #nav {
     a { 
@@ -87,6 +74,7 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
             text-shadow: none;
             }
            &:hover {
+            border: 1px solid black;
             color: white;
             text-shadow: none;
             background: #FE642E;
