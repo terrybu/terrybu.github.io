@@ -1,24 +1,6 @@
 @import 'base';
 @import 'bootstrap';
-
-
-/* MIXINS */
-@mixin transformImage {
-    position: relative;
-    img {
-        position: absolute;
-        opacity: 1;
-        -webkit-transition: opacity 1s ease-in-out;
-        -moz-transition: opacity 1s ease-in-out;
-        -o-transition: opacity 1s ease-in-out;
-        transition: opacity 1s ease-in-out;
-         }
-    img.top{  &:hover {opacity:0;} }
-    img.placeholder {visibility: hidden; position: relative;}
-}
-
-
-
+@import 'nav';
 
 /* NameLogo&Welcome.php */
 #logoHello{
@@ -41,51 +23,6 @@
     }
 }
 
-
-
-
-
-/* Navigation */
-
-/* remove ugly horizontal default border from .nav-tabs class */
-.nav-tabs {
-    border: 0;
-}
-
-/* Bootstrap default colors override 
-
-/* this makes sure PORTFOLIO Stays lighted in orange when submenus are down */
-ul.nav li.dropdown:hover > a.dropdown-toggle {
-    background-color: orange;
-}
-
-ul.nav li.dropdown:hover > ul.dropdown-menu {
-    display: block;    
-}
-
-#nav {
-    a { 
-        font-size: 1.2em;
-        font-family: serif;
-        text-shadow: 0.5px 0.5px 0.5px rgba(255,0,0,0.5);
-        color: black;
-           &:visited {
-            color: darkred;
-            text-shadow: none;
-            }
-           &:hover {
-            border: 1px solid black;
-            color: white;
-            text-shadow: none;
-            background: #FE642E;
-            }
-      }
-    ul li ul li a{
-        list-style: none;
-        text-shadow: none;
-    }
-}
-
 .container {
     width: 100%;
     border: 1px solid black;
@@ -93,6 +30,7 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
     margin-bottom: 10px;
 }
 
+/* Collapsible Panels Override Styling */
 .panel-default {
     max-width: 350px;
     border-width: 10px;
@@ -124,36 +62,53 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
 /* SIZE DISPLAY DIFFERENCES */
 /*********************/
 /* Landscape phones and smaller */
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 784px) {
     #tablet {display: none;}  
     #desktop {display: none;}
     #mobile {   
         @include sizeDisplayMessage;
     }
-
     #gotSocial {
         font-size: 0.8em;
         span {  display: block;
                 margin-bottom: 0.25em;}
     }
-
     #logoHello {
         padding-top: 5px;
     }
-
     #clickOhover {display: none;}
-
 }
 
 /* Tablets and Medium Desktops */
-@media only screen and (min-width: 481px) and (max-width:1199px) {
+@media only screen and (min-width: 785px) and (max-width:1199px){
     #tablet {   
        @include sizeDisplayMessage;
     }  
     #desktop {display: none;}
     #mobile {display: none;}
+    #gotSocial {
+        clear: left;
+    }
     #clickOhover {display: none;}
+    #logoNwelcome {
+        clear: both;
+        float: right;
+        max-width: 50%;
+    }
+    #kyotoImage {
+       margin-top: 10%;       
+       max-width: 380px;
+       max-height: 500px;
+    }
+    #nav {
+        float: right;
+        border: 1px solid black;
+    }
 
+    #bodyContent {
+        clear: both;
+        margin-left: 30%;
+    }
 }
 
 /* Large desktops and laptops */
@@ -168,9 +123,3 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
 
 
 /* /END SIZE DISPLAY DIFFERENCES */
-
-
-
-
-/* Any CSS RULES you want applied at the END with PRIORITY #1 */
-.placeholder {visibility: hidden; position: relative;}

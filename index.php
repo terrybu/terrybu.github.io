@@ -18,9 +18,10 @@
   <div class="container">
     <div id="browser"><p>*Optimal in 1920x1080 resolution/Chrome</p></div>
     <?php include("_includes/gotSocial.php"); ?>
-    <?php include("_includes/nameLogo&Welcome.php"); ?>
+    <?php include("_includes/logoNwelcome.php"); ?>
+        <?php include("_includes/nav.php"); ?>
+
     <?php include("_includes/kyotoImage.php"); ?>
-    <?php include("_includes/nav.php"); ?>
 
     <div id="bodyContent">
 
@@ -47,7 +48,7 @@
          <div class="panel-body">
           <p>As impressed as we already are with the exponential advancement of technology since the new millennium (Google, mobile revolution, cloud, IoE) I believe we have only scratched the surface. </p>
           <p>Technology will continue to be the glue that binds information and knowledge across all disciplines including education, sciences, public health, government, and private sector.</p>
-          <p>There is little doubt that the world's need for engineers, programmers, designers and hackers will keep rising rapidly within the next several decades.</p>
+          <p>There is little doubt that the world's need for engineers and programmers will keep rising rapidly within the next several decades.</p>
          </div>
       </div>
    </div>
@@ -59,10 +60,9 @@
       </div>
       <div id="collapseTwo" class="panel-collapse collapse in">
         <div class="panel-body">
-          <p>I am self-taught in Ruby on Rails, Ruby, JavaScript, CSS, HTML and the basics of Java, Eclipse (Android SDK) and Python.</p><p>I am proficient in Adobe CS6(Photoshop, Dreamweaver, Premiere Pro) and Excel.</p>
-          <p>I have a working knowledge of Git, Haml, Sass, Compass, PHP, PostgreSQL, jQuery and Vagrant from past projects.</p>
-          <p>I graduated with a B.S. in Business Administration with a minor in Japanese from UNC - Chapel Hill.</p>
-          <p>I've always had a deep curiosity for computer science, and recently made the full switch into coding and web development in early 2014. </p>
+          <p>I am self-taught in Ruby on Rails, Ruby, JavaScript, CSS, HTML and the basics of Java, Eclipse (Android SDK) and Python.</p>
+          <p>I have a working knowledge of Git, Haml, Sass, Compass, PHP, SQL, jQuery and Vagrant from past projects. I am proficient in Adobe CS6(Photoshop, Dreamweaver, Premiere Pro) and Excel.</p>
+          <p>I graduated with a B.S. in Business Administration with a minor in Japanese from UNC - Chapel Hill. I recently made the career switch into coding and web development in early 2014. </p>
         </div>
      </div>
    </div>
@@ -74,7 +74,7 @@
       </div>
       <div id="collapseThree" class="panel-collapse collapse in">
          <div class="panel-body">
-      <p>My original background is in business, marketing and sales. I gained close exposure to the tech world as an Account Executive at an IT solutions/consulting company that partners with Cisco and Microsoft. </p>
+      <p>My background is in business, marketing and sales. I gained close exposure to the tech world as an Account Executive at an IT solutions/consulting company that partners with Cisco and Microsoft. </p>
       <p>I have freelance web development experience (RoR, jQuery and Haml) and worked as an Online Community Manager for a small business. Please refer to <a href="http://www.linkedin.com/in/terrybu" target="_blank">LinkedIn</a> for details on my work experience.</p>
       <p>I also performed stand-up comedy in NYC. </p>
          </div>
@@ -90,7 +90,7 @@
          <div class="panel-body">
       <p>Free online educational resources have allowed many including myself to gain new knowledge, learn new skills and pursue new careers. I want to give back to those who made this possible. </p>
       <p>Following examples like Khan Academy, I am driven to help create better accessibility to knowledge and information for people all over the world wherever, whomever they are.</p>
-      <p>I also hope to become an expert in coding so that I can impact Open Source projects in public health, sciences, local government, and education through channels like Github and Code for America. </p>
+      <p>I also hope to become better in coding so that I can impact Open Source projects in public health, sciences, local government, and education through channels like Github and Code for America. </p>
          </div>
       </div>
      </div>

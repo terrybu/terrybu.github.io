@@ -21,6 +21,28 @@
         display: inline-block;
 }
 
+/* MIXINS */
+@mixin transformImage {
+    img {
+        position: absolute;
+        opacity: 1;
+        -webkit-transition: opacity 1s ease-in-out;
+        -moz-transition: opacity 1s ease-in-out;
+        -o-transition: opacity 1s ease-in-out;
+        transition: opacity 1s ease-in-out;
+    }
+    img.top{  
+            &:hover {
+                opacity: 0;
+            }
+    }
+     img.placeholder{
+      position: relative;
+      border: 20px solid red;
+    }
+}
+
+
 #browser {
     @include whiteBrowser;
 }

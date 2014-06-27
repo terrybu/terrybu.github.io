@@ -1,3 +1,4 @@
+
 function closeElse (divName) {
 	var possibleDivs = ['#collapseOne','#collapseTwo','#collapseThree','#collapseFour'];
 	for (var i = 0; i < possibleDivs.length; i++) {
@@ -33,4 +34,12 @@ $('.panel-heading').on({
 	click: function() {
 	  playclip();
 	}    
+});
+
+$('.panel-heading').on({ 
+	click: function() {
+	if (matchMedia('only screen and (max-width: 480px)').matches) {
+	  $(this).fadeOut(300);
+  		}
+	}
 });

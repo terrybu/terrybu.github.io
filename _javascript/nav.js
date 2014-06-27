@@ -1,35 +1,47 @@
-function Toggle(size) {
-  $('.dropdown-toggle').on({
-    mouseleave: function() {
-      $( '#bodyContent' ).animate({
-      'marginTop' : "-="+size+"px"});
+$(function(){ 
+ $('dropdown-toggle').collapse('hide');
+ $('.dropdown-toggle').on({
+    click: function() {
+      playclip();
     },
+  });
+});
+
+/* 
+function ToggleClick(size) {
+  $('.dropdown-toggle').on({
+    click: function() {
+            playclip();
+      $( '#bodyContent' ).animate({
+      'marginTop' : "+="+size+"px"});
+    } 
+  });
+}
+
+function Toggle() {
+  if (matchMedia('only screen and (max-width: 400px)').matches) {
+    ToggleClick(120);    
+  }
+  else if (matchMedia('only screen and (max-width: 500px)').matches){
+    ToggleClick(140);
+  }
+}
+//this below code is just for your own development purposes. Hover and move-down effects won't matter in mobile/tablets because you can't hover anyways. You need to event-listen on CLICKS Only//
+Toggle();
+*/
+
+function ToggleHover(size) {
+  $('.dropdown-toggle').on({
     mouseenter: function() {
     $( '#bodyContent' ).animate({
       'marginTop' : "+="+size+"px"});
-    }
-  });
-}
-
-function ToggleBig() {
-    $('.dropdown-toggle').on({
-    mouseleave: function() {
-      $( '#bodyContent' ).animate({
-      'marginTop' : "-=150px"});
     },
-    mouseenter: function() {
+    mouseleave: function() {
     $( '#bodyContent' ).animate({
-      'marginTop' : "+=150px"});
+      'marginTop' : "-="+size+"px"});
     }
   });
 }
-
-  if (matchMedia('only screen and (max-width: 400px)').matches) {
-    Toggle(120);    
-  }
-  else if (matchMedia('only screen and (max-width: 500px)').matches){
-    Toggle(140);
-  }
-  else {
-    Toggle(170);
-  }
+if (matchMedia('only screen and (max-width: 500px)').matches) {
+    ToggleHover(120);    
+ }
