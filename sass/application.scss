@@ -5,6 +5,8 @@
 /* NameLogo&Welcome.php */
 #logoHello{
     clear: right;
+    width: 290px;
+    height: 140px;
     @include transformImage;
 }
 
@@ -17,6 +19,8 @@
 /* END NameLogo&Welcome.php */
 
 #kyotoImage {
+width: 380px;
+height: 480px;
 @include transformImage;
     img {
     border: 5px black solid;
@@ -25,7 +29,6 @@
 
 .container {
     width: 100%;
-    border: 1px solid black;
     margin-top: 10px;
     margin-bottom: 10px;
 }
@@ -62,7 +65,7 @@
 /* SIZE DISPLAY DIFFERENCES */
 /*********************/
 /* Landscape phones and smaller */
-@media only screen and (max-width: 784px) {
+@media only screen and (max-width: 899px) {
     #tablet {display: none;}  
     #desktop {display: none;}
     #mobile {   
@@ -77,10 +80,11 @@
         padding-top: 5px;
     }
     #clickOhover {display: none;}
+
 }
 
 /* Tablets and Medium Desktops */
-@media only screen and (min-width: 785px) and (max-width:1199px){
+@media only screen and (min-width: 900px) and (max-width:1300px){
     #tablet {   
        @include sizeDisplayMessage;
     }  
@@ -90,29 +94,51 @@
         clear: left;
     }
     #clickOhover {display: none;}
-    #logoNwelcome {
-        clear: both;
-        float: right;
-        max-width: 50%;
-    }
     #kyotoImage {
-       margin-top: 10%;       
-       max-width: 380px;
-       max-height: 500px;
+       max-width: 360px;
+       max-height: 480px;
+       float: right;
+       margin-top: 50px;
+       display: inline-block;
     }
-    #nav {
+    #welcomeNav {
+        padding-top: 10px;
+        clear: right;
         float: right;
-        border: 1px solid black;
+        max-width: 550px;
+    }
+    #logoHello {
+        margin: 0 auto;
+    }
+    #welcome{
+        text-align: center;
+        max-width: 400px;
+        margin: 0 auto;
+    }
+    #wrapper {
+        max-width: 1100px;
+    }
+    #bodyContent {
+        clear: right;
+        margin-left: 35%;
+    }
+    #CollapsiblePanel1{
+        display: inline-block;
+    }
+    #CollapsiblePanel2{
+        display: block;
+    }
+    #CollapsiblePanel3{
+        display: inline-block;
+    }
+    #CollapsiblePanel4{
+        display: inline-block;
     }
 
-    #bodyContent {
-        clear: both;
-        margin-left: 30%;
-    }
 }
 
 /* Large desktops and laptops */
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 1301px) {
     #desktop{
         @include sizeDisplayMessage;
     }

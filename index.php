@@ -15,29 +15,26 @@
 </head>
 <body>
   <!--[if lt IE 7]><p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p><![endif]-->
+  </div>
   <div class="container">
     <div id="browser"><p>*Optimal in 1920x1080 resolution/Chrome</p></div>
     <?php include("_includes/gotSocial.php"); ?>
-    <?php include("_includes/logoNwelcome.php"); ?>
-        <?php include("_includes/nav.php"); ?>
+      <?php include("_includes/welcomeNav.php"); ?>
+      <?php include("_includes/kyotoImage.php"); ?>
 
-    <?php include("_includes/kyotoImage.php"); ?>
+  <div id="bodyContent">
 
-    <div id="bodyContent">
-
-      <div id="clickOhover">
+    <div id="clickOhover">
       <p>Click or Hover. Click again to close</p>
       <img id="arrow" src="_images/arrows.jpg">
       <img src="_images/leftharsh.png" width="37" height="30">
       <img src="_images/left-diag.png" width="37" height="30">
       <img src="_images/right-diag.png" width="37" height="30">
       <img src="_images/rightharsh.png" width="37" height="30">
-      </div>
+    </div>
       
-      <!--<p style="text-align: center;">*Tap to Open Panels Below</p> -->
-      <!--COLLAPSIBLE PANELS START HERE -->
-      <div class="panel-group" id="accordion">
-
+    <div class="panel-group" id="accordion">
+           <!--COLLAPSIBLE PANELS START HERE -->
       <div id="CollapsiblePanel1" class="panel panel-default">
       <div href="#collapseOne" class="panel-heading">
          <h4 class="panel-title">
@@ -94,12 +91,10 @@
          </div>
       </div>
      </div>
-  </div>
- </div> <!-- /bodyContent -->  
+    </div> <!-- /bodyContent -->  
 
-</div> <!-- /container -->  
-<?php include("_includes/viewSizeDisplay.php"); ?>
-
+  </div> <!-- /container -->  
+  <?php include("_includes/viewSizeDisplay.php"); ?>
 
 
 <!--BELOW is javascript-->
