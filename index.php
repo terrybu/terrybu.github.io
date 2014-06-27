@@ -5,8 +5,8 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <!--LOAD jQuery -->
-  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-  <script>window.jQuery || document.write('<script src="_javascript/vendor/jquery-1.11.0.min.js"><\/script>')</script>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script>window.jQuery || document.write('<script src="_javascript/vendor/jquery-1.11.1.min.js"><\/script>')</script>
   <script src="_javascript/vendor/bootstrap.min.js"></script>
   <!--LOAD YOUR STYLESHEETS -->
   <link href="_css/application.css" rel="stylesheet" type="text/css">
@@ -23,57 +23,79 @@
     <?php include("_includes/nav.php"); ?>
 
     <div id="bodyContent">
-      <p>Click or Hover. Click again to close</p>
 
-      <img src="_images/arrows.jpg" id="arrow">
-      <div id="leftharsh">
+      <div id="clickOhover">
+      <p>Click or Hover. Click again to close</p>
+      <img id="arrow" src="_images/arrows.jpg">
       <img src="_images/leftharsh.png" width="37" height="30">
-      </div>
-      <div id="leftarrow"><img src="_images/left-diag.png" width="37" height="30"></div>
-      <div id="rightarrow">
+      <img src="_images/left-diag.png" width="37" height="30">
       <img src="_images/right-diag.png" width="37" height="30">
-      </div>
-      <div id="rightharsh">
       <img src="_images/rightharsh.png" width="37" height="30">
       </div>
-        
-        <div id="CollapsiblePanel1" class="CollapsiblePanel">
-        <div class="CollapsiblePanelTab" tabindex="0" onclick="playclip();"onmouseover="CollapsiblePanel1.open(); return false; " >TECHNOLOGY</div>
-        <div class="CollapsiblePanelContent">
-          <p>As impressed as we already are with the fast advancement of technology, with inventions like Google, Facebook, Twitter and smartphones changing  world culture, I believe we have only scratched the surface. </p>
-          <p>Technology will continue to be the glue that binds information and knowledge across all areas including education, science, public health, government, and private sector.</p>
-          <p>There is little doubt that the world's need for  engineers, developers and programmers will continue to rise exponentially within the next several decades.</p>
-          <br>
-        </div>
-      </div>
+      
+      <!--<p style="text-align: center;">*Tap to Open Panels Below</p> -->
+      <!--COLLAPSIBLE PANELS START HERE -->
+      <div class="panel-group" id="accordion">
 
-      <div id="CollapsiblePanel2" class="CollapsiblePanel">
-        <div class="CollapsiblePanelTab" tabindex="0" onclick="playclip();"onmouseover="CollapsiblePanel2.open(); return false;" >EDUCATION</div>
-        <div class="CollapsiblePanelContent"><p>I am self-taught in front-end web design (HTML,CSS, Dreamweaver) and in the basics of Java, Eclipse (Android App Development), Ruby and Python.</p>
-        <p>I graduated with a B.S. in Business Administration with a minor in Japanese from UNC - Chapel Hill. </p>
-        I am still in the process of teaching myself JavaScript, Ruby on Rails, PHP, MySQL and other skills necessary to build a powerful, functioning web application. 
-            <br>
-            <br>
+      <div id="CollapsiblePanel1" class="panel panel-default">
+      <div href="#collapseOne" class="panel-heading">
+         <h4 class="panel-title">
+               <b class="caret"></b> TECHNOLOGY
+         </h4>
+      </div>
+      <div id="collapseOne" class="panel-collapse collapse in">
+         <div class="panel-body">
+          <p>As impressed as we already are with the exponential advancement of technology since the new millennium (Google, mobile revolution, cloud, IoE) I believe we have only scratched the surface. </p>
+          <p>Technology will continue to be the glue that binds information and knowledge across all disciplines including education, sciences, public health, government, and private sector.</p>
+          <p>There is little doubt that the world's need for engineers, programmers, designers and hackers will keep rising rapidly within the next several decades.</p>
+         </div>
+      </div>
+   </div>
+   <div id="CollapsiblePanel2" class="panel panel-default">
+      <div href="#collapseTwo" class="panel-heading">
+         <h4 class="panel-title">
+               <b class="caret"></b> EDUCATION
+         </h4>
+      </div>
+      <div id="collapseTwo" class="panel-collapse collapse in">
+        <div class="panel-body">
+          <p>I am self-taught in Ruby on Rails, Ruby, JavaScript, CSS, HTML and the basics of Java, Eclipse (Android SDK) and Python.</p><p>I am proficient in Adobe CS6(Photoshop, Dreamweaver, Premiere Pro) and Excel.</p>
+          <p>I have a working knowledge of Git, Haml, Sass, Compass, PHP, PostgreSQL, jQuery and Vagrant from past projects.</p>
+          <p>I graduated with a B.S. in Business Administration with a minor in Japanese from UNC - Chapel Hill.</p>
+          <p>I've always had a deep curiosity for computer science, and recently made the full switch into coding and web development in early 2014. </p>
         </div>
+     </div>
+   </div>
+   <div id="CollapsiblePanel3" class="panel panel-default">
+      <div href="#collapseThree" class="panel-heading">
+         <h4 class="panel-title">
+               <b class="caret"></b> EXPERIENCE
+         </h4>
       </div>
-      <div id="CollapsiblePanel3" class="CollapsiblePanel" >
-        <div class="CollapsiblePanelTab" tabindex="0" onclick="playclip();"onmouseover="CollapsiblePanel3.open(); return false;">Work Experience</div>
-        <div class="CollapsiblePanelContent">
-        <p>I come from a background in marketing and sales. I've always had an interest and passion for studying technology, and recently made the commitment to switch fully into the world of computer programming and web development in early 2014. </p>
-              <p>As for my technical work experience, I worked as a B2B Account Executive in the IT solutions industry, working closely with Cisco networking. I also have experience working as an Online Community Manager for a small business.</p>
-      <p>Please refer to <a href="http://www.linkedin.com/in/terrybu" target="_blank">http://www.linkedin.com/in/terrybu</a> for more detailed information on my work experience.</p>
-          <br>
-        </div>
+      <div id="collapseThree" class="panel-collapse collapse in">
+         <div class="panel-body">
+      <p>My original background is in business, marketing and sales. I gained close exposure to the tech world as an Account Executive at an IT solutions/consulting company that partners with Cisco and Microsoft. </p>
+      <p>I have freelance web development experience (RoR, jQuery and Haml) and worked as an Online Community Manager for a small business. Please refer to <a href="http://www.linkedin.com/in/terrybu" target="_blank">LinkedIn</a> for details on my work experience.</p>
+      <p>I also performed stand-up comedy in NYC. </p>
+         </div>
       </div>
-      <div id="CollapsiblePanel4" class="CollapsiblePanel">
-        <div class="CollapsiblePanelTab" tabindex="0" onclick="playclip();"onmouseover="CollapsiblePanel4.open(); return false;">Vision</div>
-        <div class="CollapsiblePanelContent">
-      <p>Emerging resources available for self-education have allowed many people including myself to pursue new careers in technology. To give back to the people who made this possible, I want to help create free, high-quality self-education resources for people all over the world, following examples like Khan Academy. To ensure steady progress in future of society, I believe more knowledge should be free and accessible.</p>
-      <p>I also hope to gain enough expertise in coding so that I can impact a variety of different areas like public health, science, local government, education and nonprofit through channels like Github and Code for America. </p>
-      <br>
+   </div>
+   <div id="CollapsiblePanel4" class="panel panel-default">
+      <div href="#collapseFour" class="panel-heading">
+         <h4 class="panel-title">
+               <b class="caret"></b> VISION
+         </h4>
       </div>
+      <div id="collapseFour" class="panel-collapse collapse in">
+         <div class="panel-body">
+      <p>Free online educational resources have allowed many including myself to gain new knowledge, learn new skills and pursue new careers. I want to give back to those who made this possible. </p>
+      <p>Following examples like Khan Academy, I am driven to help create better accessibility to knowledge and information for people all over the world wherever, whomever they are.</p>
+      <p>I also hope to become an expert in coding so that I can impact Open Source projects in public health, sciences, local government, and education through channels like Github and Code for America. </p>
+         </div>
       </div>
-  </div> <!-- /bodyContent -->  
+     </div>
+  </div>
+ </div> <!-- /bodyContent -->  
 
 </div> <!-- /container -->  
 <?php include("_includes/viewSizeDisplay.php"); ?>
@@ -81,18 +103,17 @@
 
 
 <!--BELOW is javascript-->
+<script type="text/javascript" src="_javascript/nav.js"></script>
+<script src="_javascript/collapsible.js"></script>
 
-
-<script type="text/javascript" src="_javascript/sound-mouseover.js">
-</script>
-
+<!--sound effect related -->
+<script type="text/javascript" src="_javascript/sound-mouseover.js"></script>
 <audio>
 <source src="_sound/click.mp3"></source>
 <source src="_sound/click.ogg"></source>
 </audio>
 <audio id="1up" src="_sound/swim.wav"></audio>
 <div id="sounddiv"><bgsound id="sound"></div>
-     
-
+<!-- --> 
 </body>
 </html>

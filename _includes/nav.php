@@ -16,39 +16,3 @@
 
   </ul>
 </div>
-
-
-<script>
-function Toggle(size) {
-  $('.dropdown-toggle').on({
-    mouseleave: function() {
-      $( '#bodyContent' ).animate({
-      'marginTop' : "-="+size+"px"});
-    },
-    mouseenter: function() {
-    $( '#bodyContent' ).animate({
-      'marginTop' : "+="+size+"px"});
-    }
-  });
-}
-
-function ToggleBig() {
-    $('.dropdown-toggle').on({
-    mouseleave: function() {
-      $( '#bodyContent' ).animate({
-      'marginTop' : "-=150px"});
-    },
-    mouseenter: function() {
-    $( '#bodyContent' ).animate({
-      'marginTop' : "+=150px"});
-    }
-  });
-}
-
-  if ($(window).width() < 450) {
-    Toggle(100);    
-  }
-  else {
-    Toggle(170);
-  }
-</script>

@@ -8464,7 +8464,7 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
   text-shadow: none;
 }
 
-/* line 90, ../sass/application.scss */
+/* line 89, ../sass/application.scss */
 .container {
   width: 100%;
   border: 1px solid black;
@@ -8472,69 +8472,53 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
   margin-bottom: 10px;
 }
 
+/* line 96, ../sass/application.scss */
+.panel-default {
+  max-width: 350px;
+  border-width: 10px;
+  border-color: black;
+  border-radius: 20px;
+}
+
+/* line 103, ../sass/application.scss */
+.panel-heading {
+  cursor: pointer;
+  border-radius: 20px;
+}
+
+/* line 108, ../sass/application.scss */
+.panel-title {
+  font-family: "gotmilk";
+  font-size: 4em;
+  font-weight: bold;
+  text-align: center;
+}
+/* line 113, ../sass/application.scss */
+.panel-title a {
+  text-decoration: none;
+}
+/* line 116, ../sass/application.scss */
+.panel-title .caret {
+  border-left: 12px solid transparent;
+  border-right: 12px solid transparent;
+  border-top: 12px solid #000000;
+}
+
 /* SIZE DISPLAY DIFFERENCES */
 /*********************/
-/* Large desktops and laptops */
-@media only screen and (min-width: 1200px) {
-  /* line 105, ../sass/application.scss */
-  #desktop {
-    display: initial;
-    position: fixed;
-    bottom: 0;
-    left: 10px;
-    color: white;
-    margin-bottom: -5px;
-    z-index: 10;
-    font-size: 1em;
-  }
-
-  /* line 108, ../sass/application.scss */
-  #tablet {
-    display: none;
-  }
-
-  /* line 109, ../sass/application.scss */
-  #mobile {
-    display: none;
-  }
-}
-/* Tablets and Medium Desktops */
-@media only screen and (min-width: 481px) and (max-width: 1199px) {
-  /* line 114, ../sass/application.scss */
-  #tablet {
-    display: initial;
-    position: fixed;
-    bottom: 0;
-    left: 10px;
-    color: white;
-    margin-bottom: -5px;
-    z-index: 10;
-    font-size: 1em;
-  }
-
-  /* line 117, ../sass/application.scss */
-  #desktop {
-    display: none;
-  }
-
-  /* line 118, ../sass/application.scss */
-  #mobile {
-    display: none;
-  }
-}
 /* Landscape phones and smaller */
 @media only screen and (max-width: 480px) {
-  /* line 125, ../sass/application.scss */
+  /* line 128, ../sass/application.scss */
   #tablet {
     display: none;
   }
 
-  /* line 126, ../sass/application.scss */
+  /* line 129, ../sass/application.scss */
   #desktop {
     display: none;
   }
 
-  /* line 127, ../sass/application.scss */
+  /* line 130, ../sass/application.scss */
   #mobile {
     display: initial;
     position: fixed;
@@ -8546,24 +8530,82 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
     font-size: 1em;
   }
 
-  /* line 131, ../sass/application.scss */
+  /* line 134, ../sass/application.scss */
   #gotSocial {
     font-size: 0.8em;
   }
-  /* line 133, ../sass/application.scss */
+  /* line 136, ../sass/application.scss */
   #gotSocial span {
     display: block;
     margin-bottom: 0.25em;
   }
 
-  /* line 137, ../sass/application.scss */
+  /* line 140, ../sass/application.scss */
   #logoHello {
     padding-top: 5px;
+  }
+
+  /* line 144, ../sass/application.scss */
+  #clickOhover {
+    display: none;
+  }
+}
+/* Tablets and Medium Desktops */
+@media only screen and (min-width: 481px) and (max-width: 1199px) {
+  /* line 150, ../sass/application.scss */
+  #tablet {
+    display: initial;
+    position: fixed;
+    bottom: 0;
+    left: 10px;
+    color: white;
+    margin-bottom: -5px;
+    z-index: 10;
+    font-size: 1em;
+  }
+
+  /* line 153, ../sass/application.scss */
+  #desktop {
+    display: none;
+  }
+
+  /* line 154, ../sass/application.scss */
+  #mobile {
+    display: none;
+  }
+
+  /* line 155, ../sass/application.scss */
+  #clickOhover {
+    display: none;
+  }
+}
+/* Large desktops and laptops */
+@media only screen and (min-width: 1200px) {
+  /* line 161, ../sass/application.scss */
+  #desktop {
+    display: initial;
+    position: fixed;
+    bottom: 0;
+    left: 10px;
+    color: white;
+    margin-bottom: -5px;
+    z-index: 10;
+    font-size: 1em;
+  }
+
+  /* line 164, ../sass/application.scss */
+  #tablet {
+    display: none;
+  }
+
+  /* line 165, ../sass/application.scss */
+  #mobile {
+    display: none;
   }
 }
 /* /END SIZE DISPLAY DIFFERENCES */
 /* Any CSS RULES you want applied at the END with PRIORITY #1 */
-/* line 151, ../sass/application.scss */
+/* line 176, ../sass/application.scss */
 .placeholder {
   visibility: hidden;
   position: relative;

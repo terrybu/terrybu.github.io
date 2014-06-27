@@ -86,7 +86,6 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
     }
 }
 
-
 .container {
     width: 100%;
     border: 1px solid black;
@@ -94,32 +93,36 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
     margin-bottom: 10px;
 }
 
+.panel-default {
+    max-width: 350px;
+    border-width: 10px;
+    border-color: black;
+    border-radius: 20px;
+}
+
+.panel-heading {
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+.panel-title {
+    font-family: "gotmilk";
+    font-size: 4em;
+    font-weight: bold;
+    text-align: center;
+    a {
+        text-decoration: none;
+    }
+    .caret {
+    border-left: 12px solid transparent;
+    border-right: 12px solid transparent;
+    border-top: 12px solid #000000;
+    }
+}
 
 
 /* SIZE DISPLAY DIFFERENCES */
 /*********************/
-/* Large desktops and laptops */
-
-
-@media only screen and (min-width: 1200px) {
-    #desktop{
-        @include sizeDisplayMessage;
-    }
-    #tablet {display: none;}  
-    #mobile {display: none;}
-}
-
-/* Tablets and Medium Desktops */
-@media only screen and (min-width: 481px) and (max-width:1199px) {
-    #tablet {   
-       @include sizeDisplayMessage;
-    }  
-    #desktop {display: none;}
-    #mobile {display: none;}
-
-
-}
-
 /* Landscape phones and smaller */
 @media only screen and (max-width: 480px) {
     #tablet {display: none;}  
@@ -138,9 +141,31 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
         padding-top: 5px;
     }
 
-        
+    #clickOhover {display: none;}
 
 }
+
+/* Tablets and Medium Desktops */
+@media only screen and (min-width: 481px) and (max-width:1199px) {
+    #tablet {   
+       @include sizeDisplayMessage;
+    }  
+    #desktop {display: none;}
+    #mobile {display: none;}
+    #clickOhover {display: none;}
+
+}
+
+/* Large desktops and laptops */
+@media only screen and (min-width: 1200px) {
+    #desktop{
+        @include sizeDisplayMessage;
+    }
+    #tablet {display: none;}  
+    #mobile {display: none;}
+}
+
+
 
 /* /END SIZE DISPLAY DIFFERENCES */
 
