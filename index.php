@@ -23,14 +23,6 @@
       <?php include("_includes/kyotoImage.php"); ?>
 
   <div id="bodyContent">
-
-    <div id="clickOhover">
-      <p>Click or Hover. Click again to close</p>
-      <img src="_images/leftharsh.png" width="37" height="30">
-      <img src="_images/left-diag.png" width="37" height="30">
-      <img src="_images/right-diag.png" width="37" height="30">
-      <img src="_images/rightharsh.png" width="37" height="30">
-    </div>
       
     <div class="panel-group" id="accordion">
            <!--COLLAPSIBLE PANELS START HERE -->
@@ -98,14 +90,15 @@
 <script type="text/javascript" src="_javascript/nav.js"></script>
 <script src="_javascript/collapsible.js"></script>
 
-<!--sound effect related -->
+<!--sound effects -->
 <script type="text/javascript" src="_javascript/sound-mouseover.js"></script>
-<audio>
-<source src="_sound/click.mp3"></source>
-<source src="_sound/click.ogg"></source>
-</audio>
+<!--sound effects only for index -->
+<audio><source src="_sound/click.mp3"></source></audio>
+<audio><source src="_sound/rollover.mp3"></source></audio>
+
+<!--universal sound effect -->
 <audio id="1up" src="_sound/swim.wav"></audio>
 <div id="sounddiv"><bgsound id="sound"></div>
-<!-- --> 
+
 </body>
 </html>

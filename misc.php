@@ -56,13 +56,9 @@ Do the following if you're using your customized build of modernizr (http://www.
 </div>
   
 
-<!--BELOW is javascripts stuff-->
-<script type="text/javascript">
-var MenuBar1 = new Spry.Widget.MenuBar("MenuBar1", {imgDown:"SpryAssets/SpryMenuBarDownHover.gif", imgRight:"SpryAssets/SpryMenuBarRightHover.gif"});
-</script>
-
 <audio id="1up" src="_sound/swim.wav"></audio>
 
-</div>
+
+
 </body>
 </html>

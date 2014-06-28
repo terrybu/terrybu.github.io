@@ -42,8 +42,14 @@ function closeAll (divName) {
 //this is short-hand for $(document).ready(function() { ... a lot easier!!
 	$('.panel-heading').on({
 		click: function() {
-		playclip();
+			playclip();
 		}    
+	});
+
+	$('.panel-heading').on({
+		mouseenter: function() {
+			playclip2();
+		}
 	});
 
 	collapseToggle();

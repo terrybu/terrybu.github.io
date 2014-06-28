@@ -102,11 +102,6 @@ body:after {
   transform: rotate(360deg);
 }
 
-/* line 82, ../sass/_base.scss */
-#clickOhover {
-  display: none;
-}
-
 /*!
  * Bootstrap v3.1.1 (http://getbootstrap.com)
  * Copyright 2011-2014 Twitter, Inc.
@@ -8482,8 +8477,29 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
   font-size: 65%;
 }
 
+/* line 6, ../sass/application.scss */
+#headImage {
+  float: right;
+  margin-top: 2.5%;
+}
+
+/* line 11, ../sass/application.scss */
+h1 {
+  font-weight: bold;
+}
+
+/* line 15, ../sass/application.scss */
+.well {
+  font-size: 1.5em;
+  max-width: 75%;
+}
+/* line 18, ../sass/application.scss */
+.well li {
+  margin-bottom: 5%;
+}
+
 /* NameLogo&Welcome.php */
-/* line 7, ../sass/application.scss */
+/* line 24, ../sass/application.scss */
 #logoHello {
   clear: right;
   width: 290px;
@@ -8508,7 +8524,7 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
   visibility: hidden;
 }
 
-/* line 14, ../sass/application.scss */
+/* line 31, ../sass/application.scss */
 #welcome {
   clear: both;
   font-family: Verdana, Geneva, sans-serif;
@@ -8517,7 +8533,7 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
 }
 
 /* END NameLogo&Welcome.php */
-/* line 22, ../sass/application.scss */
+/* line 39, ../sass/application.scss */
 #kyotoImage {
   width: 380px;
   height: 480px;
@@ -8540,12 +8556,12 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
   position: relative;
   visibility: hidden;
 }
-/* line 26, ../sass/application.scss */
+/* line 43, ../sass/application.scss */
 #kyotoImage img {
   border: 5px black solid;
 }
 
-/* line 31, ../sass/application.scss */
+/* line 48, ../sass/application.scss */
 .container {
   width: 100%;
   margin-top: 10px;
@@ -8556,17 +8572,17 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
 /*********************/
 /* Landscape phones and smaller */
 @media only screen and (max-width: 750px) {
-  /* line 43, ../sass/application.scss */
+  /* line 60, ../sass/application.scss */
   #tablet {
     display: none;
   }
 
-  /* line 44, ../sass/application.scss */
+  /* line 61, ../sass/application.scss */
   #desktop {
     display: none;
   }
 
-  /* line 45, ../sass/application.scss */
+  /* line 62, ../sass/application.scss */
   #mobile {
     display: initial;
     position: fixed;
@@ -8578,24 +8594,24 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
     font-size: 1em;
   }
 
-  /* line 48, ../sass/application.scss */
+  /* line 65, ../sass/application.scss */
   #gotSocial {
     font-size: 1em;
   }
-  /* line 50, ../sass/application.scss */
+  /* line 67, ../sass/application.scss */
   #gotSocial span {
     display: block;
     margin-bottom: 0.25em;
   }
 
-  /* line 53, ../sass/application.scss */
+  /* line 70, ../sass/application.scss */
   #logoHello {
     padding-top: 5px;
   }
 }
 /* Tablets and Medium Desktops */
 @media only screen and (min-width: 751px) and (max-width: 1200px) {
-  /* line 60, ../sass/application.scss */
+  /* line 77, ../sass/application.scss */
   #tablet {
     display: initial;
     position: fixed;
@@ -8607,57 +8623,57 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
     font-size: 1em;
   }
 
-  /* line 63, ../sass/application.scss */
+  /* line 80, ../sass/application.scss */
   #desktop {
     display: none;
   }
 
-  /* line 64, ../sass/application.scss */
+  /* line 81, ../sass/application.scss */
   #mobile {
     display: none;
   }
 
-  /* line 65, ../sass/application.scss */
+  /* line 82, ../sass/application.scss */
   #gotSocial {
     clear: left;
   }
 
-  /* line 68, ../sass/application.scss */
+  /* line 85, ../sass/application.scss */
   #container {
     margin: 0 auto;
   }
 
-  /* line 71, ../sass/application.scss */
+  /* line 88, ../sass/application.scss */
   #wrapper {
     max-width: 80%;
     margin: 0 auto;
   }
-  /* line 74, ../sass/application.scss */
+  /* line 91, ../sass/application.scss */
   #wrapper #welcomeNav {
     padding-top: 10px;
     max-width: 550px;
     margin: 0 auto;
   }
-  /* line 78, ../sass/application.scss */
+  /* line 95, ../sass/application.scss */
   #wrapper #welcomeNav #logoHello {
     margin: 0 auto;
   }
-  /* line 81, ../sass/application.scss */
+  /* line 98, ../sass/application.scss */
   #wrapper #welcomeNav #welcome {
     font-size: 1.2em;
     text-align: center;
     max-width: 450px;
     margin: 0 auto;
   }
-  /* line 88, ../sass/application.scss */
+  /* line 105, ../sass/application.scss */
   #wrapper #nav {
     margin-bottom: 3%;
   }
-  /* line 89, ../sass/application.scss */
+  /* line 106, ../sass/application.scss */
   #wrapper #nav a {
     font-size: 1.4em;
   }
-  /* line 94, ../sass/application.scss */
+  /* line 111, ../sass/application.scss */
   #wrapper #kyotoImage {
     max-width: 360px;
     max-height: 480px;
@@ -8666,12 +8682,12 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
     display: inline-block;
   }
 
-  /* line 103, ../sass/application.scss */
+  /* line 120, ../sass/application.scss */
   #bodyContent {
     margin: 0 auto;
   }
 
-  /* line 107, ../sass/application.scss */
+  /* line 124, ../sass/application.scss */
   .panel {
     width: 350px;
     display: inline-block;
@@ -8681,7 +8697,7 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
 }
 /* Large desktops and laptops */
 @media only screen and (min-width: 1201px) {
-  /* line 118, ../sass/application.scss */
+  /* line 135, ../sass/application.scss */
   #desktop {
     display: initial;
     position: fixed;
@@ -8693,22 +8709,22 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
     font-size: 1em;
   }
 
-  /* line 121, ../sass/application.scss */
+  /* line 138, ../sass/application.scss */
   #tablet {
     display: none;
   }
 
-  /* line 122, ../sass/application.scss */
+  /* line 139, ../sass/application.scss */
   #mobile {
     display: none;
   }
 
-  /* line 123, ../sass/application.scss */
+  /* line 140, ../sass/application.scss */
   #wrapper {
     max-width: 1200px;
     margin: 0 auto;
   }
-  /* line 126, ../sass/application.scss */
+  /* line 143, ../sass/application.scss */
   #wrapper #kyotoImage {
     width: 420px;
     height: 560px;
@@ -8716,48 +8732,48 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
     margin-bottom: 2.5%;
     display: inline-block;
   }
-  /* line 127, ../sass/application.scss */
+  /* line 144, ../sass/application.scss */
   #wrapper #kyotoImage img {
     width: 420px;
     height: 560px;
   }
-  /* line 137, ../sass/application.scss */
+  /* line 154, ../sass/application.scss */
   #wrapper #welcomeNav {
     width: 600px;
     margin-right: 10%;
     clear: right;
     float: right;
   }
-  /* line 143, ../sass/application.scss */
+  /* line 160, ../sass/application.scss */
   #wrapper #logoHello {
     margin: 0 auto;
   }
-  /* line 146, ../sass/application.scss */
+  /* line 163, ../sass/application.scss */
   #wrapper #welcome {
     font-size: 1.2em;
     max-width: 500px;
     text-align: center;
     margin: 0 auto;
   }
-  /* line 152, ../sass/application.scss */
+  /* line 169, ../sass/application.scss */
   #wrapper #nav {
     border-top: groove 1px black;
     border-spacing: 2px;
     margin-top: 5%;
     margin-left: 5%;
   }
-  /* line 157, ../sass/application.scss */
+  /* line 174, ../sass/application.scss */
   #wrapper #nav a {
     font-size: 1.5em;
   }
 
-  /* line 163, ../sass/application.scss */
+  /* line 180, ../sass/application.scss */
   #bodyContent {
     clear: right;
     margin-left: 15%;
   }
 
-  /* line 170, ../sass/application.scss */
+  /* line 187, ../sass/application.scss */
   .panel {
     width: 350px;
     display: inline-block;

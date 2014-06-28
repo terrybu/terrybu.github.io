@@ -1,0 +1,183 @@
+/* line 1, ../sass/slider.scss */
+#mainContent {
+  clear: both;
+}
+
+/* line 5, ../sass/slider.scss */
+header {
+  font-size: 1.5em;
+  font-family: serif;
+}
+
+/* line 10, ../sass/slider.scss */
+#wrapSlider {
+  width: 800px;
+  margin: 0 auto;
+  border: 1px black;
+  padding-bottom: 0.5em;
+}
+
+/* line 17, ../sass/slider.scss */
+#loopStatus {
+  position: absolute;
+  color: black;
+}
+
+/* line 22, ../sass/slider.scss */
+#slider {
+  width: 100%;
+  height: 420px;
+  overflow: hidden;
+  margin: 10% auto;
+}
+
+/* line 29, ../sass/slider.scss */
+#slider img {
+  width: 600px;
+  height: 100%;
+  border: solid;
+  float: left;
+  display: none;
+}
+
+/* line 37, ../sass/slider.scss */
+a.sliderLinks {
+  margin-top: -12%;
+  padding: 5px 10px;
+  background-color: #F0F0F0;
+  text-decoration: none;
+  font-size: 2em;
+  font-family: fantasy;
+}
+
+/* line 46, ../sass/slider.scss */
+a.sliderLinks:hover {
+  color: purple;
+}
+
+/* line 50, ../sass/slider.scss */
+#left {
+  float: left;
+}
+
+/* line 54, ../sass/slider.scss */
+#right {
+  float: right;
+  margin-right: 7em;
+}
+
+/*javascript.html*/
+/* line 60, ../sass/slider.scss */
+#codeAcademy {
+  color: white;
+  text-align: center;
+  font-size: 2em;
+}
+
+/* line 65, ../sass/slider.scss */
+#js1 {
+  position: relative;
+  width: 100%;
+  background: black;
+  text-align: center;
+  -webkit-border-radius: 11px;
+  -moz-border-radius: 11px;
+  border-radius: 11px;
+}
+
+/* line 75, ../sass/slider.scss */
+#gaptext {
+  display: block;
+  position: relative;
+  margin-top: 1em;
+  font-weight: bold;
+  font-size: large;
+}
+
+/* line 83, ../sass/slider.scss */
+#js2 {
+  display: block;
+  margin-top: -5px;
+  position: relative;
+  width: 60em;
+  height: 50em;
+  background: black;
+  border: black, solid, 2px;
+  -webkit-border-radius: 11px;
+  -moz-border-radius: 11px;
+  border-radius: 11px;
+}
+
+/* line 96, ../sass/slider.scss */
+#sun {
+  position: absolute;
+  /* Positions the top-left corner of the image to be *
+  /* in the middle of the box */
+  top: 50%;
+  left: 50%;
+  border-color: red;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 50%;
+  box-shadow: 0 0 222px red;
+  /* Play with these numbers to see what it does */
+  height: 200px;
+  width: 200px;
+  margin-top: -100px;
+  margin-left: -100px;
+}
+
+/* line 116, ../sass/slider.scss */
+#earth {
+  position: absolute;
+  top: 0%;
+  left: 25%;
+  /* Style your earth */
+  height: 50px;
+  width: 50px;
+  margin-left: -25px;
+  margin-top: -25px;
+}
+
+/* line 127, ../sass/slider.scss */
+#earth-orbit {
+  /* For Section #2 */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 500px;
+  height: 500px;
+  margin-top: -250px;
+  margin-left: -250px;
+  border-width: 1px;
+  border-style: dotted;
+  border-color: white;
+  border-radius: 80%;
+  -webkit-animation: spin-right 10s linear infinite;
+  -moz-animation: spin-right 10s linear infinite;
+  -ms-animation: spin-right 10s linear infinite;
+  -o-animation: spin-right 10s linear infinite;
+  animation: spin-right 10s linear infinite;
+}
+
+@-webkit-keyframes spin-right {
+  /* line 151, ../sass/slider.scss */
+  100% {
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes spin-right {
+  /* line 161, ../sass/slider.scss */
+  100% {
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
