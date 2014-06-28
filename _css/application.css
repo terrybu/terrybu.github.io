@@ -8508,7 +8508,7 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
 /* SIZE DISPLAY DIFFERENCES */
 /*********************/
 /* Landscape phones and smaller */
-@media only screen and (max-width: 899px) {
+@media only screen and (max-width: 750px) {
   /* line 69, ../sass/application.scss */
   #tablet {
     display: none;
@@ -8533,7 +8533,7 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
 
   /* line 74, ../sass/application.scss */
   #gotSocial {
-    font-size: 0.8em;
+    font-size: 1em;
   }
   /* line 76, ../sass/application.scss */
   #gotSocial span {
@@ -8552,7 +8552,7 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
   }
 }
 /* Tablets and Medium Desktops */
-@media only screen and (min-width: 900px) and (max-width: 1300px) {
+@media only screen and (min-width: 751px) and (max-width: 1200px) {
   /* line 88, ../sass/application.scss */
   #tablet {
     display: initial;
@@ -8609,45 +8609,51 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
 
   /* line 113, ../sass/application.scss */
   #welcome {
+    font-size: 1.2em;
     text-align: center;
-    max-width: 400px;
+    max-width: 450px;
     margin: 0 auto;
   }
 
-  /* line 118, ../sass/application.scss */
+  /* line 120, ../sass/application.scss */
+  #nav a {
+    font-size: 1.4em;
+  }
+
+  /* line 124, ../sass/application.scss */
   #wrapper {
     max-width: 1100px;
   }
 
-  /* line 121, ../sass/application.scss */
+  /* line 127, ../sass/application.scss */
   #bodyContent {
     clear: right;
     margin-left: 35%;
   }
 
-  /* line 125, ../sass/application.scss */
+  /* line 131, ../sass/application.scss */
   #CollapsiblePanel1 {
     display: inline-block;
   }
 
-  /* line 128, ../sass/application.scss */
+  /* line 134, ../sass/application.scss */
   #CollapsiblePanel2 {
     display: block;
   }
 
-  /* line 131, ../sass/application.scss */
+  /* line 137, ../sass/application.scss */
   #CollapsiblePanel3 {
     display: inline-block;
   }
 
-  /* line 134, ../sass/application.scss */
+  /* line 140, ../sass/application.scss */
   #CollapsiblePanel4 {
     display: inline-block;
   }
 }
 /* Large desktops and laptops */
-@media only screen and (min-width: 1301px) {
-  /* line 142, ../sass/application.scss */
+@media only screen and (min-width: 1201px) {
+  /* line 148, ../sass/application.scss */
   #desktop {
     display: initial;
     position: fixed;
@@ -8659,14 +8665,94 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
     font-size: 1em;
   }
 
-  /* line 145, ../sass/application.scss */
+  /* line 151, ../sass/application.scss */
   #tablet {
     display: none;
   }
 
-  /* line 146, ../sass/application.scss */
+  /* line 152, ../sass/application.scss */
   #mobile {
     display: none;
+  }
+
+  /* line 153, ../sass/application.scss */
+  #wrapper {
+    max-width: 1450px;
+    margin: 0 auto;
+  }
+
+  /* line 157, ../sass/application.scss */
+  #kyotoImage {
+    width: 420px;
+    height: 560px;
+    float: right;
+    margin-top: 5px;
+    margin-bottom: 5%;
+    display: inline-block;
+  }
+  /* line 158, ../sass/application.scss */
+  #kyotoImage img {
+    width: 420px;
+    height: 560px;
+  }
+
+  /* line 169, ../sass/application.scss */
+  #welcomeNav {
+    width: 600px;
+    margin-right: 10%;
+    clear: right;
+    float: right;
+  }
+
+  /* line 175, ../sass/application.scss */
+  #logoHello {
+    margin: 0 auto;
+  }
+
+  /* line 178, ../sass/application.scss */
+  #welcome {
+    font-size: 1.2em;
+    max-width: 500px;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  /* line 184, ../sass/application.scss */
+  #nav {
+    border-top: groove 1px black;
+    border-spacing: 2px;
+    margin-top: 5%;
+    margin-left: 5%;
+  }
+  /* line 189, ../sass/application.scss */
+  #nav a {
+    font-size: 1.5em;
+  }
+
+  /* line 194, ../sass/application.scss */
+  #bodyContent {
+    clear: right;
+    margin-left: 35%;
+  }
+
+  /* line 198, ../sass/application.scss */
+  #CollapsiblePanel1 {
+    display: inline-block;
+  }
+
+  /* line 201, ../sass/application.scss */
+  #CollapsiblePanel2 {
+    display: inline-block;
+  }
+
+  /* line 204, ../sass/application.scss */
+  #CollapsiblePanel3 {
+    display: inline-block;
+  }
+
+  /* line 207, ../sass/application.scss */
+  #CollapsiblePanel4 {
+    display: inline-block;
   }
 }
 /* /END SIZE DISPLAY DIFFERENCES */
