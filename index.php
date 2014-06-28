@@ -26,7 +26,6 @@
 
     <div id="clickOhover">
       <p>Click or Hover. Click again to close</p>
-      <img id="arrow" src="_images/arrows.jpg">
       <img src="_images/leftharsh.png" width="37" height="30">
       <img src="_images/left-diag.png" width="37" height="30">
       <img src="_images/right-diag.png" width="37" height="30">
@@ -36,26 +35,26 @@
     <div class="panel-group" id="accordion">
            <!--COLLAPSIBLE PANELS START HERE -->
       <div id="CollapsiblePanel1" class="panel panel-default">
-      <div href="#collapseOne" class="panel-heading">
+      <div href="#collapseOne" class="panel-heading" id="p1">
          <h4 class="panel-title">
-               <b class="caret"></b> TECHNOLOGY
+               <i class="glyphicon glyphicon-flash"></i> TECHNOLOGY
          </h4>
       </div>
-      <div id="collapseOne" class="panel-collapse collapse in">
-         <div class="panel-body">
-          <p>As impressed as we already are with the exponential advancement of technology since the new millennium (Google, mobile revolution, cloud, IoE) I believe we have only scratched the surface. </p>
+      <div id="collapseOne" class="panel-collapse collapse">
+         <div class="panel-body" id="body1">
+          <p>As impressed as we already are with the exponential growth in technology since the new millennium (Google, mobile revolution, cloud, IoE) I believe we've only scratched the surface. </p>
           <p>Technology will continue to be the glue that binds information and knowledge across all disciplines including education, sciences, public health, government, and private sector.</p>
-          <p>There is little doubt that the world's need for engineers and programmers will keep rising rapidly within the next several decades.</p>
+          <p>There's little doubt that the world's need for developers/engineers/programmers will keep rising rapidly within the next several decades.</p>
          </div>
       </div>
    </div>
    <div id="CollapsiblePanel2" class="panel panel-default">
-      <div href="#collapseTwo" class="panel-heading">
+      <div href="#collapseTwo" class="panel-heading" id="p2">
          <h4 class="panel-title">
-               <b class="caret"></b> EDUCATION
+               <i class="glyphicon glyphicon-book"></i> EDUCATION
          </h4>
       </div>
-      <div id="collapseTwo" class="panel-collapse collapse in">
+      <div id="collapseTwo" class="panel-collapse collapse">
         <div class="panel-body">
           <p>I am self-taught in Ruby on Rails, Ruby, JavaScript, CSS, HTML and the basics of Java, Eclipse (Android SDK) and Python.</p>
           <p>I have a working knowledge of Git, Haml, Sass, Compass, PHP, SQL, jQuery and Vagrant from past projects. I am proficient in Adobe CS6(Photoshop, Dreamweaver, Premiere Pro) and Excel.</p>
@@ -64,30 +63,28 @@
      </div>
    </div>
    <div id="CollapsiblePanel3" class="panel panel-default">
-      <div href="#collapseThree" class="panel-heading">
+      <div href="#collapseThree" class="panel-heading" id="p3">
          <h4 class="panel-title">
-               <b class="caret"></b> EXPERIENCE
+               <i class="glyphicon glyphicon-tasks"></i> EXPERIENCE
          </h4>
       </div>
-      <div id="collapseThree" class="panel-collapse collapse in">
+      <div id="collapseThree" class="panel-collapse collapse">
          <div class="panel-body">
       <p>My background is in business, marketing and sales. I gained close exposure to the tech world as an Account Executive at an IT solutions/consulting company that partners with Cisco and Microsoft. </p>
       <p>I have freelance web development experience (RoR, jQuery and Haml) and worked as an Online Community Manager for a small business. Please refer to <a href="http://www.linkedin.com/in/terrybu" target="_blank">LinkedIn</a> for details on my work experience.</p>
-      <p>I also performed stand-up comedy in NYC. </p>
          </div>
       </div>
    </div>
    <div id="CollapsiblePanel4" class="panel panel-default">
-      <div href="#collapseFour" class="panel-heading">
+      <div href="#collapseFour" class="panel-heading" id="p4">
          <h4 class="panel-title">
-               <b class="caret"></b> VISION
+               <i class='glyphicon glyphicon-eye-open'></i> VISION
          </h4>
       </div>
-      <div id="collapseFour" class="panel-collapse collapse in">
+      <div id="collapseFour" class="panel-collapse collapse">
          <div class="panel-body">
-      <p>Free online educational resources have allowed many including myself to gain new knowledge, learn new skills and pursue new careers. I want to give back to those who made this possible. </p>
-      <p>Following examples like Khan Academy, I am driven to help create better accessibility to knowledge and information for people all over the world wherever, whomever they are.</p>
-      <p>I also hope to become better in coding so that I can impact Open Source projects in public health, sciences, local government, and education through channels like Github and Code for America. </p>
+      <p>Free online educational resources have allowed those including myself to gain new knowledge, learn new skills and pursue new careers. I want to give back to this cause. </p>
+      <p>I want to help create better accessibility to free knowledge and information for people all over the world. I also hope to impact open-source projects in public health, sciences, local government, and education </p>
          </div>
       </div>
      </div>

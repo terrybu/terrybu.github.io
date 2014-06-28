@@ -1,3 +1,18 @@
+
+/*
+function toggleChevron(e) {
+    $(e.target)
+        .prev('.panel-heading')
+        .find("i.indicator")
+        .toggleClass('caret glyphicon-chevron-up');
+}
+$('#accordion').on('hidden.bs.collapse', toggleChevron);
+$('#accordion').on('shown.bs.collapse', toggleChevron);
+*/
+
+
+
+
 function collapseToggle() {
 	var possibleDivs = ['#collapseOne','#collapseTwo','#collapseThree','#collapseFour'];
 	for (var i = 0; i < possibleDivs.length; i++) {
@@ -5,7 +20,7 @@ function collapseToggle() {
 	}
 }
 
-function closeElse (divName) {
+function closeAllElse (divName) {
 	var possibleDivs = ['#collapseOne','#collapseTwo','#collapseThree','#collapseFour'];
 	for (var i = 0; i < possibleDivs.length; i++) {
 		var select = possibleDivs[i];
@@ -20,23 +35,28 @@ function closeElse (divName) {
 
 function closeAll (divName) {
 	$(divName).on('show.bs.collapse', function() {
-		closeElse(divName);
+		closeAllElse(divName);
 	});
 }
 
 //this is short-hand for $(document).ready(function() { ... a lot easier!!
-$(function () { 
-      collapseToggle();
-      $('.panel-heading').attr('data-toggle', 'collapse');
-      $('.panel-heading').attr('data-parent', '#accordion');
-      closeAll('#collapseOne')
-      closeAll('#collapseTwo')
-      closeAll('#collapseThree')
-      closeAll('#collapseFour')
-});
+	$('.panel-heading').on({
+		click: function() {
+		playclip();
+		}    
+	});
 
-$('.panel-heading').on({
-	click: function() {
-	  playclip();
-	}    
-});
+	collapseToggle();
+	$('.panel-heading').attr('data-toggle', 'collapse');
+	$('.panel-heading').attr('data-parent', '#accordion');
+	$(function () { 
+		      closeAll('#collapseOne');
+		      closeAll('#collapseTwo');
+		      closeAll('#collapseThree');
+		      closeAll('#collapseFour');
+	});
+
+
+$('#collapseOne').on('show.bs.collapse', function() {
+		$('.panel-heading').addClass('redHeading');
+	});

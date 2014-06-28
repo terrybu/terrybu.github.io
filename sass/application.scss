@@ -1,6 +1,7 @@
 @import 'base';
 @import 'bootstrap';
 @import 'nav';
+@import 'collapsible';
 
 /* NameLogo&Welcome.php */
 #logoHello{
@@ -33,33 +34,6 @@
     margin-bottom: 10px;
 }
 
-/* Collapsible Panels Override Styling */
-.panel-default {
-    max-width: 350px;
-    border-width: 10px;
-    border-color: black;
-    border-radius: 20px;
-}
-
-.panel-heading {
-    cursor: pointer;
-    border-radius: 20px;
-}
-
-.panel-title {
-    font-family: "gotmilk";
-    font-size: 4em;
-    font-weight: bold;
-    text-align: center;
-    a {
-        text-decoration: none;
-    }
-    .caret {
-    border-left: 12px solid transparent;
-    border-right: 12px solid transparent;
-    border-top: 12px solid #000000;
-    }
-}
 
 
 /* SIZE DISPLAY DIFFERENCES */
@@ -79,8 +53,6 @@
     #logoHello {
         padding-top: 5px;
     }
-    #clickOhover {display: none;}
-
 }
 
 /* Tablets and Medium Desktops */
@@ -93,52 +65,50 @@
     #gotSocial {
         clear: left;
     }
-    #clickOhover {display: none;}
-    #kyotoImage {
-       max-width: 360px;
-       max-height: 480px;
-       float: right;
-       margin-top: 50px;
-       display: inline-block;
-    }
-    #welcomeNav {
-        padding-top: 10px;
-        clear: right;
-        float: right;
-        max-width: 550px;
-    }
-    #logoHello {
+    #container {
         margin: 0 auto;
-    }
-    #welcome{
-        font-size: 1.2em;
-        text-align: center;
-        max-width: 450px;
-        margin: 0 auto;
-    }
-    #nav {
-        a{
-            font-size: 1.4em;
-        }
     }
     #wrapper {
-        max-width: 1100px;
+        max-width: 80%;
+        margin: 0 auto;
+        #welcomeNav {
+            padding-top: 10px;
+            max-width: 550px;
+            margin: 0 auto;
+            #logoHello {
+            margin: 0 auto;
+            }
+            #welcome {
+                font-size: 1.2em;
+                text-align: center;
+                max-width: 450px;
+                margin: 0 auto;
+            }
+        }
+        #nav {
+            a{
+                font-size: 1.4em;
+            }
+            margin-bottom: 3%;
+        }
+        #kyotoImage {
+           max-width: 360px;
+           max-height: 480px;
+           margin: 0 auto;
+           float: left;
+           display: inline-block;
+        }
     }
+
     #bodyContent {
-        clear: right;
-        margin-left: 35%;
+        margin: 0 auto;
     }
-    #CollapsiblePanel1{
+
+    .panel { 
+        width: 350px; 
         display: inline-block;
-    }
-    #CollapsiblePanel2{
-        display: block;
-    }
-    #CollapsiblePanel3{
-        display: inline-block;
-    }
-    #CollapsiblePanel4{
-        display: inline-block;
+        margin-left: 3%;
+        margin-top: 1%;
     }
 
 }
@@ -151,64 +121,58 @@
     #tablet {display: none;}  
     #mobile {display: none;}
     #wrapper {
-        max-width: 1450px;
+        max-width: 1200px;
         margin: 0 auto;
-    }
-    #kyotoImage {
-       img {
-        width: 420px;
-        height: 560px;
-       }
-       width: 420px;
-       height: 560px;
-       float: right;
-       margin-top: 5px;
-       margin-bottom: 5%;
-       display: inline-block;
-    }
-    #welcomeNav {
-        width: 600px;
-        margin-right: 10%;
-        clear: right;
-        float: right;
-    }
-    #logoHello {
-        margin: 0 auto;
-    }
-    #welcome{
-        font-size: 1.2em;
-        max-width: 500px;
-        text-align: center;
-        margin: 0 auto;
-    }
-    #nav {
-        border-top: groove 1px black;
-        border-spacing: 2px;
-        margin-top: 5%; 
-        margin-left: 5%;
-        a{
-            font-size: 1.5em;
+        #kyotoImage {
+           img {
+            width: 420px;
+            height: 560px;
+           }
+           width: 420px;
+           height: 560px;
+           float: right;
+           margin-bottom: 2.5%;
+           display: inline-block;
         }
+        #welcomeNav {
+            width: 600px;
+            margin-right: 10%;
+            clear: right;
+            float: right;
+        }
+        #logoHello {
+            margin: 0 auto;
+        }
+        #welcome{
+            font-size: 1.2em;
+            max-width: 500px;
+            text-align: center;
+            margin: 0 auto;
+        }
+        #nav {
+            border-top: groove 1px black;
+            border-spacing: 2px;
+            margin-top: 5%; 
+            margin-left: 5%;
+            a{
+                font-size: 1.5em;
+            }
+        }  
     }
 
     #bodyContent {
         clear: right;
-        margin-left: 35%;
+        margin-left: 15%;
     }
-    #CollapsiblePanel1{
-        display: inline-block;
-    }
-    #CollapsiblePanel2{
-        display: inline-block;
-    }
-    #CollapsiblePanel3{
-        display: inline-block;
-    }
-    #CollapsiblePanel4{
-        display: inline-block;
-    }
-}
+    
+    @include desktopCollapsibles; 
 
+    .panel { 
+        width: 350px; 
+        display: inline-block;
+        margin: 0 auto;
+        }
+}
 
 
 /* /END SIZE DISPLAY DIFFERENCES */

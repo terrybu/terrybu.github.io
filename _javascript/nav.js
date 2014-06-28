@@ -33,11 +33,11 @@ Toggle();
 function ToggleHover(size) {
   $('.dropdown-toggle').on({
     mouseenter: function() {
-    $( '#bodyContent' ).animate({
+    $( '#kyotoImage' ).animate({
       'marginTop' : "+="+size+"px"});
     },
     mouseleave: function() {
-    $( '#bodyContent' ).animate({
+    $( '#kyotoImage' ).animate({
       'marginTop' : "-="+size+"px"});
     }
   });
