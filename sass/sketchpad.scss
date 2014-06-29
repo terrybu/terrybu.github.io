@@ -1,0 +1,25 @@
+/*
+css for jquery sketchpad
+*/
+.spcontainer { 
+    width: 100%; 
+	display: block;
+	clear: both;
+	margin: 0 auto;
+}
+
+#spheader { 
+	text-align: center; 
+}
+
+div.spcontainer { margin: 0; padding: 0; }
+button.spcontainer { background: #34495e; border: 1px solid #404040; border-radius: 3px; color: white; 
+    padding: 3px 10px; }
+
+.spnavbar { margin: 0 auto; width: 960px; text-align: center; }
+.spwrap { 
+    margin: 0 auto; 
+    margin-top: 1%;
+    margin-left: 30%;
+}
+.spsquare {float: left; border: 1px solid black; background: #308014; }

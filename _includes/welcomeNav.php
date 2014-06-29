@@ -21,7 +21,7 @@
 	        <li><a href="rails.php">Ruby on Rails</a></li>
 	        <li><a href="javascript.php">JavaScript</a></li>
 	        <li><a href="android.php">Android</a></li>
-	        <li><a href="java.php">Java</a></li>
+	      <!--  <li><a href="java.php">Java</a></li> -->
 	        <li><a href="https://github.com/bucifer" target="_blank">GitHub</a></li>
 	      </ul>
 	    </li>

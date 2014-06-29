@@ -1,0 +1,58 @@
+@-webkit-keyframes cf3FadeInOut {
+  /* line 2, ../sass/android.scss */
+  0% {
+    opacity: 1;
+  }
+
+  /* line 5, ../sass/android.scss */
+  40% {
+    opacity: 1;
+  }
+
+  /* line 8, ../sass/android.scss */
+  80% {
+    opacity: 0;
+  }
+
+  /* line 11, ../sass/android.scss */
+  100% {
+    opacity: 0;
+  }
+}
+
+/* line 16, ../sass/android.scss */
+#androidImage {
+  width: 468px;
+  height: 360px;
+  float: right;
+}
+
+/* line 22, ../sass/android.scss */
+#androidImage img.top {
+  -webkit-animation-name: cf3FadeInOut;
+  -webkit-animation-timing-function: ease-in-out;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-duration: 4s;
+  -webkit-animation-direction: alternate;
+}
+
+/* line 30, ../sass/android.scss */
+#androidImage img.top {
+  position: absolute;
+}
+
+/* line 34, ../sass/android.scss */
+#androidImage img.bottom {
+  position: absolute;
+}
+
+/* line 39, ../sass/android.scss */
+#androidApps .short {
+  width: 40%;
+  height: 40%;
+}
+/* line 43, ../sass/android.scss */
+#androidApps .long {
+  width: 25%;
+  height: 25%;
+}

@@ -27,17 +27,22 @@
 
 <div id="bodyContent">
 
-  <h1> Ruby on Rails Projects</h1>
-  <div id="projects" class='well'>
-  <ul>
-  <li><a href="https://terrysquotes.herokuapp.com/" target="_blank"><strong>Personal Rails App -> Terry's Quotes Database</strong></a>
-  </li>
-  <li>
-  <a href="https://bucifer-micropost.herokuapp.com/" target="_blank"><strong>Michael Hartl's Rails Tutorial --> Micropost App</strong></a>
-  </li>
-  <li>
-  <a href="https://bucifer-blogger.herokuapp.com/" target="_blank"><strong>JumpstartLab Blogger 2 Tutorial --> Blogger App</strong></a>
-  </li>
+  <h1 style="color: #C63B3B"> Ruby on Rails Projects</h1>
+  <div id="projects" class="well">
+    <ul>
+    <li>        
+<a href="https://terrysquotes.herokuapp.com/" target="_blank"><strong>Personal Rails Project: Terry's Quotes Database</strong></a>
+    <img src="_images/s1quote.png">
+    </li>
+      <hr>
+    <li>
+    <a href="https://bucifer-micropost.herokuapp.com/" target="_blank"><strong>Michael Hartl's Rails Tutorial: Micropost App</strong></a>    <img src="_images/s1micro.png">
+    </li>
+      <hr>
+    <li>
+    <a href="https://bucifer-blogger.herokuapp.com/" target="_blank"><strong>JumpstartLab Blogger 2 Tutorial: Blogger App</strong></a>    <img src="_images/s1blogger.png">
+
+    </li>
   </div>
 
 </div> <!-- /bodyContent -->  

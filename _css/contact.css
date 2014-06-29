@@ -1,0 +1,37 @@
+/* Tablets and Medium Desktops */
+@media only screen and (min-width: 751px) and (max-width: 1200px) {
+  /* line 4, ../sass/contact.scss */
+  #kyotoImage {
+    margin-left: 25%;
+  }
+}
+/* line 10, ../sass/contact.scss */
+#bodyContent {
+  clear: both;
+  margin: 0 auto;
+}
+/* line 13, ../sass/contact.scss */
+#bodyContent h1 {
+  text-align: center;
+}
+
+/* line 18, ../sass/contact.scss */
+#large {
+  margin-left: 30%;
+  margin-top: 2%;
+}
+
+/* line 23, ../sass/contact.scss */
+#mapCanvas {
+  display: inline-block;
+  margin-right: 2%;
+  max-width: 381px;
+  max-height: 380px;
+  min-width: 320px;
+  min-height: 380px;
+}
+
+/* line 32, ../sass/contact.scss */
+#reachMe {
+  display: inline-block;
+}

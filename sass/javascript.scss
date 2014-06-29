@@ -2,21 +2,28 @@
 	clear: both;
 }
 
+.well{
+	font-size: 2.5em;
+	margin: 0 auto;
+	text-align: center;
+	list-style-position: inside;
+	li {	list-style-type: square; }
+}
+
 header {
 	font-size: 1.5em;
 	font-family: serif;
 }
 
-#wrapSlider {
-	width: 800px;
-	margin: 0 auto;
-	border: 1px black;
-	padding-bottom: 0.5em;
+#loopStatus {
+	position: absolute;
 }
 
-#loopStatus{
-	position: absolute;
-	color: black;
+#wrapSlider {
+	width: 800px;
+	margin-left: 35%;
+	border: 1px black;
+	padding-bottom: 0.5em;
 }
 
 #slider {
@@ -73,9 +80,9 @@ a.sliderLinks:hover {
 }
 
 #gaptext {
-	display: block;
 	position: relative;
 	margin-top: 1em;
+	text-align: center;
 	font-weight: bold;
 	font-size: large;
 }
@@ -84,13 +91,14 @@ a.sliderLinks:hover {
 	display: block;
 	margin-top: -5px;
 	position: relative;
+	margin: 0 auto;
 	width: 60em;
 	height: 50em;
 	background: rgba(0,0,0,1);
 	border: rgba(0,0,0,1), solid, 2px;
 	-webkit-border-radius: 11px;
--moz-border-radius: 11px;
-border-radius: 11px;
+	-moz-border-radius: 11px;
+	border-radius: 11px;
 }
 
 #sun {

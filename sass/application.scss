@@ -12,14 +12,6 @@ h1 {
     font-weight: bold;
 }
 
-.well {
-    font-size: 1.5em;
-    max-width: 75%;
-    li {
-        margin-bottom: 5%;
-    }
-}
-
 /* NameLogo&Welcome.php */
 #logoHello{
     clear: right;
@@ -45,13 +37,39 @@ h1 {
         }
 }
 
+#androidImage {
+
+}
+
 .container {
     width: 100%;
     margin-top: 10px;
     margin-bottom: 10px;
 }
 
+#projects { 
+    img{ 
+    width: 450px;
+    height: 200px;
+    margin-bottom: 2%; 
+    margin-left: 5%;}
+}
 
+.well {
+    font-size: 1.5em;
+    max-width: 75%;
+    li {
+        margin-bottom: 5%;
+    }
+}
+
+#jsprojects {
+    clear: both;
+    img {
+        width: 50%;
+        height: 50%;
+    }
+}
 
 /* SIZE DISPLAY DIFFERENCES */
 /*********************/
@@ -111,7 +129,6 @@ h1 {
         #kyotoImage {
            max-width: 360px;
            max-height: 480px;
-           margin: 0 auto;
            float: left;
            display: inline-block;
         }

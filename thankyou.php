@@ -1,64 +1,51 @@
-<!doctype html>
-<!--[if lt IE 7]> <html class="ie6 oldie"> <![endif]-->
-<!--[if IE 7]>    <html class="ie7 oldie"> <![endif]-->
-<!--[if IE 8]>    <html class="ie8 oldie"> <![endif]-->
-<!--[if gt IE 8]><!-->
-<html class="">
-<!--<![endif]-->
+<!DOCTYPE html>
+<html>
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Terry Bu - Portfolio Website | Thank You</title>
-<link href="SpryAssets/SpryMenuBarHorizontal.css" rel="stylesheet" type="text/css">
-<link href="boilerplate.css" rel="stylesheet" type="text/css">
-<link href="main.css" rel="stylesheet" type="text/css">
-<!-- 
-To learn more about the conditional comments around the html tags at the top of the file:
-paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!--LOAD jQuery -->
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script>window.jQuery || document.write('<script src="_javascript/vendor/jquery-1.11.1.min.js"><\/script>')</script>
+  <script src="_javascript/vendor/bootstrap.min.js"></script>
+  <!--LOAD YOUR STYLESHEETS -->
+<link href="_css/application.css" rel="stylesheet" type="text/css">
+<link href="_css/contact.css" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="dist/js/bootstrapValidator.js"></script>
+<link rel="stylesheet" href="dist/css/bootstrapValidator.css"/>
 
-Do the following if you're using your customized build of modernizr (http://www.modernizr.com/):
-* insert the link to your js here
-* remove the link below to the html5shiv
-* add the "no-js" class to the html tags at the top
-* you can also remove the link to respond.min.js if you included the MQ Polyfill in your modernizr build 
+<script src="http://maps.google.com/maps/api/js?sensor=true" type="text/javascript"></script>
+<!-- BeginOAWidget_Shared_2187524 -->
+<!-- EndOAWidget_Shared_2187524 -->
+<script type="text/xml">
+<!--
+<oa:widgets>
+  <oa:widget wid="2187524" binding="#mapCanvas" />
+</oa:widgets>
 -->
-<!--[if lt IE 9]>
-<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-<![endif]-->
-<script src="respond.min.js"></script>
-<script src="SpryAssets/SpryMenuBar.js" type="text/javascript"></script>
-<meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+</script>
+<title>Terry Bu - Portfolio Website | Contact Terry</title>
 </head>
 <body>
+  <div class="container">
+    <div id="browser"><p>*Optimal in 1920x1080 resolution/Chrome</p></div>
+    <?php include("_includes/gotSocial.php"); ?>
+      <?php include("_includes/welcomeNav.php"); ?>
+      <?php include("_includes/kyotoImage.php"); ?>
 
-<div class="gridContainer clearfix">
-<div id="browser">
-<p>*Best viewed in 1920x1080 resolution with Chrome</p>
-</div>
-<?php include("_includes/connect.php"); ?>
+<div id="bodyContent">
+<p align="center">Thank you, I will be in contact with you shortly.</p>
+</div> <!-- /bodyContent -->  
+</div> <!-- /container -->  
 
-<?php include("_includes/helloHeader.php"); ?>
-
-<?php include("_includes/kyoto.php"); ?>
-
-<?php include("_includes/nav.php"); ?>
-
+<!--universal includes-->
 <?php include("_includes/viewSizeDisplay.php"); ?>
-
-</div>
-<br><br>
-<div id="contactTerry">Thank you, I will be in contact with you shortly.</div>
-
-
-
-  
-
-<!--BELOW is javascripts stuff-->
-<script type="text/javascript">
-var MenuBar1 = new Spry.Widget.MenuBar("MenuBar1", {imgDown:"SpryAssets/SpryMenuBarDownHover.gif", imgRight:"SpryAssets/SpryMenuBarRightHover.gif"});
-</script>
+<!--universal javascript-->
+<script type="text/javascript" src="_javascript/nav.js"></script>
+<script src="_javascript/validation.js"></script>
+<!--universal sound effect -->
 <audio id="1up" src="_sound/swim.wav"></audio>
+<div id="sounddiv"><bgsound id="sound"></div>
 
-</div>
 </body>
 </html>

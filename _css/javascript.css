@@ -1,32 +1,32 @@
-/* line 1, ../sass/slider.scss */
+/* line 1, ../sass/javascript.scss */
 #mainContent {
   clear: both;
 }
 
-/* line 5, ../sass/slider.scss */
+/* line 5, ../sass/javascript.scss */
 .well {
+  font-size: 2.5em;
   margin: 0 auto;
   text-align: center;
   list-style-position: inside;
-  max-height: 200px;
 }
-/* line 9, ../sass/slider.scss */
+/* line 10, ../sass/javascript.scss */
 .well li {
   list-style-type: square;
 }
 
-/* line 13, ../sass/slider.scss */
+/* line 13, ../sass/javascript.scss */
 header {
   font-size: 1.5em;
   font-family: serif;
 }
 
-/* line 18, ../sass/slider.scss */
+/* line 18, ../sass/javascript.scss */
 #loopStatus {
   position: absolute;
 }
 
-/* line 22, ../sass/slider.scss */
+/* line 22, ../sass/javascript.scss */
 #wrapSlider {
   width: 800px;
   margin-left: 35%;
@@ -34,7 +34,7 @@ header {
   padding-bottom: 0.5em;
 }
 
-/* line 29, ../sass/slider.scss */
+/* line 29, ../sass/javascript.scss */
 #slider {
   width: 100%;
   height: 420px;
@@ -42,7 +42,7 @@ header {
   margin: 10% auto;
 }
 
-/* line 36, ../sass/slider.scss */
+/* line 36, ../sass/javascript.scss */
 #slider img {
   width: 600px;
   height: 100%;
@@ -51,7 +51,7 @@ header {
   display: none;
 }
 
-/* line 44, ../sass/slider.scss */
+/* line 44, ../sass/javascript.scss */
 a.sliderLinks {
   margin-top: -12%;
   padding: 5px 10px;
@@ -61,31 +61,31 @@ a.sliderLinks {
   font-family: fantasy;
 }
 
-/* line 53, ../sass/slider.scss */
+/* line 53, ../sass/javascript.scss */
 a.sliderLinks:hover {
   color: purple;
 }
 
-/* line 57, ../sass/slider.scss */
+/* line 57, ../sass/javascript.scss */
 #left {
   float: left;
 }
 
-/* line 61, ../sass/slider.scss */
+/* line 61, ../sass/javascript.scss */
 #right {
   float: right;
   margin-right: 7em;
 }
 
 /*javascript.html*/
-/* line 67, ../sass/slider.scss */
+/* line 67, ../sass/javascript.scss */
 #codeAcademy {
   color: white;
   text-align: center;
   font-size: 2em;
 }
 
-/* line 72, ../sass/slider.scss */
+/* line 72, ../sass/javascript.scss */
 #js1 {
   position: relative;
   width: 100%;
@@ -96,7 +96,7 @@ a.sliderLinks:hover {
   border-radius: 11px;
 }
 
-/* line 82, ../sass/slider.scss */
+/* line 82, ../sass/javascript.scss */
 #gaptext {
   position: relative;
   margin-top: 1em;
@@ -105,7 +105,7 @@ a.sliderLinks:hover {
   font-size: large;
 }
 
-/* line 90, ../sass/slider.scss */
+/* line 90, ../sass/javascript.scss */
 #js2 {
   display: block;
   margin-top: -5px;
@@ -120,7 +120,7 @@ a.sliderLinks:hover {
   border-radius: 11px;
 }
 
-/* line 104, ../sass/slider.scss */
+/* line 104, ../sass/javascript.scss */
 #sun {
   position: absolute;
   /* Positions the top-left corner of the image to be *
@@ -139,7 +139,7 @@ a.sliderLinks:hover {
   margin-left: -100px;
 }
 
-/* line 124, ../sass/slider.scss */
+/* line 124, ../sass/javascript.scss */
 #earth {
   position: absolute;
   top: 0%;
@@ -151,7 +151,7 @@ a.sliderLinks:hover {
   margin-top: -25px;
 }
 
-/* line 135, ../sass/slider.scss */
+/* line 135, ../sass/javascript.scss */
 #earth-orbit {
   /* For Section #2 */
   position: absolute;
@@ -173,7 +173,7 @@ a.sliderLinks:hover {
 }
 
 @-webkit-keyframes spin-right {
-  /* line 159, ../sass/slider.scss */
+  /* line 159, ../sass/javascript.scss */
   100% {
     -webkit-transform: rotate(360deg);
     -moz-transform: rotate(360deg);
@@ -184,7 +184,7 @@ a.sliderLinks:hover {
 }
 
 @keyframes spin-right {
-  /* line 169, ../sass/slider.scss */
+  /* line 169, ../sass/javascript.scss */
   100% {
     -webkit-transform: rotate(360deg);
     -moz-transform: rotate(360deg);

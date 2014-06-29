@@ -1,0 +1,47 @@
+@-webkit-keyframes cf3FadeInOut {
+	0% {
+	opacity:1;
+	}
+	40% {
+	opacity: 1;
+	}
+	80% {
+	opacity:0;
+	}
+	100% {
+	opacity:0;
+	}
+}
+
+#androidImage {
+	width: 468px;
+	height: 360px;
+	float: right;
+}
+
+#androidImage img.top {
+-webkit-animation-name: cf3FadeInOut;
+-webkit-animation-timing-function: ease-in-out;
+-webkit-animation-iteration-count: infinite;
+-webkit-animation-duration: 4s;
+-webkit-animation-direction: alternate;
+}
+
+#androidImage img.top{
+	position: absolute;
+}
+
+#androidImage img.bottom {
+	position: absolute;	
+}
+
+#androidApps {
+	.short {
+		width: 40%;
+		height: 40%;
+	}
+	.long {
+		width: 25%;
+		height: 25%;
+	}
+}

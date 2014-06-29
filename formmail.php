@@ -2,15 +2,14 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<META HTTP-EQUIV="refresh" content="0;URL=thankyou.php">
 <title>Email Form</title>
 </head>
 
 <body>
 <?php
-  $name=addslashes($_POST['name']);
+  $name=addslashes($_POST['sender']);
   $email=addslashes($_POST['email']);
-  $comments=addslashes($_POST['message']);
+  $comments=addslashes($_POST['mesbody']);
 
  // you can specify which email you want your contact form to be emailed to here
 
@@ -26,15 +25,16 @@
             ."Comments:<br>\n"
             .$comments;
 
-  if (!ereg("^[a-zA-Z0-9_]+@[a-zA-Z0-9\-]+\.[a-zA-Z0-9\-\.]+$", $email))
+  if (!preg_match("/^[a-zA-Z0-9_]+@[a-zA-Z0-9\-]+\.[a-zA-Z0-9\-\.]+$/", $email))
   {
     echo "That is not a valid email address.  Please return to the"
            ." previous page and try again.";
     exit;
+    phpinfo();
   }
-
     mail($toemail, $subject, $body, $headers);
     echo "Thanks for submitting your comments";
 ?>
+
 </body>
 </html>

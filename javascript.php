@@ -8,12 +8,12 @@
   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
   <script>window.jQuery || document.write('<script src="_javascript/vendor/jquery-1.11.1.min.js"><\/script>')</script>
   <script src="_javascript/vendor/bootstrap.min.js"></script>
+  <script type="text/javascript" src="http://s3.amazonaws.com/codecademy-content/courses/hour-of-code/js/alphabet.js"></script>
   <!--LOAD YOUR STYLESHEETS -->
 <link href="_css/application.css" rel="stylesheet" type="text/css">
-<link href="_css/slider.css" rel="stylesheet" type="text/css">
-
+<link href="_css/javascript.css" rel="stylesheet" type="text/css">
 <title>Terry Bu - Portfolio Website | JavaScript/jQuery</title>
-<script type="text/javascript" src="http://s3.amazonaws.com/codecademy-content/courses/hour-of-code/js/alphabet.js"></script>
+
   <!--[if lt IE 9]><script src="/js/vendor/html5-3.6-respond-1.1.0.min.js"></script><![endif]-->
 </head>
 <body>
@@ -25,9 +25,18 @@
     <?php include("_includes/kyotoImage.php"); ?>
 
 <div id="mainContent">
+<div id="jsprojects" class="well">
+    <ul>
+    <li><a href="https://bucifer-lifeclock.herokuapp.com/" target="_blank">"Your Life-Clock" - JavaScript-based Web App</a></p>
+          <img src="_images/js1clock.png">
+    </li>
+    <li><p><a href="sketchpad.php" target="_blank">Odin Project jQuery Practice Sketchpad</a></p>
+        <img src="_images/js2color.png">
+    </li>
+    </ul>
+</div>
+<br>
 
-    <p><a href="https://bucifer-lifeclock.herokuapp.com/" target="_blank">"Your Life-Clock" - JavaScript-based Web App on Heroku</a></p>
-    <p><a href="sketchpad.php">Odin Project jQuery Practice Sketchpad</a></p>
     <div id="wrapSlider">
     <header>
         <p>Thank you to <a href="http://helpingdevelop.com" target="_blank">Helping Develop</a>! jQuery Image Slider</p>
