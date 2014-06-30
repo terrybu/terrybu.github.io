@@ -1,5 +1,4 @@
 @import 'base';
-@import 'bootstrap';
 @import 'nav';
 @import 'collapsible';
 
@@ -169,7 +168,7 @@ h1 {
     #tablet {display: none;}  
     #mobile {display: none;}
     #wrapper {
-        max-width: 1200px;
+        max-width: 1350px;
         margin: 0 auto;
         #kyotoImage {
            img {
@@ -182,11 +181,10 @@ h1 {
            display: inline-block;
            margin-bottom: 2%;
            margin-top: -2%;
-
         }
         #welcomeNav {
-            width: 600px;
-            margin-right: 10%;
+            width: 700px;
+            margin-right: 1%;
             clear: right;
             float: right;
         }
@@ -202,8 +200,9 @@ h1 {
         #nav {
             border-top: groove 1px black;
             border-spacing: 2px;
+            margin: 0 auto;
             margin-top: 5%; 
-            margin-left: 5%;
+            margin-left: 10%;
             a{
                 font-size: 1.5em;
             }

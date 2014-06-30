@@ -4,14 +4,8 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <!--LOAD jQuery -->
-  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-  <script>window.jQuery || document.write('<script src="_javascript/vendor/jquery-1.11.1.min.js"><\/script>')</script>
-  <script src="_javascript/vendor/bootstrap.min.js"></script>
-  <!--LOAD YOUR STYLESHEETS -->
-  <link href="_css/application.css" rel="stylesheet" type="text/css">
+<?php include ("_includes/standardHeadImports.php"); ?>
   <title>Terry Bu - Portfolio Website | Home</title>
-  <!--[if lt IE 9]><script src="js/vendor/html5-3.6-respond-1.1.0.min.js"></script><![endif]-->
 </head>
 <body>
   <!--[if lt IE 7]><p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p><![endif]-->
@@ -29,7 +23,7 @@
       <div id="CollapsiblePanel1" class="panel panel-default">
       <div href="#collapseOne" class="panel-heading" id="p1">
          <h4 class="panel-title">
-               <i class="glyphicon glyphicon-flash"></i> TECHNOLOGY
+               <span class="glyphicon glyphicon-flash"></span> TECHNOLOGY
          </h4>
       </div>
       <div id="collapseOne" class="panel-collapse collapse">
@@ -42,7 +36,7 @@
    <div id="CollapsiblePanel2" class="panel panel-default">
       <div href="#collapseTwo" class="panel-heading" id="p2">
          <h4 class="panel-title">
-               <i class="glyphicon glyphicon-book"></i> EDUCATION
+               <span class="glyphicon glyphicon-book"></span> EDUCATION
          </h4>
       </div>
       <div id="collapseTwo" class="panel-collapse collapse">
@@ -56,26 +50,26 @@
    <div id="CollapsiblePanel3" class="panel panel-default">
       <div href="#collapseThree" class="panel-heading" id="p3">
          <h4 class="panel-title">
-               <i class="glyphicon glyphicon-tasks"></i> EXPERIENCE
+               <span class="glyphicon glyphicon-tasks"></span> EXPERIENCE
          </h4>
       </div>
       <div id="collapseThree" class="panel-collapse collapse">
          <div class="panel-body">
-      <p>My background is in business, marketing and sales. I gained close exposure to the tech world as an Account Executive at an IT solutions/consulting company that partners with Cisco and Microsoft. </p>
-      <p>I have freelance web development experience (RoR, jQuery and Haml) and worked as an Online Community Manager for a small business. Please refer to <a href="http://www.linkedin.com/in/terrybu" target="_blank">LinkedIn</a> for details on my work experience.</p>
+      <p>My background is in business, marketing and sales. I gained close exposure to the tech world as a sales role at an IT solutions company that partners with Cisco. </p>
+      <p>I have web development experience (RoR, jQuery and Haml) and worked as an Online Community Manager for a small business. Please refer to <a href="http://www.linkedin.com/in/terrybu" target="_blank">LinkedIn</a> for details on my work experience.</p>
          </div>
       </div>
    </div>
    <div id="CollapsiblePanel4" class="panel panel-default">
       <div href="#collapseFour" class="panel-heading" id="p4">
          <h4 class="panel-title">
-               <i class='glyphicon glyphicon-eye-open'></i> VISION
+               <span class='glyphicon glyphicon-eye-open'></span> VISION
          </h4>
       </div>
       <div id="collapseFour" class="panel-collapse collapse">
          <div class="panel-body">
       <p>Free online educational resources have allowed those including myself to gain new knowledge, learn new skills and pursue new careers. I want to give back to this cause. </p>
-      <p>I want to help create better accessibility to free knowledge and information for people all over the world. I also hope to impact open-source projects in public health, sciences, local government, and education </p>
+      <p>I want to help create better accessibility to free knowledge and information for people all over the world. I also hope to impact open-source projects in public health, sciences, local government and education </p>
          </div>
       </div>
      </div>
