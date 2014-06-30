@@ -34,9 +34,8 @@
       </div>
       <div id="collapseOne" class="panel-collapse collapse">
          <div class="panel-body" id="body1">
-          <p>As impressed as we already are with the exponential growth in technology since the new millennium (Google, mobile revolution, cloud, IoE) I believe we've only scratched the surface. </p>
-          <p>Technology will continue to be the glue that binds information and knowledge across all disciplines including education, sciences, public health, government, and private sector.</p>
-          <p>There's little doubt that the world's need for developers/engineers/programmers will keep rising rapidly within the next several decades.</p>
+          <p>As impressed as we already are with the exponential innotivation in technology (Google, mobile, cloud, IoE) I believe we've only scratched the surface. </p>
+          <p>Technology will continue to be the glue that binds information and knowledge across all disciplines. There's little doubt that the world's need for developers/engineers/programmers will keep rising within the next several decades.</p>
          </div>
       </div>
    </div>
@@ -50,7 +49,7 @@
         <div class="panel-body">
           <p>I am self-taught in Ruby on Rails, Ruby, JavaScript, CSS, HTML and the basics of Java, Eclipse (Android SDK) and Python.</p>
           <p>I have a working knowledge of Git, Haml, Sass, Compass, PHP, SQL, jQuery and Vagrant from past projects. I am proficient in Adobe CS6(Photoshop, Dreamweaver, Premiere Pro) and Excel.</p>
-          <p>I graduated with a B.S. in Business Administration with a minor in Japanese from UNC - Chapel Hill. I recently made the career switch into coding and web development in early 2014. </p>
+          <p>I graduated with a B.S. in Business Administration with a minor in Japanese from UNC - Chapel Hill. </p>
         </div>
      </div>
    </div>

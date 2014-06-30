@@ -1,18 +1,3 @@
-
-/*
-function toggleChevron(e) {
-    $(e.target)
-        .prev('.panel-heading')
-        .find("i.indicator")
-        .toggleClass('caret glyphicon-chevron-up');
-}
-$('#accordion').on('hidden.bs.collapse', toggleChevron);
-$('#accordion').on('shown.bs.collapse', toggleChevron);
-*/
-
-
-
-
 function collapseToggle() {
 	var possibleDivs = ['#collapseOne','#collapseTwo','#collapseThree','#collapseFour'];
 	for (var i = 0; i < possibleDivs.length; i++) {
@@ -20,7 +5,7 @@ function collapseToggle() {
 	}
 }
 
-function closeAllElse (divName) {
+function closeAllElse(divName) {
 	var possibleDivs = ['#collapseOne','#collapseTwo','#collapseThree','#collapseFour'];
 	for (var i = 0; i < possibleDivs.length; i++) {
 		var select = possibleDivs[i];
@@ -33,7 +18,7 @@ function closeAllElse (divName) {
 	}
 }
 
-function closeAll (divName) {
+function closeAll(divName) {
 	$(divName).on('show.bs.collapse', function() {
 		closeAllElse(divName);
 	});
@@ -51,10 +36,38 @@ function closeAll (divName) {
 			playclip2();
 		}
 	});
-
-	collapseToggle();
 	$('.panel-heading').attr('data-toggle', 'collapse');
 	$('.panel-heading').attr('data-parent', '#accordion');
+	collapseToggle();
+
+	//collapsible Panel effects POST CLICK//
+	//global variable zindex
+	var z = 0;
+	$('.panel-heading').on({
+		click: function() {
+			z++;
+		}
+	});
+
+	function postClickPanelColorStay(paneln, classColor) {
+		var panelID = '#CollapsiblePanel' + paneln;
+		var headingID = '#p' + paneln;
+		$(panelID).on('show.bs.collapse', function(){
+			$(headingID).addClass(classColor);
+			$(panelID).css("z-index",z);	
+		});
+		$(panelID).on('hide.bs.collapse', function(){
+			$(headingID).removeClass(classColor);
+		});
+	}
+	postClickPanelColorStay(1, 'red');
+	postClickPanelColorStay(2, 'cyan');
+	postClickPanelColorStay(3, 'orange');
+	postClickPanelColorStay(4, 'lime');
+	//END//
+
+if (matchMedia('only screen and (max-width: 1200px)').matches)
+{
 	$(function () { 
 		      closeAll('#collapseOne');
 		      closeAll('#collapseTwo');
@@ -62,7 +75,4 @@ function closeAll (divName) {
 		      closeAll('#collapseFour');
 	});
 
-
-$('#collapseOne').on('show.bs.collapse', function() {
-		$('.panel-heading').addClass('redHeading');
-	});
+}

@@ -10,9 +10,7 @@
   <script src="_javascript/vendor/bootstrap.min.js"></script>
   <!--LOAD YOUR STYLESHEETS -->
   <link href="_css/application.css" rel="stylesheet" type="text/css">
-  <link href="_css/android.css" rel="stylesheet" type="text/css">
-
-  <title>Terry Bu - Portfolio Website | Android </title>
+  <title>Terry Bu - Portfolio Website | Project Contributions </title>
   <!--[if lt IE 9]><script src="/js/vendor/html5-3.6-respond-1.1.0.min.js"></script><![endif]-->
 </head>
 <body>
@@ -23,22 +21,28 @@
     <?php include("_includes/gotSocial.php"); ?>
     <?php include("_includes/welcomeNav.php"); ?>
 </div><!--closes wrapper from welcomeNav -->
-<div id="androidImage">
-	<img src="_images/android_red.png" class="bottom"> 
-	<img src="_images/android.png" class="top"> 
-</div>
+  <div id="headImage">
+    <img src="_images/rubyonrails.png">
+  </div>
 
-<div id="bodyContent" style="clear: both;">
-	<hr>
-	<div id="androidApps">
-	<h1><a href="https://play.google.com/store/apps/details?id=com.bucifer.lifeclock_english" target="_blank">Android App Project #1: Life Age Clock </a></h1>
-  <br>
-		<img class="short" src="_images/screenshot1.png">
-		<img class="short" src="_images/screenshot2.png">
-		<img class="long" src="_images/pscreen1.png">
-		<img class="long" src="_images/pscreen2.png">
-	</div>
+<div id="bodyContent">
+
+  <h1 style="color: #C63B3B">Pro Bono Projects</h1>
+  <div id="projects2" class="well">
+    <ul> 
+    <li>Helping non-profit organization ('Ourgoods') by rebuilding their Admin CMS interface through Rails migrations, model/database manipulation</li>
+    <img src="_images/ourgoods1.png">    
+    <img src="_images/ourgoods2.png">       
+  <hr>
+    <li>Close 5 issue tickets using Haml, jQuery, CSS, Ruby. Push code and contribute through Git & Github </li>
+    <img src="_images/ourgoods3.png">    
+    <img src="_images/ourgoods4.png">        
+
+    <hr>
+  </div>
+
 </div> <!-- /bodyContent -->  
+
 </div> <!-- /container -->  
 
 <!--universal includes-->
@@ -51,4 +55,3 @@
 
 </body>
 </html>
-

@@ -8,10 +8,18 @@ $(document).ready(function() {
         },
         fields: {
             sender: {
-                trigger: 'keyup',
+                trigger: 'blur',
                 validators: {
                     notEmpty: {
-                        message: 'The title is required'
+                        message: 'Your name is required'
+                    },
+                    stringLength: {
+                    	min: 2,
+                    	message: 'The full name must be greater than 1 character'
+                    },
+                    regexp: {
+                    	regexp: /^[a-z\s]+$/i,
+                    	message: 'Name can only consist of alphabets and spaces'
                     }
                 }
             },
@@ -19,15 +27,23 @@ $(document).ready(function() {
                 trigger: 'blur',
                 validators: {
                     notEmpty: {
-                        message: 'The summary is required'
+                        message: 'Your email is required'
+                    },
+                    emailAddress: {
+                    	message: 'Not a valid email address'
                     }
                 }
             },
             mesbody: {
+            	trigger: 'blur',
                 validators: {
                     notEmpty: {
-                        message: 'The description is required'
-                    }
+                        message: 'The message body is required'
+                    },
+                    stringLength: {
+                    	min: 10,
+                    	message: 'The message must be greater than or equal to 10 characters'
+                    },
                 }
             }
         }

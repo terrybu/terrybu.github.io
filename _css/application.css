@@ -8410,6 +8410,13 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
 }
 
 /* line 16, ../sass/_collapsible.scss */
+.panel-body {
+  padding: 0;
+  padding-left: 2px;
+  padding-right: 2px;
+}
+
+/* line 22, ../sass/_collapsible.scss */
 .panel-heading {
   cursor: pointer;
   background-color: white !important;
@@ -8419,60 +8426,80 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
   transition: background-color 0.75s ease;
 }
 
-/* line 21, ../sass/_collapsible.scss */
+/* line 28, ../sass/_collapsible.scss */
 #p1:hover {
   background-color: red !important;
 }
 
-/* line 24, ../sass/_collapsible.scss */
+/* line 31, ../sass/_collapsible.scss */
 #p2:hover {
   background-color: cyan !important;
 }
 
-/* line 27, ../sass/_collapsible.scss */
+/* line 34, ../sass/_collapsible.scss */
 #p3:hover {
-  background-color: yellow !important;
+  background-color: orange !important;
 }
 
-/* line 30, ../sass/_collapsible.scss */
+/* line 37, ../sass/_collapsible.scss */
 #p4:hover {
   background-color: lime !important;
 }
 
-/* line 34, ../sass/_collapsible.scss */
+/* line 40, ../sass/_collapsible.scss */
+.red {
+  background-color: yellow !important;
+}
+
+/* line 41, ../sass/_collapsible.scss */
+.cyan {
+  background-color: lightblue !important;
+}
+
+/* line 42, ../sass/_collapsible.scss */
+.orange {
+  background-color: hotpink !important;
+}
+
+/* line 43, ../sass/_collapsible.scss */
+.lime {
+  background-color: green !important;
+}
+
+/* line 45, ../sass/_collapsible.scss */
 .panel-title {
   font-family: "gotmilk";
   font-size: 4em;
   font-weight: bold;
   text-align: center;
 }
-/* line 39, ../sass/_collapsible.scss */
+/* line 50, ../sass/_collapsible.scss */
 .panel-title a {
   text-decoration: none;
 }
-/* line 42, ../sass/_collapsible.scss */
+/* line 53, ../sass/_collapsible.scss */
 .panel-title .caret {
   border-left: 12px solid transparent;
   border-right: 12px solid transparent;
   border-top: 12px solid #000000;
 }
 
-/* line 53, ../sass/_collapsible.scss */
+/* line 60, ../sass/_collapsible.scss */
 .glyphicon.glyphicon-flash {
   font-size: 85%;
 }
 
-/* line 54, ../sass/_collapsible.scss */
+/* line 61, ../sass/_collapsible.scss */
 .glyphicon.glyphicon-book {
   font-size: 75%;
 }
 
-/* line 55, ../sass/_collapsible.scss */
+/* line 62, ../sass/_collapsible.scss */
 .glyphicon.glyphicon-tasks {
   font-size: 70%;
 }
 
-/* line 56, ../sass/_collapsible.scss */
+/* line 63, ../sass/_collapsible.scss */
 .glyphicon.glyphicon-eye-open {
   font-size: 65%;
 }
@@ -8565,22 +8592,35 @@ h1 {
   margin-bottom: 2%;
   margin-left: 5%;
 }
+/* line 57, ../sass/application.scss */
+#projects .thinimg {
+  width: 250px;
+  height: 300px;
+}
 
-/* line 58, ../sass/application.scss */
+/* line 63, ../sass/application.scss */
+#projects2 img {
+  width: 50%;
+  height: 50%px;
+  margin-bottom: 2%;
+  margin-left: 5%;
+}
+
+/* line 72, ../sass/application.scss */
 .well {
   font-size: 1.5em;
   max-width: 75%;
 }
-/* line 61, ../sass/application.scss */
+/* line 75, ../sass/application.scss */
 .well li {
-  margin-bottom: 5%;
+  margin-bottom: 1%;
 }
 
-/* line 66, ../sass/application.scss */
+/* line 80, ../sass/application.scss */
 #jsprojects {
   clear: both;
 }
-/* line 68, ../sass/application.scss */
+/* line 82, ../sass/application.scss */
 #jsprojects img {
   width: 50%;
   height: 50%;
@@ -8590,17 +8630,17 @@ h1 {
 /*********************/
 /* Landscape phones and smaller */
 @media only screen and (max-width: 750px) {
-  /* line 78, ../sass/application.scss */
+  /* line 92, ../sass/application.scss */
   #tablet {
     display: none;
   }
 
-  /* line 79, ../sass/application.scss */
+  /* line 93, ../sass/application.scss */
   #desktop {
     display: none;
   }
 
-  /* line 80, ../sass/application.scss */
+  /* line 94, ../sass/application.scss */
   #mobile {
     display: initial;
     position: fixed;
@@ -8612,24 +8652,24 @@ h1 {
     font-size: 1em;
   }
 
-  /* line 83, ../sass/application.scss */
+  /* line 97, ../sass/application.scss */
   #gotSocial {
     font-size: 1em;
   }
-  /* line 85, ../sass/application.scss */
+  /* line 99, ../sass/application.scss */
   #gotSocial span {
     display: block;
     margin-bottom: 0.25em;
   }
 
-  /* line 88, ../sass/application.scss */
+  /* line 102, ../sass/application.scss */
   #logoHello {
     padding-top: 5px;
   }
 }
 /* Tablets and Medium Desktops */
 @media only screen and (min-width: 751px) and (max-width: 1200px) {
-  /* line 95, ../sass/application.scss */
+  /* line 109, ../sass/application.scss */
   #tablet {
     display: initial;
     position: fixed;
@@ -8641,57 +8681,57 @@ h1 {
     font-size: 1em;
   }
 
-  /* line 98, ../sass/application.scss */
+  /* line 112, ../sass/application.scss */
   #desktop {
     display: none;
   }
 
-  /* line 99, ../sass/application.scss */
+  /* line 113, ../sass/application.scss */
   #mobile {
     display: none;
   }
 
-  /* line 100, ../sass/application.scss */
+  /* line 114, ../sass/application.scss */
   #gotSocial {
     clear: left;
   }
 
-  /* line 103, ../sass/application.scss */
+  /* line 117, ../sass/application.scss */
   #container {
     margin: 0 auto;
   }
 
-  /* line 106, ../sass/application.scss */
+  /* line 120, ../sass/application.scss */
   #wrapper {
     max-width: 80%;
     margin: 0 auto;
   }
-  /* line 109, ../sass/application.scss */
+  /* line 123, ../sass/application.scss */
   #wrapper #welcomeNav {
     padding-top: 10px;
     max-width: 550px;
     margin: 0 auto;
   }
-  /* line 113, ../sass/application.scss */
+  /* line 127, ../sass/application.scss */
   #wrapper #welcomeNav #logoHello {
     margin: 0 auto;
   }
-  /* line 116, ../sass/application.scss */
+  /* line 130, ../sass/application.scss */
   #wrapper #welcomeNav #welcome {
     font-size: 1.2em;
     text-align: center;
     max-width: 450px;
     margin: 0 auto;
   }
-  /* line 123, ../sass/application.scss */
+  /* line 137, ../sass/application.scss */
   #wrapper #nav {
     margin-bottom: 3%;
   }
-  /* line 124, ../sass/application.scss */
+  /* line 138, ../sass/application.scss */
   #wrapper #nav a {
     font-size: 1.4em;
   }
-  /* line 129, ../sass/application.scss */
+  /* line 143, ../sass/application.scss */
   #wrapper #kyotoImage {
     max-width: 360px;
     max-height: 480px;
@@ -8699,12 +8739,12 @@ h1 {
     display: inline-block;
   }
 
-  /* line 137, ../sass/application.scss */
+  /* line 151, ../sass/application.scss */
   #bodyContent {
     margin: 0 auto;
   }
 
-  /* line 141, ../sass/application.scss */
+  /* line 155, ../sass/application.scss */
   .panel {
     width: 350px;
     display: inline-block;
@@ -8714,7 +8754,7 @@ h1 {
 }
 /* Large desktops and laptops */
 @media only screen and (min-width: 1201px) {
-  /* line 152, ../sass/application.scss */
+  /* line 166, ../sass/application.scss */
   #desktop {
     display: initial;
     position: fixed;
@@ -8726,75 +8766,96 @@ h1 {
     font-size: 1em;
   }
 
-  /* line 155, ../sass/application.scss */
+  /* line 169, ../sass/application.scss */
   #tablet {
     display: none;
   }
 
-  /* line 156, ../sass/application.scss */
+  /* line 170, ../sass/application.scss */
   #mobile {
     display: none;
   }
 
-  /* line 157, ../sass/application.scss */
+  /* line 171, ../sass/application.scss */
   #wrapper {
     max-width: 1200px;
     margin: 0 auto;
   }
-  /* line 160, ../sass/application.scss */
+  /* line 174, ../sass/application.scss */
   #wrapper #kyotoImage {
     width: 420px;
     height: 560px;
     float: right;
-    margin-bottom: 2.5%;
     display: inline-block;
+    margin-bottom: 2%;
+    margin-top: -2%;
   }
-  /* line 161, ../sass/application.scss */
+  /* line 175, ../sass/application.scss */
   #wrapper #kyotoImage img {
     width: 420px;
     height: 560px;
   }
-  /* line 171, ../sass/application.scss */
+  /* line 187, ../sass/application.scss */
   #wrapper #welcomeNav {
     width: 600px;
     margin-right: 10%;
     clear: right;
     float: right;
   }
-  /* line 177, ../sass/application.scss */
+  /* line 193, ../sass/application.scss */
   #wrapper #logoHello {
     margin: 0 auto;
   }
-  /* line 180, ../sass/application.scss */
+  /* line 196, ../sass/application.scss */
   #wrapper #welcome {
     font-size: 1.2em;
     max-width: 500px;
     text-align: center;
     margin: 0 auto;
   }
-  /* line 186, ../sass/application.scss */
+  /* line 202, ../sass/application.scss */
   #wrapper #nav {
     border-top: groove 1px black;
     border-spacing: 2px;
     margin-top: 5%;
     margin-left: 5%;
   }
-  /* line 191, ../sass/application.scss */
+  /* line 207, ../sass/application.scss */
   #wrapper #nav a {
     font-size: 1.5em;
   }
 
-  /* line 197, ../sass/application.scss */
+  /* line 213, ../sass/application.scss */
   #bodyContent {
     clear: right;
     margin-left: 15%;
   }
 
-  /* line 204, ../sass/application.scss */
+  /* line 218, ../sass/application.scss */
   .panel {
     width: 350px;
-    display: inline-block;
     margin: 0 auto;
+    position: absolute;
+  }
+
+  /* line 224, ../sass/application.scss */
+  #CollapsiblePanel1 {
+    margin-top: 5px;
+  }
+
+  /* line 227, ../sass/application.scss */
+  #CollapsiblePanel2 {
+    margin-left: 20%;
+  }
+
+  /* line 230, ../sass/application.scss */
+  #CollapsiblePanel3 {
+    margin-left: 40%;
+  }
+
+  /* line 233, ../sass/application.scss */
+  #CollapsiblePanel4 {
+    margin-left: 60%;
   }
 }
 /* /END SIZE DISPLAY DIFFERENCES */

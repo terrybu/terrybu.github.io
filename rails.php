@@ -36,7 +36,7 @@
     </li>
       <hr>
     <li>
-    <a href="https://bucifer-micropost.herokuapp.com/" target="_blank"><strong>Michael Hartl's Rails Tutorial: Micropost App</strong></a>    <img src="_images/s1micro.png">
+    <a href="https://bucifer-micropost.herokuapp.com/" target="_blank"><strong>Michael Hartl's Rails Tutorial: Micropost App</strong></a>    <img src="_images/s1micro.png" class='thinimg'>
     </li>
       <hr>
     <li>

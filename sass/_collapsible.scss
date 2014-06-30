@@ -13,11 +13,18 @@
     border-color: black;
 }
 
+.panel-body {
+    padding: 0;
+    padding-left: 2px;
+    padding-right: 2px;
+}
+
 .panel-heading {
     cursor: pointer;
     background-color: white !important;
     @include transitionHoverColor;
 }
+
 #p1:hover {
      background-color: red !important;
 }
@@ -25,11 +32,15 @@
      background-color: cyan !important;
 }
 #p3:hover {
-     background-color: yellow !important;
+     background-color: orange !important;
 }
 #p4:hover {
      background-color: lime !important;
 }
+.red {background-color: yellow !important;}
+.cyan {background-color: lightblue !important;}
+.orange {background-color: hotpink !important;}
+.lime {background-color: green !important;}
 
 .panel-title {
     font-family: "gotmilk";
@@ -44,10 +55,6 @@
     border-right: 12px solid transparent;
     border-top: 12px solid #000000;
     }
-}
-
-@mixin desktopCollapsibles {
-    
 }
 
 .glyphicon.glyphicon-flash{ font-size: 85%; }
