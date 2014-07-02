@@ -28,7 +28,7 @@
       </div>
       <div id="collapseOne" class="panel-collapse collapse">
          <div class="panel-body" id="body1">
-          <p>As impressed as we already are with the exponential innotivation in technology (Google, mobile, cloud, IoE) I believe we've only scratched the surface. </p>
+          <p>As impressed as we already are with the exponential innotivation in technology (Google, mobile, cloud, IoE) in recent years, I believe we've only scratched the tip of the iceberg. </p>
           <p>Technology will continue to be the glue that binds information and knowledge across all disciplines. There's little doubt that the world's need for developers/engineers/programmers will keep rising within the next several decades.</p>
          </div>
       </div>
@@ -41,9 +41,8 @@
       </div>
       <div id="collapseTwo" class="panel-collapse collapse">
         <div class="panel-body">
-          <p>I am self-taught in Ruby on Rails, Ruby, JavaScript, CSS, HTML and the basics of Java, Eclipse (Android SDK) and Python.</p>
-          <p>I have a working knowledge of Git, Haml, Sass, Compass, PHP, SQL, jQuery and Vagrant from past projects. I am proficient in Adobe CS6(Photoshop, Dreamweaver, Premiere Pro) and Excel.</p>
-          <p>I graduated with a B.S. in Business Administration with a minor in Japanese from UNC - Chapel Hill. </p>
+          <p>I am self-taught in Ruby on Rails, Ruby, JavaScript, CSS, HTML. I have a working knowledge of Git, Haml, Sass, PHP, SQL, jQuery, AJAX and Vagrant from past projects. I am proficient in Adobe CS6(Photoshop, Dreamweaver, Premiere Pro) and Excel. I do have an understanding of Java, Eclipse (Android SDK) and Python at a basic level.</p>
+          <p>I graduated with a BSBA with a minor in Japanese from UNC - Chapel Hill in 2011. </p>
         </div>
      </div>
    </div>
@@ -55,8 +54,8 @@
       </div>
       <div id="collapseThree" class="panel-collapse collapse">
          <div class="panel-body">
-      <p>My background is in business, marketing and sales. I gained close exposure to the tech world as a sales role at an IT solutions company that partners with Cisco. </p>
-      <p>I have web development experience (RoR, jQuery and Haml) and worked as an Online Community Manager for a small business. Please refer to <a href="http://www.linkedin.com/in/terrybu" target="_blank">LinkedIn</a> for details on my work experience.</p>
+      <p>My original background is in business, marketing and sales. I  gained close exposure to the tech world in 2013 as a sales rep at an IT solutions company. Please refer to <a href="http://www.linkedin.com/in/terrybu" target="_blank">LinkedIn</a> for details.</p>
+      <p>The decision to pursue coding professionally is recent (early 2014) though my love for CS dates back to my teenage years. I am committed to the decision and strongly driven to be a part of next generation's technology innovators.</p>
          </div>
       </div>
    </div>
@@ -68,8 +67,8 @@
       </div>
       <div id="collapseFour" class="panel-collapse collapse">
          <div class="panel-body">
-      <p>Free online educational resources have allowed those including myself to gain new knowledge, learn new skills and pursue new careers. I want to give back to this cause. </p>
-      <p>I want to help create better accessibility to free knowledge and information for people all over the world. I also hope to impact open-source projects in public health, sciences, local government and education </p>
+      <p>Free online education have allowed people like myself to gain new knowledge, learn new skills and pursue new careers. I eventually want to give back to this cause through my own efforts. I want to help create better accessibility to free knowledge and information for people all over the world. </p>
+      <p>In the near future, I also hope to impact open-source projects in a variety of different sectors like sciences, non-profit and education.</p>
          </div>
       </div>
      </div>

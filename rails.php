@@ -15,28 +15,28 @@
     <?php include("_includes/gotSocial.php"); ?>
     <?php include("_includes/welcomeNav.php"); ?>
 </div><!--closes wrapper from welcomeNav -->
-  <div id="headImage">
-    <img src="_images/rubyonrails.png">
-  </div>
+<img src="_images/rubyonrails.png" id="headImageRails">
 
 <div id="bodyContent">
-
-  <h1 style="color: #C63B3B"> Ruby on Rails Projects</h1>
-  <div id="projects" class="well">
-    <ul>
-    <li>        
-<a href="https://terrysquotes.herokuapp.com/" target="_blank"><strong>Personal Rails Project: Terry's Quotes Database</strong></a>
-    <img src="_images/s1quote.png">
-    </li>
-      <hr>
+  <h1 style="color: #C63B3B">Ruby on Rails Projects</h1>
+  <div class="projectsDiv"  id="projectsRails">
+   <ul>
     <li>
-    <a href="https://bucifer-micropost.herokuapp.com/" target="_blank"><strong>Michael Hartl's Rails Tutorial: Micropost App</strong></a>    <img src="_images/s1micro.png" class='thinimg'>
+    <h3>        
+    <a href="https://terrysquotes.herokuapp.com/" target="_blank">Personal Rails Project: Terry's Quotes Database</h3>
+    <img src="_images/s1quote.png"></a>
     </li>
-      <hr>
     <li>
-    <a href="https://bucifer-blogger.herokuapp.com/" target="_blank"><strong>JumpstartLab Blogger 2 Tutorial: Blogger App</strong></a>    <img src="_images/s1blogger.png">
-
+    <h3>
+    <a href="https://bucifer-micropost.herokuapp.com/" target="_blank">Michael Hartl's Rails Tutorial: Micropost App</h3><img src="_images/s1micro.png" class='thinimg'></a>
     </li>
+    <li>
+    <h3>
+    <a href="https://bucifer-blogger.herokuapp.com/" target="_blank">JumpstartLab Blogger 2 Tutorial: Blogger
+    </h3>    
+    <img src="_images/s1blogger.png"></a>
+    </li>
+    </ul>
   </div>
 
 </div> <!-- /bodyContent -->  

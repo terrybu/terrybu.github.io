@@ -7,6 +7,7 @@
 <?php include ("_includes/standardHeadImports.php"); ?>
   <script type="text/javascript" src="http://s3.amazonaws.com/codecademy-content/courses/hour-of-code/js/alphabet.js"></script>
 <link href="_css/javascript.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" type="text/css" href="_css/colorbox.css">
 <title>Terry Bu - Portfolio Website | JavaScript/jQuery</title>
 </head>
 <body>
@@ -17,54 +18,44 @@
     <?php include("_includes/welcomeNav.php"); ?>
     <?php include("_includes/kyotoImage.php"); ?>
 
-<div id="mainContent">
-<div id="jsprojects" class="well">
+<div id="bodyContent">
+  <h1 style="color: #C63B3B; clear: both;">JavaScript Portfolio</h1>
+  <div class="projectsDiv" id="projectsJavascript">
     <ul>
-    <li><a href="https://bucifer-lifeclock.herokuapp.com/" target="_blank">"Your Life-Clock" - JavaScript-based Web App</a></p>
-          <img src="_images/js1clock.png">
+    <li><a href="https://bucifer-lifeclock.herokuapp.com/" target="_blank"><h3>"Your Life-Clock" - JavaScript-based Web App</h3>
+    <img src="_images/js1clock.png">
+    <img src="_images/credits.png">
+    </a>
     </li>
-    <li><p><a href="sketchpad.php" target="_blank">Odin Project jQuery Practice Sketchpad</a></p>
-        <img src="_images/js2color.png">
+    <li><a href="sketchpad.php" target="_blank"><h3>Odin Project jQuery Practice Sketchpad</h3>
+        <img src="_images/js2color.png"></a>
     </li>
-    </ul>
-</div>
-<br>
-
-    <div id="wrapSlider">
-    <header>
-        <p>Thank you to <a href="http://helpingdevelop.com" target="_blank">Helping Develop</a>! jQuery Image Slider</p>
-    </header>
-        <div id="loopStatus"></div>
-        <div id="slider">
-            <img id="1" src="_images/image1.jpg">
-            <img id="2" src="_images/image2.jpg">
-            <img id="3" src="_images/image3.jpg">
-            <img id="4" src="_images/image4.jpg">
-        </div>
-        <a class="sliderLinks" id="left" href="#" onclick="prev(); return false;">Previous</a>
-        <a class="sliderLinks" id="right" href="#" onclick="next(); return false;">Next</a>
-    </div>
-    <script src="_javascript/slider.js">
-    </script>
-    <div id="js1">
-        <p id="codeAcademy">Thank you, Code Academy!<br>
-        Hover over my name!</p>
+    <li>
+        <div id="bubbleName">
         <canvas id="myCanvas"></canvas>
         <script src="_javascript/bubbleName.js"></script>
-    </div>
-<p id="gaptext">Earth's orbit around the sun</p>
-    <div id="js2">
-        <img id="sun" src="http://goo.gl/dEEssP">
-                <!-- Insert the 'earth' on the next line -->
-                <div id="earth-orbit">
-                <img id="earth" src=_images/earth.png>
-                </div><!--http://goo.gl/o3YWu9-->      
-    </div>
-  
-  
+        </div>
+    </li>    
+    </ul>
+    <hr>
+        <div>
+        <h3>Colorbox Slideshow</h3>
+            <p><a class="group1" href="_images/image2.jpg" title="JFK">Grouped Photo 1</a></p>
+            <p><a class="group1" href="_images/image3.jpg" title="Gandhi">Grouped Photo 2</a></p>
+            <p><a class="group1" href="_images/image4.jpg" title="N.M">Grouped Photo 3</a></p>
+        </div>
 </div>
 </div>
 
+
+
+<!--for colorbox jQuery plugin -->
+<script type="text/javascript" src="_javascript\vendor\jquery.colorbox-min.js"></script>
+<script>
+$(document).ready(function(e) {
+$(".group1").colorbox({rel:'group1'});
+});   
+</script>
 <!--universal includes-->
 <?php include("_includes/viewSizeDisplay.php"); ?>
 <!--universal javascript-->

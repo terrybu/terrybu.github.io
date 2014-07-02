@@ -18,11 +18,7 @@
 <body>
 <!--[if lt IE 7]><p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p><![endif]-->
 <div class="container">
-    <div id="browser"><p>*Optimal in 1920x1080 resolution/Chrome</p></div>
-    <?php include("_includes/gotSocial.php"); ?>
-    <?php include("_includes/welcomeNav.php"); ?>
-    <?php include("_includes/kyotoImage.php"); ?>
-
+    
 <div class="spcontainer">
 			<div id="spheader">
 				<h1>Terry Odin Project Sketchpad jQuery Practice</h1>
@@ -38,15 +34,6 @@
 </div>
   
 </div>
-
-<!--universal includes-->
-<?php include("_includes/viewSizeDisplay.php"); ?>
-<!--universal javascript-->
-<script type="text/javascript" src="_javascript/nav.js"></script>
-<!--universal sound effect -->
-<audio id="1up" src="_sound/swim.wav"></audio>
-<div id="sounddiv"><bgsound id="sound"></div>
-
 
 </body>
 </html>

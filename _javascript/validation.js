@@ -8,7 +8,7 @@ $(document).ready(function() {
         },
         fields: {
             sender: {
-                trigger: 'blur',
+                trigger: 'keyup',
                 validators: {
                     notEmpty: {
                         message: 'Your name is required'
@@ -24,7 +24,7 @@ $(document).ready(function() {
                 }
             },
             email: {
-                trigger: 'blur',
+                trigger: 'keyup',
                 validators: {
                     notEmpty: {
                         message: 'Your email is required'
@@ -35,7 +35,7 @@ $(document).ready(function() {
                 }
             },
             mesbody: {
-            	trigger: 'blur',
+            	trigger: 'keyup',
                 validators: {
                     notEmpty: {
                         message: 'The message body is required'

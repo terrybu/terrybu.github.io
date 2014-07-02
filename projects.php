@@ -14,25 +14,24 @@
     <div id="browser"><p>*Optimal in 1920x1080 resolution/Chrome</p></div>
     <?php include("_includes/gotSocial.php"); ?>
     <?php include("_includes/welcomeNav.php"); ?>
-</div><!--closes wrapper from welcomeNav -->
-  <div id="headImage">
-    <img src="_images/rubyonrails.png">
-  </div>
+    <?php include("_includes/kyotoImage.php"); ?>
 
 <div id="bodyContent">
-
-  <h1 style="color: #C63B3B">Pro Bono Projects</h1>
-  <div id="projects2" class="well">
+  <h1 style="color: #C63B3B; clear: both;">Pro Bono Projects</h1>
+  <div class="projectsDiv">
     <ul> 
-    <li>Helping non-profit organization ('Ourgoods') by rebuilding their Admin CMS interface through Rails migrations, model/database manipulation</li>
-    <img src="_images/ourgoods1.png">    
-    <img src="_images/ourgoods2.png">       
-  <hr>
-    <li>Close 5 issue tickets using Haml, jQuery, CSS, Ruby. Push code and contribute through Git & Github </li>
-    <img src="_images/ourgoods3.png">    
-    <img src="_images/ourgoods4.png">        
-
-    <hr>
+      <li>
+        <h3>Helping non-profit organization ('Ourgoods') by rebuilding their Admin CMS interface through Rails migrations, model/database manipulation</h3>
+        <br>
+        <a href="_images/ourgoods1.png" target="_blank"><img src="_images/ourgoods1.png"></a> 
+        <a href="_images/ourgoods2.png" target="_blank"><img src="_images/ourgoods2.png"></a>
+      </li> 
+      <li>
+       <h3>Close 5 issue tickets using Haml, jQuery, CSS, Ruby. Push code and contribute through Git & Github</h3>
+       <br>
+        <a href="_images/ourgoods3.png" target="_blank"><img src="_images/ourgoods3.png"></a>   
+        <a href="_images/ourgoods4.png" target="_blank"><img src="_images/ourgoods4.png"></a>       
+      </li>
   </div>
 
 </div> <!-- /bodyContent -->  

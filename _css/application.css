@@ -249,12 +249,19 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
 }
 
 /* line 10, ../sass/application.scss */
+#headImageRails {
+  float: none;
+  margin-left: 25%;
+  margin-top: 5%;
+}
+
+/* line 16, ../sass/application.scss */
 h1 {
   font-weight: bold;
 }
 
 /* NameLogo&Welcome.php */
-/* line 15, ../sass/application.scss */
+/* line 21, ../sass/application.scss */
 #logoHello {
   clear: right;
   width: 290px;
@@ -279,7 +286,7 @@ h1 {
   visibility: hidden;
 }
 
-/* line 22, ../sass/application.scss */
+/* line 28, ../sass/application.scss */
 #welcome {
   clear: both;
   font-family: Verdana, Geneva, sans-serif;
@@ -288,7 +295,7 @@ h1 {
 }
 
 /* END NameLogo&Welcome.php */
-/* line 30, ../sass/application.scss */
+/* line 36, ../sass/application.scss */
 #kyotoImage {
   width: 380px;
   height: 480px;
@@ -311,54 +318,80 @@ h1 {
   position: relative;
   visibility: hidden;
 }
-/* line 34, ../sass/application.scss */
+/* line 40, ../sass/application.scss */
 #kyotoImage img {
   border: 5px black solid;
 }
 
-/* line 43, ../sass/application.scss */
+/* line 45, ../sass/application.scss */
 .container {
   width: 100%;
   margin-top: 10px;
   margin-bottom: 10px;
 }
 
-/* line 50, ../sass/application.scss */
-#projects img {
-  width: 450px;
-  height: 200px;
-  margin-bottom: 2%;
-  margin-left: 5%;
+/* line 52, ../sass/application.scss */
+.projectsDiv li {
+  list-style: none;
+  border-radius: 10px;
+  margin: 0;
+  padding: 0;
+  background-color: #EEE;
+  max-width: 1200px;
+  min-width: 500px;
+  width: 100%;
+  height: 220px;
+  overflow: hidden;
+  border: 1px solid black;
 }
-/* line 56, ../sass/application.scss */
-#projects .thinimg {
-  width: 250px;
+/* line 64, ../sass/application.scss */
+.projectsDiv li img {
+  width: 400px;
+  height: 300px;
+  margin-left: 5%;
+  padding-bottom: 10px;
+}
+/* line 70, ../sass/application.scss */
+.projectsDiv li:hover {
+  background: #F8ECE0;
+  min-height: 220px;
+  height: 400px;
+  overflow: visible;
+}
+/* line 77, ../sass/application.scss */
+.projectsDiv h3 {
+  margin: 0;
+  padding: 0;
+  padding: 10px 20px;
+}
+
+/* line 85, ../sass/application.scss */
+#projectsRails li {
+  width: 100%;
+  max-width: 800px;
+  min-width: 550px;
+  height: 220px;
+  overflow: hidden;
+  border: 1px solid black;
+}
+/* line 92, ../sass/application.scss */
+#projectsRails li img {
+  width: 550px;
   height: 300px;
 }
-
-/* line 62, ../sass/application.scss */
-#projects2 img {
-  width: 50%;
-  height: 50%px;
-  margin-bottom: 2%;
-  margin-left: 5%;
+/* line 96, ../sass/application.scss */
+#projectsRails li:hover {
+  background: #F8ECE0;
+  min-height: 220px;
+  height: 380px;
+  overflow: visible;
 }
 
-/* line 71, ../sass/application.scss */
-.well {
-  font-size: 1.5em;
-  max-width: 75%;
-}
-/* line 74, ../sass/application.scss */
-.well li {
-  margin-bottom: 1%;
-}
-
-/* line 79, ../sass/application.scss */
+/* line 105, ../sass/application.scss */
 #jsprojects {
   clear: both;
 }
-/* line 81, ../sass/application.scss */
+/* line 107, ../sass/application.scss */
 #jsprojects img {
   width: 50%;
   height: 50%;
@@ -368,17 +401,17 @@ h1 {
 /*********************/
 /* Landscape phones and smaller */
 @media only screen and (max-width: 750px) {
-  /* line 91, ../sass/application.scss */
+  /* line 117, ../sass/application.scss */
   #tablet {
     display: none;
   }
 
-  /* line 92, ../sass/application.scss */
+  /* line 118, ../sass/application.scss */
   #desktop {
     display: none;
   }
 
-  /* line 93, ../sass/application.scss */
+  /* line 119, ../sass/application.scss */
   #mobile {
     display: initial;
     position: fixed;
@@ -390,24 +423,24 @@ h1 {
     font-size: 1em;
   }
 
-  /* line 96, ../sass/application.scss */
+  /* line 122, ../sass/application.scss */
   #gotSocial {
     font-size: 1em;
   }
-  /* line 98, ../sass/application.scss */
+  /* line 124, ../sass/application.scss */
   #gotSocial span {
     display: block;
     margin-bottom: 0.25em;
   }
 
-  /* line 101, ../sass/application.scss */
+  /* line 127, ../sass/application.scss */
   #logoHello {
     padding-top: 5px;
   }
 }
 /* Tablets and Medium Desktops */
 @media only screen and (min-width: 751px) and (max-width: 1200px) {
-  /* line 108, ../sass/application.scss */
+  /* line 134, ../sass/application.scss */
   #tablet {
     display: initial;
     position: fixed;
@@ -419,57 +452,57 @@ h1 {
     font-size: 1em;
   }
 
-  /* line 111, ../sass/application.scss */
+  /* line 137, ../sass/application.scss */
   #desktop {
     display: none;
   }
 
-  /* line 112, ../sass/application.scss */
+  /* line 138, ../sass/application.scss */
   #mobile {
     display: none;
   }
 
-  /* line 113, ../sass/application.scss */
+  /* line 139, ../sass/application.scss */
   #gotSocial {
     clear: left;
   }
 
-  /* line 116, ../sass/application.scss */
+  /* line 142, ../sass/application.scss */
   #container {
     margin: 0 auto;
   }
 
-  /* line 119, ../sass/application.scss */
+  /* line 145, ../sass/application.scss */
   #wrapper {
     max-width: 80%;
     margin: 0 auto;
   }
-  /* line 122, ../sass/application.scss */
+  /* line 148, ../sass/application.scss */
   #wrapper #welcomeNav {
     padding-top: 10px;
     max-width: 550px;
     margin: 0 auto;
   }
-  /* line 126, ../sass/application.scss */
+  /* line 152, ../sass/application.scss */
   #wrapper #welcomeNav #logoHello {
     margin: 0 auto;
   }
-  /* line 129, ../sass/application.scss */
+  /* line 155, ../sass/application.scss */
   #wrapper #welcomeNav #welcome {
     font-size: 1.2em;
     text-align: center;
     max-width: 450px;
     margin: 0 auto;
   }
-  /* line 136, ../sass/application.scss */
+  /* line 162, ../sass/application.scss */
   #wrapper #nav {
     margin-bottom: 3%;
   }
-  /* line 137, ../sass/application.scss */
+  /* line 163, ../sass/application.scss */
   #wrapper #nav a {
     font-size: 1.4em;
   }
-  /* line 142, ../sass/application.scss */
+  /* line 168, ../sass/application.scss */
   #wrapper #kyotoImage {
     max-width: 360px;
     max-height: 480px;
@@ -477,12 +510,12 @@ h1 {
     display: inline-block;
   }
 
-  /* line 150, ../sass/application.scss */
+  /* line 176, ../sass/application.scss */
   #bodyContent {
     margin: 0 auto;
   }
 
-  /* line 154, ../sass/application.scss */
+  /* line 180, ../sass/application.scss */
   .panel {
     width: 350px;
     display: inline-block;
@@ -492,7 +525,7 @@ h1 {
 }
 /* Large desktops and laptops */
 @media only screen and (min-width: 1201px) {
-  /* line 165, ../sass/application.scss */
+  /* line 191, ../sass/application.scss */
   #desktop {
     display: initial;
     position: fixed;
@@ -504,22 +537,22 @@ h1 {
     font-size: 1em;
   }
 
-  /* line 168, ../sass/application.scss */
+  /* line 194, ../sass/application.scss */
   #tablet {
     display: none;
   }
 
-  /* line 169, ../sass/application.scss */
+  /* line 195, ../sass/application.scss */
   #mobile {
     display: none;
   }
 
-  /* line 170, ../sass/application.scss */
+  /* line 196, ../sass/application.scss */
   #wrapper {
     max-width: 1350px;
     margin: 0 auto;
   }
-  /* line 173, ../sass/application.scss */
+  /* line 199, ../sass/application.scss */
   #wrapper #kyotoImage {
     width: 420px;
     height: 560px;
@@ -528,30 +561,30 @@ h1 {
     margin-bottom: 2%;
     margin-top: -2%;
   }
-  /* line 174, ../sass/application.scss */
+  /* line 200, ../sass/application.scss */
   #wrapper #kyotoImage img {
     width: 420px;
     height: 560px;
   }
-  /* line 185, ../sass/application.scss */
+  /* line 211, ../sass/application.scss */
   #wrapper #welcomeNav {
     width: 700px;
     margin-right: 1%;
     clear: right;
     float: right;
   }
-  /* line 191, ../sass/application.scss */
+  /* line 217, ../sass/application.scss */
   #wrapper #logoHello {
     margin: 0 auto;
   }
-  /* line 194, ../sass/application.scss */
+  /* line 220, ../sass/application.scss */
   #wrapper #welcome {
     font-size: 1.2em;
     max-width: 500px;
     text-align: center;
     margin: 0 auto;
   }
-  /* line 200, ../sass/application.scss */
+  /* line 226, ../sass/application.scss */
   #wrapper #nav {
     border-top: groove 1px black;
     border-spacing: 2px;
@@ -559,40 +592,40 @@ h1 {
     margin-top: 5%;
     margin-left: 10%;
   }
-  /* line 206, ../sass/application.scss */
+  /* line 232, ../sass/application.scss */
   #wrapper #nav a {
     font-size: 1.5em;
   }
 
-  /* line 212, ../sass/application.scss */
+  /* line 238, ../sass/application.scss */
   #bodyContent {
     clear: right;
     margin-left: 15%;
   }
 
-  /* line 217, ../sass/application.scss */
+  /* line 243, ../sass/application.scss */
   .panel {
     width: 350px;
     margin: 0 auto;
     position: absolute;
   }
 
-  /* line 223, ../sass/application.scss */
+  /* line 249, ../sass/application.scss */
   #CollapsiblePanel1 {
     margin-top: 5px;
   }
 
-  /* line 226, ../sass/application.scss */
+  /* line 252, ../sass/application.scss */
   #CollapsiblePanel2 {
     margin-left: 20%;
   }
 
-  /* line 229, ../sass/application.scss */
+  /* line 255, ../sass/application.scss */
   #CollapsiblePanel3 {
     margin-left: 40%;
   }
 
-  /* line 232, ../sass/application.scss */
+  /* line 258, ../sass/application.scss */
   #CollapsiblePanel4 {
     margin-left: 60%;
   }

@@ -8,9 +8,16 @@
 <link href="_css/contact.css" rel="stylesheet" type="text/css">
 <link rel="stylesheet" href="dist/css/bootstrapValidator.css"/>
 <script type="text/javascript" src="dist/js/bootstrapValidator.js"></script>
-<script type="text/javascript"
-      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyANc2OOYLVVwOz0rgpkiv78vHVIHnNyA70"></script>
-<script src="_javascript/googlemaps.js"></script>
+<script src="http://maps.google.com/maps/api/js?sensor=true" type="text/javascript"></script>
+	<!-- BeginOAWidget_Shared_2187524 -->
+	<!-- EndOAWidget_Shared_2187524 -->
+	<script type="text/xml">
+	<!--
+	<oa:widgets>
+	  <oa:widget wid="2187524" binding="#mapCanvas" />
+	</oa:widgets>
+	-->
+</script>
 <title>Terry Bu - Portfolio Website | Contact Terry</title>
 </head>
 <body>
@@ -26,6 +33,7 @@
 <div id="large">
 
 <div id="mapCanvas"></div>
+<script src="_javascript/googlemaps.js"></script>
 
 <div id="reachMe">
 <form id='contactForm' method="post" action="formmail.php">
