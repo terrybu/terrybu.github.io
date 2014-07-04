@@ -22,6 +22,12 @@
   <h1 style="color: #C63B3B; clear: both;">JavaScript Portfolio</h1>
   <div class="projectsDiv" id="projectsJavascript">
     <ul>
+    <li>
+    <a href="favCelebsTweets.php" target="_blank"><h3>Twitter API Project with JSON and Mustache.js</h3>
+    <img src="_images/twitterAPI1.png">
+    <img src="_images/twitterAPI2.jpeg">
+    </a>
+    </li>
     <li><a href="https://bucifer-lifeclock.herokuapp.com/" target="_blank"><h3>"Your Life-Clock" - JavaScript-based Web App</h3>
     <img src="_images/js1clock.png">
     <img src="_images/credits.png">

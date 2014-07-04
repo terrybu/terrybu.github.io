@@ -17,7 +17,6 @@
       <?php include("_includes/kyotoImage.php"); ?>
 
   <div id="bodyContent">
-      
     <div class="panel-group" id="accordion">
            <!--COLLAPSIBLE PANELS START HERE -->
       <div id="CollapsiblePanel1" class="panel panel-default">
