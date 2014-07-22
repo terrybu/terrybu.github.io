@@ -14,7 +14,7 @@
     <div id="browser"><p>*Optimal in 1920x1080 resolution/Chrome</p></div>
     <?php include("_includes/gotSocial.php"); ?>
     <?php include("_includes/welcomeNav.php"); ?>
-</div><!--closes wrapper from welcomeNav -->
+  </div><!--closes wrapper from welcomeNav -->
 <img src="_images/rubyonrails.png" id="headImageRails">
 
 <div id="bodyContent">
@@ -22,20 +22,17 @@
   <div class="projectsDiv"  id="projectsRails">
    <ul>
     <li>
-    <h3>        
-    <a href="https://terrysquotes.herokuapp.com/" target="_blank">Personal Rails Project: Terry's Quotes Database</h3>
+    <h3><a href="https://terrysnotes.herokuapp.com/" target="_blank">Personal Rails Project: Terry's Book Notes</h3>    
+      <img src="_images/_booknotes.png"></a>
+    </li>
+    <li>
+    <h3><a href="https://terrysquotes.herokuapp.com/" target="_blank">Personal Rails Project: Terry's Quotes Database</h3>
     <img src="_images/s1quote.png"></a>
     </li>
     <li>
-    <h3>
-    <a href="https://bucifer-micropost.herokuapp.com/" target="_blank">Michael Hartl's Rails Tutorial: Micropost App</h3><img src="_images/s1micro.png" class='thinimg'></a>
-    </li>
-    <li>
-    <h3>
-    <a href="https://bucifer-blogger.herokuapp.com/" target="_blank">JumpstartLab Blogger 2 Tutorial: Blogger
-    </h3>    
-    <img src="_images/s1blogger.png"></a>
-    </li>
+      <h3>
+      <a href="https://bucifer-micropost.herokuapp.com/" target="_blank">Michael Hartl's Rails Tutorial: Micropost App</h3><img src="_images/s1micro.png" class='thinimg'></a>
+      </li>
     </ul>
   </div>
 

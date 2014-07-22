@@ -1,0 +1,89 @@
+[
+    {
+        "name": "Pikachu",
+        "id": 0,
+        "price": 12.95,
+        "description": "she is electrifying",
+        "canPurchase": true,
+        "images": [
+            "images/pikachu.png",
+            "images/pikachu.gif"
+        ],
+        "reviews": [
+            {
+                "stars": 5,
+                "body": "Great value for the money!",
+                "author": "joe@example.com",
+                "createdOn": 1404915227777
+            },
+            {
+                "stars": 3,
+                "body": "She was too small for my taste",
+                "author": "grumpy@gmail.com",
+                "createdOn": 1404915227777
+            }
+        ],
+        "moves": [
+            "Thunderbolt",
+            "Quick Attack"
+        ]
+    },
+    {
+        "name": "Charmander",
+        "id": 1,
+        "price": 14.95,
+        "description": "he's got a fiery temper",
+        "canPurchase": true,
+        "images": [
+            "images/charmander.png",
+            "images/charmander.gif"
+        ],
+        "reviews": [
+            {
+                "stars": 1,
+                "body": "Set my house on fire!",
+                "author": "joe@example.com",
+                "createdOn": 1404915227777
+            },
+            {
+                "stars": 4,
+                "body": "Great for barbecues",
+                "author": "grumpy@gmail.com",
+                "createdOn": 1404915227777
+            }
+        ],
+        "moves": [
+            "Ember",
+            "Claw"
+        ]
+    },
+    {
+        "name": "Psyduck",
+        "id": 2,
+        "price": 2.99,
+        "description": "he's confused",
+        "canPurchase": true,
+        "images": [
+            "images/psyduck.png",
+            "images/psyduck.gif"
+        ],
+        "reviews": [
+            {
+                "stars": 1,
+                "body": "Disappointed",
+                "author": "joe@example.com",
+                "createdOn": 1404915227777
+            },
+            {
+                "stars": 2,
+                "body": "Chewy",
+                "author": "grumpy@gmail.com",
+                "createdOn": 1404915227777
+            }
+        ],
+        "moves": [
+            "Confusion",
+            "Sleep"
+        ]
+    }
+]

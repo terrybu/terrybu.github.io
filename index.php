@@ -40,7 +40,7 @@
       </div>
       <div id="collapseTwo" class="panel-collapse collapse">
         <div class="panel-body">
-          <p>I am self-taught in Ruby on Rails, Ruby, JavaScript, CSS, HTML. I have a working knowledge of Git, Haml, Sass, PHP, SQL, jQuery, AJAX and Vagrant from past projects. I am proficient in Adobe CS6(Photoshop, Dreamweaver, Premiere Pro) and Excel. I do have an understanding of Java, Eclipse (Android SDK) and Python at a basic level.</p>
+          <p>I am self-taught in Ruby on Rails, Ruby, JavaScript, CSS and HTML. I have a working knowledge of Git, jQuery, AngularJS, Haml, Sass, PHP, SQL and Vagrant from past projects. I am proficient in Adobe CS6(Photoshop, Dreamweaver, Premiere Pro) and Excel. I do have an understanding of Java, Eclipse (Android SDK) and Python at a basic level.</p>
           <p>I graduated with a BSBA with a minor in Japanese from UNC - Chapel Hill in 2011. </p>
         </div>
      </div>
@@ -54,7 +54,7 @@
       <div id="collapseThree" class="panel-collapse collapse">
          <div class="panel-body">
       <p>My original background is in business, marketing and sales. I  gained close exposure to the tech world in 2013 as a sales rep at an IT solutions company. Please refer to <a href="http://www.linkedin.com/in/terrybu" target="_blank">LinkedIn</a> for details.</p>
-      <p>The decision to pursue coding professionally is recent (early 2014) though my love for CS dates back to my teenage years. I am committed to the decision and strongly driven to be a part of next generation's technology innovators.</p>
+      <p>I made the decision to pursue a career in programming/web development in early 2014. I am committed to the decision and strongly driven to be a part of next generation's technology innovators. I hope to gain more work experience in coding.</p>
          </div>
       </div>
    </div>

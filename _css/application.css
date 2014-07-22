@@ -48,7 +48,7 @@ body:after {
 }
 
 /* MIXINS */
-/* line 46, ../sass/_base.scss */
+/* line 45, ../sass/_base.scss */
 #browser {
   color: white;
   position: fixed;
@@ -59,26 +59,26 @@ body:after {
   display: inline-block;
 }
 
-/* line 50, ../sass/_base.scss */
+/* line 49, ../sass/_base.scss */
 #gotSocial {
   clear: left;
   float: right;
-  margin-right: -0.5%;
+  margin-right: 0%;
 }
-/* line 54, ../sass/_base.scss */
+/* line 53, ../sass/_base.scss */
 #gotSocial span {
   font-family: 'gotmilk';
   font-size: 3.5em;
-  margin-top: -4%;
+  margin-top: -3.5%;
   display: inline-block;
 }
-/* line 61, ../sass/_base.scss */
+/* line 60, ../sass/_base.scss */
 #gotSocial img {
-  margin-top: -8%;
+  margin-top: -7%;
 }
 
 /* ROTATING MY SOCIAL MEDIA ICONS EFFECT ON HOVER */
-/* line 67, ../sass/_base.scss */
+/* line 66, ../sass/_base.scss */
 .rotate img {
   -moz-transition: all 0.6s ease-in-out;
   -webkit-transition: all 0.6s ease-in-out;
@@ -87,7 +87,7 @@ body:after {
   transition: all 0.6s ease-in-out;
 }
 
-/* line 74, ../sass/_base.scss */
+/* line 73, ../sass/_base.scss */
 .rotate img:hover {
   -moz-transform: rotate(360deg);
   -webkit-transform: rotate(360deg);
@@ -433,14 +433,14 @@ h1 {
     margin-bottom: 0.25em;
   }
 
-  /* line 127, ../sass/application.scss */
+  /* line 128, ../sass/application.scss */
   #logoHello {
     padding-top: 5px;
   }
 }
 /* Tablets and Medium Desktops */
 @media only screen and (min-width: 751px) and (max-width: 1200px) {
-  /* line 134, ../sass/application.scss */
+  /* line 135, ../sass/application.scss */
   #tablet {
     display: initial;
     position: fixed;
@@ -452,57 +452,57 @@ h1 {
     font-size: 1em;
   }
 
-  /* line 137, ../sass/application.scss */
+  /* line 138, ../sass/application.scss */
   #desktop {
     display: none;
   }
 
-  /* line 138, ../sass/application.scss */
+  /* line 139, ../sass/application.scss */
   #mobile {
     display: none;
   }
 
-  /* line 139, ../sass/application.scss */
+  /* line 140, ../sass/application.scss */
   #gotSocial {
     clear: left;
   }
 
-  /* line 142, ../sass/application.scss */
+  /* line 143, ../sass/application.scss */
   #container {
     margin: 0 auto;
   }
 
-  /* line 145, ../sass/application.scss */
+  /* line 146, ../sass/application.scss */
   #wrapper {
     max-width: 80%;
     margin: 0 auto;
   }
-  /* line 148, ../sass/application.scss */
+  /* line 149, ../sass/application.scss */
   #wrapper #welcomeNav {
     padding-top: 10px;
     max-width: 550px;
     margin: 0 auto;
   }
-  /* line 152, ../sass/application.scss */
+  /* line 153, ../sass/application.scss */
   #wrapper #welcomeNav #logoHello {
     margin: 0 auto;
   }
-  /* line 155, ../sass/application.scss */
+  /* line 156, ../sass/application.scss */
   #wrapper #welcomeNav #welcome {
     font-size: 1.2em;
     text-align: center;
     max-width: 450px;
     margin: 0 auto;
   }
-  /* line 162, ../sass/application.scss */
+  /* line 163, ../sass/application.scss */
   #wrapper #nav {
     margin-bottom: 3%;
   }
-  /* line 163, ../sass/application.scss */
+  /* line 164, ../sass/application.scss */
   #wrapper #nav a {
     font-size: 1.4em;
   }
-  /* line 168, ../sass/application.scss */
+  /* line 169, ../sass/application.scss */
   #wrapper #kyotoImage {
     max-width: 360px;
     max-height: 480px;
@@ -510,12 +510,12 @@ h1 {
     display: inline-block;
   }
 
-  /* line 176, ../sass/application.scss */
+  /* line 177, ../sass/application.scss */
   #bodyContent {
     margin: 0 auto;
   }
 
-  /* line 180, ../sass/application.scss */
+  /* line 181, ../sass/application.scss */
   .panel {
     width: 350px;
     display: inline-block;
@@ -525,7 +525,7 @@ h1 {
 }
 /* Large desktops and laptops */
 @media only screen and (min-width: 1201px) {
-  /* line 191, ../sass/application.scss */
+  /* line 192, ../sass/application.scss */
   #desktop {
     display: initial;
     position: fixed;
@@ -537,22 +537,22 @@ h1 {
     font-size: 1em;
   }
 
-  /* line 194, ../sass/application.scss */
+  /* line 195, ../sass/application.scss */
   #tablet {
     display: none;
   }
 
-  /* line 195, ../sass/application.scss */
+  /* line 196, ../sass/application.scss */
   #mobile {
     display: none;
   }
 
-  /* line 196, ../sass/application.scss */
+  /* line 197, ../sass/application.scss */
   #wrapper {
     max-width: 1350px;
     margin: 0 auto;
   }
-  /* line 199, ../sass/application.scss */
+  /* line 200, ../sass/application.scss */
   #wrapper #kyotoImage {
     width: 420px;
     height: 560px;
@@ -561,30 +561,30 @@ h1 {
     margin-bottom: 2%;
     margin-top: -2%;
   }
-  /* line 200, ../sass/application.scss */
+  /* line 201, ../sass/application.scss */
   #wrapper #kyotoImage img {
     width: 420px;
     height: 560px;
   }
-  /* line 211, ../sass/application.scss */
+  /* line 212, ../sass/application.scss */
   #wrapper #welcomeNav {
     width: 700px;
     margin-right: 1%;
     clear: right;
     float: right;
   }
-  /* line 217, ../sass/application.scss */
+  /* line 218, ../sass/application.scss */
   #wrapper #logoHello {
     margin: 0 auto;
   }
-  /* line 220, ../sass/application.scss */
+  /* line 221, ../sass/application.scss */
   #wrapper #welcome {
     font-size: 1.2em;
     max-width: 500px;
     text-align: center;
     margin: 0 auto;
   }
-  /* line 226, ../sass/application.scss */
+  /* line 227, ../sass/application.scss */
   #wrapper #nav {
     border-top: groove 1px black;
     border-spacing: 2px;
@@ -592,40 +592,40 @@ h1 {
     margin-top: 5%;
     margin-left: 10%;
   }
-  /* line 232, ../sass/application.scss */
+  /* line 233, ../sass/application.scss */
   #wrapper #nav a {
     font-size: 1.5em;
   }
 
-  /* line 238, ../sass/application.scss */
+  /* line 239, ../sass/application.scss */
   #bodyContent {
     clear: right;
     margin-left: 15%;
   }
 
-  /* line 243, ../sass/application.scss */
+  /* line 244, ../sass/application.scss */
   .panel {
     width: 350px;
     margin: 0 auto;
     position: absolute;
   }
 
-  /* line 249, ../sass/application.scss */
+  /* line 250, ../sass/application.scss */
   #CollapsiblePanel1 {
     margin-top: 5px;
   }
 
-  /* line 252, ../sass/application.scss */
+  /* line 253, ../sass/application.scss */
   #CollapsiblePanel2 {
     margin-left: 20%;
   }
 
-  /* line 255, ../sass/application.scss */
+  /* line 256, ../sass/application.scss */
   #CollapsiblePanel3 {
     margin-left: 40%;
   }
 
-  /* line 258, ../sass/application.scss */
+  /* line 259, ../sass/application.scss */
   #CollapsiblePanel4 {
     margin-left: 60%;
   }

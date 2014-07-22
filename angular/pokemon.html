@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html ng-app="PokemonStore">
+<head>
+<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body ng-controller="MainController as main">
+<h1>Terry's Angular Pokemon Store</h1>
+<div ng-controller="GalleryController as gallery">
+		<table>
+			<thead>
+			<tr>
+				<th>Name</th>
+				<th>Image</th>
+				<th>Price</th>
+				<th>Description</th>
+				<th>Button</th>
+			</tr>
+			</thead>
+			<tbody>
+			<tr ng-repeat="pokemon in main.pokemons">
+				<td>{{pokemon.name}}</td>
+				<td id="imagesCell"><img ng-src="{{pokemon.images[1]}}" /></td>
+				<td>{{pokemon.price | currency}}</td>
+				<td>{{pokemon.description}}</td>
+				<td><button class="btn btn-primary btn-success" ng-show="pokemon.canPurchase" ng-click="gallery.current = pokemon.id">Show in Gallery</button></td>
+			</tr>
+			<tbody>
+		</table>
+		<div id="gallery">
+			<h1>Gallery & Reviews</h1>
+			<img ng-src="{{main.pokemons[gallery.current].images[0]}}" />
+		  <section ng-controller="TabController as tab">
+	          <ul class="nav nav-pills">
+	          <li ng-class="{ active:tab.isSet(1) }">
+	            <a href="" ng-click="tab.setTab(1)">Description</a>
+	          </li>
+	            <li ng-class="{ active:tab.isSet(2) }">
+	              <a href="" ng-click="tab.setTab(2)">Move List</a>
+	            </li>
+	            <li ng-class="{ active:tab.isSet(3) }">
+	              <a href="" ng-click="tab.setTab(3)">Reviews</a>
+	            </li>
+	          </ul>
+           <div ng-show="tab.isSet(1)">
+            <h4>Description</h4>
+            <blockquote>{{main.pokemons[gallery.current].description}}</blockquote>
+          </div>
+          <div ng-show="tab.isSet(2)">
+            <h4>Move List</h4>
+            <blockquote>				
+            <ul>
+			<li ng-repeat="move in main.pokemons[gallery.current].moves">{{move}}</li>
+			</ul>
+			</blockquote>
+          </div>
+        <review-form ng-show="tab.isSet(3)">
+        </review-form>
+       
+      </section>
+				
+</div>
+<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.19/angular.min.js"></script>
+<script type="text/javascript" src="app.js"></script>
+</body>
+</html>

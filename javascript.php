@@ -22,26 +22,32 @@
   <h1 style="color: #C63B3B; clear: both;">JavaScript Portfolio</h1>
   <div class="projectsDiv" id="projectsJavascript">
     <ul>
-    <li>
-    <a href="favCelebsTweets.php" target="_blank"><h3>Twitter API Project with JSON and Mustache.js</h3>
-    <img src="_images/twitterAPI1.png">
-    <img src="_images/twitterAPI2.jpeg">
-    </a>
-    </li>
-    <li><a href="https://bucifer-lifeclock.herokuapp.com/" target="_blank"><h3>"Your Life-Clock" - JavaScript-based Web App</h3>
-    <img src="_images/js1clock.png">
-    <img src="_images/credits.png">
-    </a>
-    </li>
-    <li><a href="sketchpad.php" target="_blank"><h3>Odin Project jQuery Practice Sketchpad</h3>
-        <img src="_images/js2color.png"></a>
-    </li>
-    <li>
-        <div id="bubbleName">
-        <canvas id="myCanvas"></canvas>
-        <script src="_javascript/bubbleName.js"></script>
-        </div>
-    </li>    
+        <li>
+        <a href="http://favcelebstwitterapi.herokuapp.com/" target="_blank"><h3>Twitter API Project with JSON and Mustache.js</h3>
+        <img src="_images/twitterAPI1.png">
+        <img src="_images/twitterAPI2.jpeg">
+        </a>
+        </li>
+        <li><a href="https://bucifer-lifeclock.herokuapp.com/" target="_blank"><h3>"Your Life-Clock" - JavaScript-based Web App</h3>
+        <img src="_images/js1clock.png">
+        <img src="_images/credits.png">
+        </a>
+        </li>
+        <li>
+            <a href="angular/pokemon.html" target="_blank"><h3>Angular JS Practice - Pokemon Gallery</h3>
+            <img src="_images/pokemonScreenshot.png">
+            <img src="_images/pikachu.gif">
+            </a>
+        </li>
+        <li><a href="sketchpad.php" target="_blank"><h3>Odin Project jQuery Practice Sketchpad</h3>
+            <img src="_images/js2color.png"></a>
+        </li>
+        <li>
+            <div id="bubbleName">
+            <canvas id="myCanvas"></canvas>
+            <script src="_javascript/bubbleName.js"></script>
+            </div>
+        </li>    
     </ul>
     <hr>
         <div>

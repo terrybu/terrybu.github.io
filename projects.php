@@ -21,13 +21,13 @@
   <div class="projectsDiv">
     <ul> 
       <li>
-        <h3>Helping non-profit organization ('Ourgoods') by rebuilding their Admin CMS interface through Rails migrations, model/database manipulation</h3>
+        <h3>Helping non-profit organization (<a href="http://www.ourgoods.org">Ourgoods.org</a>) by rebuilding their Admin CMS interface through Rails migrations, model/database manipulation</h3>
         <br>
         <a href="_images/ourgoods1.png" target="_blank"><img src="_images/ourgoods1.png"></a> 
         <a href="_images/ourgoods2.png" target="_blank"><img src="_images/ourgoods2.png"></a>
       </li> 
       <li>
-       <h3>Close 5 issue tickets using Haml, jQuery, CSS, Ruby. Push code and contribute through Git & Github</h3>
+       <h3>Close 18 Github issue tickets using jQuery, Haml, Ruby and CSS for a Rails App. Push code and contribute through Git</h3>
        <br>
         <a href="_images/ourgoods3.png" target="_blank"><img src="_images/ourgoods3.png"></a>   
         <a href="_images/ourgoods4.png" target="_blank"><img src="_images/ourgoods4.png"></a>       

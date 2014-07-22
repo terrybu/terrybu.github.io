@@ -42,7 +42,6 @@
     }
 }
 
-
 #browser {
     @include whiteBrowser;
 }
@@ -50,16 +49,16 @@
 #gotSocial {
     clear: left;
     float: right;
-    margin-right: -0.5%;   
+    margin-right: 0%;   
     span {
         font-family: 'gotmilk';
         font-size: 3.5em;
-        margin-top: -4%;
+        margin-top: -3.5%;
         display: inline-block;
     }
 
     img {
-        margin-top: -8%;                      
+        margin-top: -7%;                      
     }
 }
 
