@@ -23,12 +23,16 @@
   <div class="projectsDiv" id="projectsJavascript">
     <ul>
         <li>
-        <a href="http://favcelebstwitterapi.herokuapp.com/" target="_blank"><h3>Twitter API Project with JSON and Mustache.js</h3>
-        <img src="_images/twitterAPI1.png">
-        <img src="_images/twitterAPI2.jpeg">
+        <a href="http://bucifer-realtime-twitter.nodejitsu.com/" target="_blank"><h3>Twitter Streaming API Project with Node, Express and Socket.io</h3>
+        <img src="_images/streaming.png">
         </a>
         </li>
-        <li><a href="https://bucifer-lifeclock.herokuapp.com/" target="_blank"><h3>"Your Life-Clock" - JavaScript-based Web App</h3>
+        <li>
+        <a href="http://favcelebstwitterapi.herokuapp.com/" target="_blank"><h3>Twitter REST API Project with Mustache.js and PHP OAuth library</h3>
+        <img src="_images/twitterAPI1.png">
+        </a>
+        </li>
+        <li><a href="https://bucifer-lifeclock.herokuapp.com/" target="_blank"><h3>"Terry's Life-Clock" - Original JS/jQuery Web App</h3>
         <img src="_images/js1clock.png">
         <img src="_images/credits.png">
         </a>

@@ -20,7 +20,7 @@
 	    HOME</a></li>
 	    <li class="dropdown"><a href="#" id="action" data-toggle="dropdown" class="dropdown-toggle"><span class="glyphicon glyphicon-folder-open" style="margin-right: 5px;"></span>PORTFOLIO<b class="caret"></b></a>
 	      <ul class="dropdown-menu">
-   	        <li><a href="projects.php">Projects</a></li>
+   	        <li><a href="projects.php">Pro Bono</a></li>
 	        <li><a href="rails.php">Ruby on Rails</a></li>
 	        <li><a href="javascript.php">JavaScript</a></li>
 	        <li><a href="android.php">Android</a></li>
