@@ -10,8 +10,8 @@
 	</div>
 
 	<div id="welcome">
-	  <p>Hi, I'm Terry Bu, a web applications developer &amp; programmer in Astoria, NY.  Thank you for visiting. </p>
-	  <p><em>Bootstrap, Sass, and jQuery was used for the design of this website. </em></p>
+	  <p>Hi, I'm Terry Bu, Mobile/Web Developer in Astoria, NY.  Thank you for visiting. </p>
+	  <p><em>Bootstrap, SASS, jQuery and responsive design was used for this website. </em></p>
 	</div>
 
 	<div id="nav">
@@ -20,11 +20,11 @@
 	    HOME</a></li>
 	    <li class="dropdown"><a href="#" id="action" data-toggle="dropdown" class="dropdown-toggle"><span class="glyphicon glyphicon-folder-open" style="margin-right: 5px;"></span>PORTFOLIO<b class="caret"></b></a>
 	      <ul class="dropdown-menu">
+   	        <li><a href="ios.php">iOS</a></li>
    	        <li><a href="projects.php">Pro Bono</a></li>
 	        <li><a href="rails.php">Ruby on Rails</a></li>
 	        <li><a href="javascript.php">JavaScript</a></li>
 	        <li><a href="android.php">Android</a></li>
-	      <!--  <li><a href="java.php">Java</a></li> -->
 	        <li><a href="https://github.com/bucifer" target="_blank">GitHub</a></li>
 	      </ul>
 	    </li>

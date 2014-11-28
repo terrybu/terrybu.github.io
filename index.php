@@ -27,7 +27,7 @@
       </div>
       <div id="collapseOne" class="panel-collapse collapse">
          <div class="panel-body" id="body1">
-          <p>As impressed as we already are with the exponential innotivation in technology (Google, mobile, cloud, IoE) in recent years, I believe we've only scratched the tip of the iceberg. </p>
+          <p>As impressed as we already are with the exponential advancement in technology (mobile, cloud, IoE) in recent years, I believe we've only scratched the surface. </p>
           <p>Technology will continue to be the glue that binds information and knowledge across all disciplines. There's little doubt that the world's need for developers/engineers/programmers will keep rising within the next several decades.</p>
          </div>
       </div>
@@ -40,8 +40,8 @@
       </div>
       <div id="collapseTwo" class="panel-collapse collapse">
         <div class="panel-body">
-          <p>I am self-taught in Ruby on Rails, Ruby, JavaScript, CSS and HTML. I have a working knowledge of Git, jQuery, AngularJS, Haml, Sass, PHP, SQL and Vagrant from past projects. I am proficient in Adobe CS6(Photoshop, Dreamweaver, Premiere Pro) and Excel. I do have an understanding of Java, Eclipse (Android SDK) and Python at a basic level.</p>
-          <p>I graduated with a BSBA with a minor in Japanese from UNC - Chapel Hill in 2011. </p>
+          <p>I am currently involved in a full-time iOS immersion internship at TurnToTech and code in Objective-C and Java. I am self-taught in Java, Android SDK, Ruby on Rails, JavaScript and CSS. I have a working knowledge of Git, jQuery, Haml, SASS and PostgreSQL from past projects. I dabble in Angular, Node, and Adobe Creative Suite.</p>
+          <p>I graduated with a BSBA and a minor in Japanese from UNC - Chapel Hill in 2011. </p>
         </div>
      </div>
    </div>
@@ -53,8 +53,8 @@
       </div>
       <div id="collapseThree" class="panel-collapse collapse">
          <div class="panel-body">
-      <p>My original background is in business, marketing and sales. I  gained close exposure to the tech world in 2013 as a sales rep at an IT solutions company. Please refer to <a href="http://www.linkedin.com/in/terrybu" target="_blank">LinkedIn</a> for details.</p>
-      <p>I made the decision to pursue a career in programming/web development in early 2014. I am committed to the decision and strongly driven to be a part of next generation's technology innovators. I hope to gain more work experience in coding.</p>
+      <p>My bachelor's is in Business, and I worked in marketing and sales after graduation. I gained close exposure to the tech world in 2013 as a sales rep at an IT solutions company. Please refer to <a href="http://www.linkedin.com/in/terrybu" target="_blank">LinkedIn</a> for details.</p>
+      <p>I made the decision to learn and pursue coding as a career in early-2014. I did some freelance and pro-bono work in web dev before I got into iOS. I am a big fan of both web and mobile.</p>
          </div>
       </div>
    </div>
@@ -66,8 +66,8 @@
       </div>
       <div id="collapseFour" class="panel-collapse collapse">
          <div class="panel-body">
-      <p>Free online education have allowed people like myself to gain new knowledge, learn new skills and pursue new careers. I eventually want to give back to this cause through my own efforts. I want to help create better accessibility to free knowledge and information for people all over the world. </p>
-      <p>In the near future, I also hope to impact open-source projects in a variety of different sectors like sciences, non-profit and education.</p>
+      <p>The internet has changed the way we learn, but I think we can make it even better. I want to help create better accessibility to free knowledge and information for people all over the world. I also am deeply curious about the future of tech entrepreneurship.</p>
+      <p>In the short term, I want to keep growing and developing my skills at a place where I can make an impact. </p>
          </div>
       </div>
      </div>

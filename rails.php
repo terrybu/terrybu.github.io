@@ -14,12 +14,12 @@
     <div id="browser"><p>*Optimal in 1920x1080 resolution/Chrome</p></div>
     <?php include("_includes/gotSocial.php"); ?>
     <?php include("_includes/welcomeNav.php"); ?>
-  </div><!--closes wrapper from welcomeNav -->
+  </div>
 <img src="_images/rubyonrails.png" id="headImageRails">
 
 <div id="bodyContent">
   <h1 style="color: #C63B3B">Ruby on Rails Projects</h1>
-  <div class="projectsDiv"  id="projectsRails">
+  <div class="proje ctsDiv"  id="projectsRails">
    <ul>
     <li>
     <h3><a href="https://terrysnotes.herokuapp.com/" target="_blank">Personal Rails Project: Terry's Book Notes</h3>    
@@ -31,7 +31,8 @@
     </li>
     <li>
       <h3>
-      <a href="https://bucifer-micropost.herokuapp.com/" target="_blank">Michael Hartl's Rails Tutorial: Micropost App</h3><img src="_images/s1micro.png" class='thinimg'></a>
+      <!-- <a href="https://bucifer-micropost.herokuapp.com/" target="_blank"> -->Michael Hartl's Rails Tutorial: Micropost App(Temporarily Down)</h3><img src="_images/s1micro.png" class='thinimg'>
+      <!-- </a> -->
       </li>
     </ul>
   </div>
