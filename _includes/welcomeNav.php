@@ -25,7 +25,7 @@
 	        <li><a href="rails.php">Ruby on Rails</a></li>
 	        <li><a href="javascript.php">JavaScript</a></li>
 	        <li><a href="android.php">Android</a></li>
-	        <li><a href="https://github.com/bucifer" target="_blank">GitHub</a></li>
+	        <li><a href="https://github.com/terrybu" target="_blank">GitHub</a></li>
 	      </ul>
 	    </li>
 	    <li><a href="http://terrybu.blogspot.com" target="blank"><span class="glyphicon glyphicon-pencil" style="margin-right: 2px;"></span>BLOG</a>    </li>

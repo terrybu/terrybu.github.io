@@ -40,7 +40,7 @@
       </div>
       <div id="collapseTwo" class="panel-collapse collapse">
         <div class="panel-body">
-          <p>I am currently involved in a full-time iOS immersion internship at TurnToTech and code in Objective-C and Java. I am self-taught in Java, Android SDK, Ruby on Rails, JavaScript and CSS. I have a working knowledge of Git, jQuery, Haml, SASS and PostgreSQL from past projects. I dabble in Angular, Node, and Adobe Creative Suite.</p>
+          <p>I graduated from an iOS bootcamp at TurnToTech in 2014, and became proficient in iOS dev, Objectve-C, XCode and OOP. I'm also self-taught in Java, Rails, JavaScript and CSS. I have a working knowledge of Git, Swift, jQuery and SQL from past projects. My next learning goal is to become an expert in both iOS and Android. </p>
           <p>I graduated with a BSBA and a minor in Japanese from UNC - Chapel Hill in 2011. </p>
         </div>
      </div>
@@ -53,8 +53,8 @@
       </div>
       <div id="collapseThree" class="panel-collapse collapse">
          <div class="panel-body">
-      <p>My bachelor's is in Business, and I worked in marketing and sales after graduation. I gained close exposure to the tech world in 2013 as a sales rep at an IT solutions company. Please refer to <a href="http://www.linkedin.com/in/terrybu" target="_blank">LinkedIn</a> for details.</p>
-      <p>I made the decision to learn and pursue coding as a career in early-2014. I did some freelance and pro-bono work in web dev before I got into iOS. I am a big fan of both web and mobile.</p>
+      <p>After working in marketing and sales, and performing stand-up comedy for 2-3 years, I made the commitment to pursue programming as a career in early 2014. I was inspired by what I saw in the tech world and wanted to learn this new skill that could help impact the world through innovation. After intense studying throughout 2014, I became a full-time programmer. </p>
+      <p>Please refer to <a href="http://www.linkedin.com/in/terrybu" target="_blank">LinkedIn</a> for details.</p>
          </div>
       </div>
    </div>

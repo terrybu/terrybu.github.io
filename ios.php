@@ -21,33 +21,36 @@
   <div id="projectsDiviOS">
     <ul id="iosBullets"> 
       <li>
-        <h3>Contributor to Split (expected appstore release Dec 2014) </h3>
+        <h3>Split/Up (Expected Release Spring-Summer 2015) </h3>
           <ul>
+          	<li>
+          	Split/Up is a geolocation-based anonymous app
+          	</li>
             <li>
-			<a href="https://github.com/bucifer/javaAtTurnToTech" target="blank">Notifications Queue Event Processor Program for Java and Redis Back-End Server</a>
+			<a href="https://github.com/terrybu/javaAtTurnToTech" target="blank">Notifications Queue/Event Processor Back-End System using APNS, Java, Pushy and Redis</a>
 			</li>
-            <li><a href="https://github.com/bucifer/AddressbookPull-MultiSelect" target="_blank">Addressbook Contacts Grab Module</a></li>
-            <li><a href="https://github.com/bucifer/Parallax-Header" target="blank">Parallax Header Effect Module</a></li>   
+            <li><a href="https://github.com/terrybu/AddressbookPull-MultiSelect" target="_blank">Addressbook Contacts Multi-Selection functionality for "Invite Your Friends" Functionality </a></li>
+            <li><a href="https://github.com/terrybu/Parallax-Header" target="blank">Parallax UI Header Effect (making your tableview/imageview scroll prettier) </a></li>   
           </ul>
       </li> 
       <br>
       <li>
-        <h3><a href="https://github.com/bucifer/JestNotes" target="blank">Building Original App: "Jest Notes" </a></h3>
+        <h3><a href="https://github.com/terrybu/JestNotes" target="blank">Jest Notes</a></h3>
           <ul>
             <li>
-              Target audience: stand-up comics who need to organize their notes and set performance reviews  
+              Productivity app for stand-up comics who need to view and organize their jokes and sets right on the night of their performance 
             </li>
             <li>
-              Web app & iOS app integration (planned)
+              Rails Web App & iOS integration through Parse.com back-end
             </li>
             <li>
-              Core Data
+              Core Data Local Caching for Offline Capability. 
             </li>
           </ul>
       </li>
       <br>
       <li>
-      <a href="https://github.com/bucifer/yelp-api" target="_blank">Yelp API (Forked existing Github repo and enabled ARC)</a>
+      <a href="https://github.com/terrybu/YelpAPIOnMapViewARC" target="_blank">Yelp API (Forked existing Github repo and enabled ARC)</a>
       </li>
 
     </ul>
