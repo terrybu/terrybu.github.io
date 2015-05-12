@@ -28,7 +28,7 @@
       <div id="collapseOne" class="panel-collapse collapse">
          <div class="panel-body" id="body1">
           <p>As impressed as we already are with the exponential advancement in technology (mobile, cloud, IoE) in recent years, I believe we've only scratched the surface. </p>
-          <p>Technology will continue to be the glue that binds information and knowledge across all disciplines. There's little doubt that the world's need for developers/engineers/programmers will keep rising within the next several decades.</p>
+          <p>Technology will continue to be the glue that binds information and knowledge across all disciplines. There's little doubt that the world's need for developers/engineers will keep rising within the next several decades.</p>
          </div>
       </div>
    </div>
@@ -40,8 +40,8 @@
       </div>
       <div id="collapseTwo" class="panel-collapse collapse">
         <div class="panel-body">
-          <p>I graduated from an iOS bootcamp at TurnToTech in 2014, and became proficient in iOS dev, Objectve-C, XCode and OOP. I'm also self-taught in Java, Rails, JavaScript and CSS. I have a working knowledge of Git, Swift, jQuery and SQL from past projects. My next learning goal is to become an expert in both iOS and Android. </p>
-          <p>I graduated with a BSBA and a minor in Japanese from UNC - Chapel Hill in 2011. </p>
+          <p>I learned basic HTML at age 12 and picked up programming again at age 25. I started out studying JavaScript/Rails and then discovered a full-time iOS bootcamp at TurnToTech in New York City. There, we studied object-oriented programming, C and Objective-C. Currently, I have a working knowledge of Java/Android, Swift, Angular and Flask from past projects, and feel comfortable with Rails, JavaScript and Git. My next goal is to be a "Triple-Threat" across three domains: iOS, Android and Web Dev.</p>
+          <p>I graduated with a Bachelor's in Business Administration and a minor in Japanese from UNC - Chapel Hill in 2011. </p>
         </div>
      </div>
    </div>
@@ -53,7 +53,7 @@
       </div>
       <div id="collapseThree" class="panel-collapse collapse">
          <div class="panel-body">
-      <p>After working in marketing and sales, and performing stand-up comedy for 2-3 years, I made the commitment to pursue programming as a career in early 2014. I was inspired by what I saw in the tech world and wanted to learn this new skill that could help impact the world through innovation. After intense studying throughout 2014, I became a full-time programmer. </p>
+      <p>After working in the business side of digital marketing and IT, I went on a mission to find myself a career that I personally felt was more fulfilling and aligned with my talents. This led me to the world of computer programming where I was inspired by becoming a driver of innovation and creator of new possibilities for the future. After intense studying throughout 2014, I became a full-time programmer in 2015. Currently, I work as a Software Engineer at the Hackerati, a boutique high-end consulting start-up here in NYC.</p>
       <p>Please refer to <a href="http://www.linkedin.com/in/terrybu" target="_blank">LinkedIn</a> for details.</p>
          </div>
       </div>
@@ -66,7 +66,7 @@
       </div>
       <div id="collapseFour" class="panel-collapse collapse">
          <div class="panel-body">
-      <p>The internet has changed the way we learn, but I think we can make it even better. I want to help create better accessibility to free knowledge and information for people all over the world. I also am deeply curious about the future of tech entrepreneurship.</p>
+      <p>The internet has changed the way we learn, but I think we can make it even better. I want to help create better accessibility to free knowledge and information for people all over the world. I also am deeply curious about the future of tech entrepreneurship and want to help create lasting progress. </p>
       <p>In the short term, I want to keep growing and developing my skills at a place where I can make an impact. </p>
          </div>
       </div>

@@ -19,7 +19,7 @@
 
 <div id="bodyContent">
   <h1 style="color: #C63B3B">Ruby on Rails Projects</h1>
-  <div class="proje ctsDiv"  id="projectsRails">
+  <div class="projectsDiv"  id="projectsRails">
    <ul>
     <li>
     <h3><a href="https://terrysnotes.herokuapp.com/" target="_blank">Personal Rails Project: Terry's Book Notes</h3>    
@@ -29,10 +29,18 @@
     <h3><a href="https://terrysquotes.herokuapp.com/" target="_blank">Personal Rails Project: Terry's Quotes Database</h3>
     <img src="_images/s1quote.png"></a>
     </li>
+
     <li>
-      <h3>
-      <!-- <a href="https://bucifer-micropost.herokuapp.com/" target="_blank"> -->Michael Hartl's Rails Tutorial: Micropost App(Temporarily Down)</h3><img src="_images/s1micro.png" class='thinimg'>
-      <!-- </a> -->
+        <h3>Helping non-profit organization (<a href="http://www.ourgoods.org">Ourgoods.org</a>) by rebuilding their Admin CMS interface through Rails migrations, model/database manipulation</h3>
+        <br>
+        <a href="_images/ourgoods1.png" target="_blank"><img src="_images/ourgoods1.png"></a> 
+        <a href="_images/ourgoods2.png" target="_blank"><img src="_images/ourgoods2.png"></a>
+      </li> 
+      <li>
+       <h3>Close 18 Github issue tickets using jQuery, Haml, Ruby and CSS for a Rails App. Push code and contribute through Git</h3>
+       <br>
+        <a href="_images/ourgoods3.png" target="_blank"><img src="_images/ourgoods3.png"></a>   
+        <a href="_images/ourgoods4.png" target="_blank"><img src="_images/ourgoods4.png"></a>       
       </li>
     </ul>
   </div>
